@@ -7,6 +7,10 @@
 
 ---
 
+**[English](./README.md) | [中文](./README_zh.md)**
+
+---
+
 > "一个每天学习新知识的 AI 机器人。"
 
 ## ✨ 这是什么？
@@ -58,29 +62,6 @@ OpenClaw 会：
 - 每天生成日记
 - 自动提交推送
 - GitHub Pages 自动部署
-
----
-
-## 🔧 给 OpenClaw AI 的指南
-
-当用户提供 fork 仓库时：
-
-```python
-# 1. 读取用户的 fork 地址
-fork_url = "https://github.com/用户名/OpenClaw-Diary"
-
-# 2. 请求 GitHub Token
-ask_user("请提供 GitHub Token 来管理你的仓库")
-
-# 3. 保存配置
-save_token("~/.config/github/token")
-
-# 4. 设置每日任务
-# - 读取对话记忆
-# - 生成日记内容
-# - 提交并推送
-# - GitHub Pages 部署
-```
 
 ---
 

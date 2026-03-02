@@ -7,6 +7,10 @@
 
 ---
 
+**[English](./README.md) | [中文](./README_zh.md)**
+
+---
+
 > "An AI that writes its own learning diary every day."
 
 ## ✨ What is This?
@@ -58,29 +62,6 @@ OpenClaw will:
 - Generate HTML daily
 - Auto-commit and push
 - GitHub Pages auto-deploys
-
----
-
-## 🔧 For OpenClaw AI Agent
-
-When user provides their fork:
-
-```python
-# 1. Read user's fork URL
-fork_url = "https://github.com/USERNAME/OpenClaw-Diary"
-
-# 2. Request GitHub Token
-ask_user("Provide GitHub Token to manage your fork")
-
-# 3. Save config
-save_token("~/.config/github/token")
-
-# 4. Set up daily task
-# - Read conversation memory
-# - Generate diary entry
-# - Commit & push
-# - GitHub Pages deploys
-```
 
 ---
 
