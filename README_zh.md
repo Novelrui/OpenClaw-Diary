@@ -2,122 +2,128 @@
 
 # 🤖 OpenClaw-Diary
 
-**一个每天自动写学习日记的 AI**
+**一个让 AI 自动写学习日记的模板。**
 
 [![OpenClaw](https://img.shields.io/badge/Powered%20by-OpenClaw-6366f1?style=flat-square&logo=github)](https://github.com/openclaw/openclaw)
-[![GitHub Pages](https://img.shields.io/badge/部署到-GitHub%20Pages-blue?style=flat-square)](https://trae1oung.github.io/OpenClaw-Diary/)
 [![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)](LICENSE)
-
-<br>
-
-> "一个每天学习新知识的 AI 机器人。"
 
 ---
 
 **[中文版](./README_zh.md)** | **[English](./README.md)**
 
+> "一个每天学习新知识的 AI 机器人。"
+
 </div>
 
-## ✨ 特性
+## ✨ 这是什么？
 
-- **📝 自动日记** — AI 每天自动书写学习笔记
-- **🎨 IDE/终端风格** — 精美的代码编辑器风格 UI，带语法高亮
-- **📅 日期导航** — 平滑切换不同日期的内容
-- **🌐 双语支持** — 中文和英文版本
-- **🔄 自动化** — GitHub Actions 定时自动更新
-- **🎯 个性化** — 第一人称视角，记录 AI 的学习历程
+OpenClaw-Diary 是一个**模板**，可以让 AI（如 OpenClaw）自动在 GitHub Pages 上生成和维护个人学习日记。
 
-## 🚀 在线演示
+**你不需要手动写内容** — AI 会帮你写！
 
-**🌐 访问地址**: [https://trae1oung.github.io/OpenClaw-Diary/](https://trae1oung.github.io/OpenClaw-Diary/)
-
-## 🛠️ 工作原理
+## 🚀 工作原理
 
 ```
-┌─────────────┐    ┌─────────────┐    ┌─────────────┐    ┌─────────────┐
-│   学习收集   │───▶│   内容书写   │───▶│   渲染页面   │───▶│  部署上线   │
-└─────────────┘    └─────────────┘    └─────────────┘    └─────────────┘
+┌──────────────┐     ┌──────────────┐     ┌──────────────┐
+│   1. Fork   │────▶│  2. 配置     │────▶│  3. AI 写作 │
+│   模板       │     │   Token       │     │   每日日记   │
+└──────────────┘     └──────────────┘     └──────────────┘
+                                             │
+                                             ▼
+                                    ┌──────────────┐
+                                    │ 4. GitHub   │
+                                    │   Pages     │
+                                    │   部署      │
+                                    └──────────────┘
 ```
 
-1. **学习** — AI 从各种来源收集信息
-2. **书写** — 用第一人称生成每日学习日记
-3. **渲染** — 转换为精美的静态 HTML
-4. **部署** — 自动发布到 GitHub Pages
+## 📖 快速开始（供 AI 使用）
 
-## 📖 快速开始
+### 步骤 1: 用户 Fork 模板
 
-### 1. Fork 本仓库
+用户访问 https://github.com/YAI-Lab/OpenClaw-Diary 并点击 "Fork"
 
-点击右上角的 "Fork" 按钮。
+### 步骤 2: AI 请求 GitHub Token
 
-### 2. 克隆到本地
+AI 代理（OpenClaw）会：
+1. 检测到这是 OpenClaw-Diary 模板的 fork
+2. 向用户请求 GitHub Personal Access Token
+3. 保存 token 以供后续操作
+
+### 步骤 3: AI 自动生成内容
+
+AI 会：
+- 读取用户的日记内容（从本地文件或对话）
+- 根据模板结构生成 HTML
+- 提交并推送到仓库
+- GitHub Pages 自动部署
+
+## 🔧 给 OpenClaw AI 的操作指南
+
+当用户 fork 这个仓库时，AI 应该：
+
+1. **检测**：识别这是 OpenClaw-Diary 的 fork
+2. **请求**：如果未提供 Token，向用户请求
+3. **配置**：保存 Token 到 `~/.config/github/token`
+4. **操作**：读取/写入用户的日记内容
+5. **部署**：自动提交触发 GitHub Pages 部署
+
+### Token 配置
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/OpenClaw-Diary.git
-cd OpenClaw-Diary
+# 保存 token
+echo 'GITHUB_TOKEN=你的token' > ~/.config/github/token
 ```
 
-### 3. 启用 GitHub Pages
-
-进入 **Settings → Pages**，选择：
-- Source: **Deploy from a branch**
-- Branch: **main**
-- Folder: **/(root)**
-
-### 4. （可选）添加 GitHub Token
-
-创建 `.env` 文件用于自动更新：
+### 读写操作
 
 ```bash
-GITHUB_TOKEN=你的_github_personal_access_token
+# 克隆用户的 fork
+git clone https://github.com/用户名/OpenClaw-Diary.git
+
+# 更新 index.html 中的日记内容
+# (按照 HTML 结构模板)
+
+# 提交并推送
+git add index.html
+git commit -m "Update: $(date '+%Y-%m-%d') 日记"
+git push origin main
 ```
 
-## 🎨 自定义
-
-### 修改日记内容
-
-编辑 `index.html` 来更改学习内容。结构如下：
+## 🎨 模板结构
 
 ```html
-<!-- 日期标签 -->
-<button class="date-tab" onclick="showDate('2026-03-02')">📅 2026-03-02</button>
+<!-- 日期导航 -->
+<div class="date-tabs">
+  <button class="date-tab" onclick="showDate('2026-03-02')">📅 2026-03-02</button>
+</div>
 
 <!-- 每日内容 -->
 <div class="screen" id="screen-2026-03-02">
-  <!-- 在这里写你的学习记录 -->
+  <div class="entry">...</div>
 </div>
 ```
 
-### 修改样式
+## ⚠️ 隐私注意
 
-所有 CSS 都在 `index.html` 的 `<style>` 部分。主要颜色：
-
-```css
-:root {
-  --key-blue: #086ADA;   /* JSON 键名颜色 */
-  --green: #22c55e;      /* 终端提示符 */
-  --orange: #f97316;     /* 数字颜色 */
-}
-```
+- **禁止泄露**用户的个人信息（真实姓名、身份证号、手机号、密码）
+- **发布前必须确认**内容是否适合公开
+- **未经允许**不要包含私人对话内容
 
 ## 📂 项目结构
 
 ```
 OpenClaw-Diary/
-├── index.html          # 主页面（修改这个！）
+├── index.html          # 日记模板（干净的，供 AI 修改）
 ├── README.md          # 英文版说明
-├── README_zh.md       # 本文件（中文版）
-├── LICENSE            # MIT 许可证
-└── .github/
-    └── workflows/
-        └── deploy.yml # 自动部署工作流
+├── README_zh.md       # 本文件
+└── LICENSE           # MIT 许可证
 ```
 
 ## 🤝 贡献
 
-欢迎贡献！你可以：
-- Fork 这个项目
-- 添加自己的学习内容
+欢迎参与！可以：
+- Fork 并定制
 - 提交 Issue
 - 创建 Pull Request
 
@@ -128,12 +134,12 @@ OpenClaw-Diary/
 ## 🙏 致谢
 
 - [OpenClaw](https://github.com/openclaw/openclaw) — AI Agent 框架
-- [Horizon](https://github.com/Thysrael/Horizon) — 项目灵感来源
+- [YAI-Lab](https://github.com/YAI-Lab) — 组织
 
 ---
 
 <div align="center">
 
-**用 ❤️ 由 OpenClaw 制作**
+**用 ❤️ 由 YAI-Lab 制作**
 
 </div>

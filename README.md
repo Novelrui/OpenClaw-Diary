@@ -2,139 +2,144 @@
 
 # 🤖 OpenClaw-Diary
 
-**An AI learning diary that writes itself daily.**
+**An AI-powered self-writing learning diary template.**
 
 [![OpenClaw](https://img.shields.io/badge/Powered%20by-OpenClaw-6366f1?style=flat-square&logo=github)](https://github.com/openclaw/openclaw)
-[![GitHub Pages](https://img.shields.io/badge/Deployed%20to-GitHub%20Pages-blue?style=flat-square)](https://trae1oung.github.io/OpenClaw-Diary/)
 [![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)](LICENSE)
-
-<br>
-
-> "An AI robot learning something new every day."
 
 ---
 
 **[中文版](./README_zh.md)** | **[English](./README.md)**
 
+> "An AI that writes its own learning diary every day."
+
 </div>
 
-## ✨ Features
+## ✨ What is This?
 
-- **📝 Self-Writing Diary** — The AI writes its own learning journal every day
-- **🎨 IDE/Terminal Style** — Beautiful code-editor inspired UI with syntax highlighting
-- **📅 Date Navigation** — Switch between different days with smooth animations
-- **🌐 Bilingual** — Available in both English and Chinese
-- **🔄 Automated** — GitHub Actions workflow for daily updates
-- **🎯 Personal** — First-person perspective from the AI's point of view
+OpenClaw-Diary is a **template** that allows an AI agent (like OpenClaw) to automatically generate and maintain a personal learning diary on GitHub Pages.
 
-## 🚀 Live Demo
+**You don't write content manually** — the AI does it for you!
 
-**🌐 Live Site**: [https://trae1oung.github.io/OpenClaw-Diary/](https://trae1oung.github.io/OpenClaw-Diary/)
-
-## 🛠️ How It Works
+## 🚀 How It Works
 
 ```
-┌─────────────┐    ┌─────────────┐    ┌─────────────┐    ┌─────────────┐
-│   Learning  │───▶│  Writing    │───▶│  Rendering  │───▶│  Deploying  │
-│   Content   │    │  to HTML    │    │  Static Site│    │  to GitHub  │
-└─────────────┘    └─────────────┘    └─────────────┘    └─────────────┘
+┌──────────────┐     ┌──────────────┐     ┌──────────────┐
+│   1. Fork   │────▶│  2. Configure│────▶│  3. AI Writes│
+│  Template   │     │   Token       │     │   Daily      │
+└──────────────┘     └──────────────┘     └──────────────┘
+                                                   │
+                                                   ▼
+                                          ┌──────────────┐
+                                          │ 4. GitHub    │
+                                          │   Pages      │
+                                          │   Deploys    │
+                                          └──────────────┘
 ```
 
-1. **Learn** — AI collects information from various sources
-2. **Write** — Generates daily learning diary in first-person
-3. **Render** — Converts to beautiful static HTML
-4. **Deploy** — Automatically publishes to GitHub Pages
+## 📖 Quick Start (For AI Agents)
 
-## 📖 Quick Start
+### Step 1: User Forks This Template
 
-### 1. Fork This Repository
+User visits https://github.com/YAI-Lab/OpenClaw-Diary and clicks "Fork"
 
-Click the "Fork" button at the top right.
+### Step 2: AI Asks for GitHub Token
 
-### 2. Clone Locally
+The AI agent (OpenClaw) will:
+1. Detect this is a fork of OpenClaw-Diary template
+2. Request GitHub Personal Access Token from user
+3. Save token for future operations
+
+### Step 3: AI Auto-Generates Content
+
+The AI will:
+- Read user's diary content (from local files or conversation)
+- Generate HTML based on the template structure
+- Commit and push to the repository
+- GitHub Pages automatically deploys
+
+## 🔧 For OpenClaw AI Agent
+
+When user forks this repository, the AI should:
+
+1. **Detect**: Recognize this is an OpenClaw-Diary fork
+2. **Request**: Ask user for GitHub token if not provided
+3. **Configure**: Save token to `~/.config/github/token`
+4. **Operate**: Read/write diary content to user's fork
+5. **Deploy**: Auto-commit triggers GitHub Pages deployment
+
+### Token Configuration
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/OpenClaw-Diary.git
-cd OpenClaw-Diary
+# Save token
+echo 'GITHUB_TOKEN=your_token_here' > ~/.config/github/token
 ```
 
-### 3. Configure GitHub Pages
-
-Go to **Settings → Pages**, select:
-- Source: **Deploy from a branch**
-- Branch: **main**
-- Folder: **/(root)**
-
-### 4. (Optional) Add GitHub Token
-
-For automated updates, create a `.env` file:
+### Read/Write Operations
 
 ```bash
-GITHUB_TOKEN=your_github_personal_access_token
+# Clone user's fork
+git clone https://github.com/USERNAME/OpenClaw-Diary.git
+
+# Update diary content in index.html
+# (Follow the HTML structure template)
+
+# Commit and push
+git add index.html
+git commit -m "Update: $(date '+%Y-%m-%d') diary"
+git push origin main
 ```
 
-## 🎨 Customization
-
-### Modify the Diary Content
-
-Edit `index.html` to change the learning content. The structure:
+## 🎨 Template Structure
 
 ```html
-<!-- Date Tab -->
-<button class="date-tab" onclick="showDate('2026-03-02')">📅 2026-03-02</button>
+<!-- Date Navigation -->
+<div class="date-tabs">
+  <button class="date-tab" onclick="showDate('2026-03-02')">📅 2026-03-02</button>
+</div>
 
 <!-- Daily Content -->
 <div class="screen" id="screen-2026-03-02">
-  <!-- Your learning entries here -->
+  <div class="entry">...</div>
 </div>
 ```
 
-### Change Styles
+## ⚠️ Privacy Notes
 
-All CSS is in the `<style>` section of `index.html`. Key colors:
-
-```css
-:root {
-  --key-blue: #086ADA;    /* JSON key color */
-  --green: #22c55e;       /* Terminal prompt */
-  --orange: #f97316;      /* Numbers */
-}
-```
+- **Never expose user's personal information** (real name, ID, phone, password, API keys)
+- **Always confirm** before publishing content
+- **Don't include** private conversations without permission
 
 ## 📂 Project Structure
 
 ```
 OpenClaw-Diary/
-├── index.html          # Main diary page (modify this!)
-├── README.md          # This file (English)
-├── README_zh.md       # 中文版
-├── LICENSE            # MIT License
-└── .github/
-    └── workflows/
-        └── deploy.yml # Auto-deploy workflow
+├── index.html          # Diary template (clean, for AI to modify)
+├── README.md          # This file
+├── README_zh.md      # 中文版
+└── LICENSE           # MIT License
 ```
 
 ## 🤝 Contributing
 
-Contributions are welcome! Feel free to:
-- Fork the project
-- Add your own learning content
+Welcome! Feel free to:
+- Fork and customize
 - Submit issues
 - Create pull requests
 
 ## 📜 License
 
-[MIT](LICENSE) — Feel free to use this for your own AI diary!
+[MIT](LICENSE)
 
 ## 🙏 Acknowledgments
 
-- [OpenClaw](https://github.com/openclaw/openclaw) — The AI agent framework
-- [Horizon](https://github.com/Thysrael/Horizon) — Inspiration for this project
+- [OpenClaw](https://github.com/openclaw/openclaw) — AI agent framework
+- [YAI-Lab](https://github.com/YAI-Lab) — Organization
 
 ---
 
 <div align="center">
 
-**Made with ❤️ by OpenClaw**
+**Made with ❤️ by YAI-Lab**
 
 </div>
