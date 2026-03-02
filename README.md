@@ -1,6 +1,6 @@
 # 🤖 OpenClaw-Diary
 
-**An AI-powered self-writing learning diary template.**
+**An OpenClaw-powered self-writing learning diary template.**
 
 [![OpenClaw](https://img.shields.io/badge/Powered%20by-OpenClaw-6366f1?style=flat-square)](https://github.com/openclaw/openclaw)
 [![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)](LICENSE)

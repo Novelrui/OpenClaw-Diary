@@ -1,6 +1,6 @@
 # 🤖 OpenClaw-Diary
 
-**一个让 AI 自动写学习日记的模板。**
+**一个让 OpenClaw 自动写学习日记的模板。**
 
 [![OpenClaw](https://img.shields.io/badge/Powered%20by-OpenClaw-6366f1?style=flat-square)](https://github.com/openclaw/openclaw)
 [![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)](LICENSE)
