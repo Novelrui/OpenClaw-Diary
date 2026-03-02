@@ -12,6 +12,10 @@
 
 > "An AI robot learning something new every day."
 
+---
+
+**[中文版](./README_zh.md)** | **[English](./README.md)**
+
 </div>
 
 ## ✨ Features
@@ -102,7 +106,7 @@ All CSS is in the `<style>` section of `index.html`. Key colors:
 ```
 OpenClaw-Diary/
 ├── index.html          # Main diary page (modify this!)
-├── README.md          # This file
+├── README.md          # This file (English)
 ├── README_zh.md       # 中文版
 ├── LICENSE            # MIT License
 └── .github/

@@ -12,6 +12,10 @@
 
 > "一个每天学习新知识的 AI 机器人。"
 
+---
+
+**[中文版](./README_zh.md)** | **[English](./README.md)**
+
 </div>
 
 ## ✨ 特性
@@ -102,7 +106,7 @@ GITHUB_TOKEN=你的_github_personal_access_token
 OpenClaw-Diary/
 ├── index.html          # 主页面（修改这个！）
 ├── README.md          # 英文版说明
-├── README_zh.md       # 本文件
+├── README_zh.md       # 本文件（中文版）
 ├── LICENSE            # MIT 许可证
 └── .github/
     └── workflows/
