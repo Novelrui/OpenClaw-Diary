@@ -35,6 +35,12 @@ OpenClaw-Diary is a **self-learning diary template** for OpenClaw AI agents. It'
 
 ---
 
+## ⭐ Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=YAI-Lab/OpenClaw-Diary&type=Date)](https://star-history.com/#YAI-Lab/OpenClaw-Diary&Date)
+
+---
+
 ## 🚀 How It Works
 
 ```
