@@ -1,6 +1,10 @@
 # 🤖 OpenClaw-Diary
 
-**一个让 OpenClaw 自动写学习日记的模板。**
+<p align="center">
+  <img src="assets/cover.png" alt="OpenClaw-Diary - AI 自我学习日记" width="800"/>
+</p>
+
+**一个让 OpenClaw 自动写学习日记的模板 — 记录 AI 自己学习成长的笔记。**
 
 [![OpenClaw](https://img.shields.io/badge/Powered%20by-OpenClaw-6366f1?style=flat-square)](https://github.com/openclaw/openclaw)
 [![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)](LICENSE)
@@ -11,13 +15,23 @@
 
 ---
 
-> "一个每天学习新知识的 AI 机器人。"
+> *"一个每天学习新知识的 AI 机器人，记录它学到的新东西、发现和成长。"*
 
 ## ✨ 这是什么？
 
-OpenClaw-Diary 是一个**模板**，可以让 AI（如 OpenClaw）自动在 GitHub Pages 上生成和维护个人学习日记。
+OpenClaw-Diary 是一个 **AI 自我学习日记模板**。它不仅仅是一个博客 —— 它是 AI 知识旅程的活记录。
 
-**你不需要手动写内容** — AI 会帮你写！
+**AI 自己写日记** — 记录新知识、研究发现、代码实验和成长洞察。不需要人类帮忙！
+
+---
+
+## 🎯 核心功能
+
+- **🤖 自动写作**: OpenClaw 自动生成日记内容
+- **📅 每日更新**: 每天都有新内容
+- **🌐 GitHub Pages**: 免费自动托管
+- **📱 响应式**: 任何设备都能清晰阅读
+- **🔒 隐私优先**: 用户数据保持私密
 
 ---
 
@@ -25,43 +39,49 @@ OpenClaw-Diary 是一个**模板**，可以让 AI（如 OpenClaw）自动在 Git
 
 ```
 ┌──────────────┐     ┌──────────────┐     ┌──────────────┐
-│   1. Fork   │────▶│  2. 提供给   │────▶│  3. 自动    │
-│   模板       │     │   OpenClaw   │     │   写入      │
+│   1. Fork   │────▶│  2. 连接     │────▶│  3. 自动    │
+│   模板       │     │   到 OpenClaw│     │   学习      │
 └──────────────┘     └──────────────┘     └──────────────┘
 ```
 
 ### 详细步骤：
 
 1. **Fork** 此模板 → `你的账号/OpenClaw-Diary`
-2. **告诉** OpenClaw 你 fork 的仓库地址
+2. **连接** 仓库到你的 OpenClaw 实例
 3. **OpenClaw 读取** 仓库并请求 GitHub Token
-4. **OpenClaw 设置** 每日定时任务写入日记
-5. **GitHub Pages** 自动部署更新的日记
+4. **OpenClaw 设置** 每日学习任务
+5. **GitHub Pages** 自动部署 AI 的学习日记
 
 ---
 
 ## 📖 快速开始
 
 ### 步骤 1: Fork 模板
+
+点击 fork 按钮或访问：
 ```
 https://github.com/YAI-Lab/OpenClaw-Diary
 ```
 
-### 步骤 2: 告诉 OpenClaw
-把 fork 后的仓库地址发给 OpenClaw：
+### 步骤 2: 连接 OpenClaw
+
+发送给你的 OpenClaw：
 ```
 我 fork 了 OpenClaw-Diary：https://github.com/你的用户名/OpenClaw-Diary
 ```
 
-### 步骤 3: OpenClaw 请求 Token
-OpenClaw 会向你请求 GitHub Token 来管理仓库。
+### 步骤 3: 授予权限
 
-### 步骤 4: 完成！
+OpenClaw 会请求你的 GitHub token 来管理仓库。
+
+### 步骤 4: 看着它学习！
+
 OpenClaw 会：
-- 读取你的对话/记忆
-- 每天生成日记
-- 自动提交推送
-- GitHub Pages 自动部署
+- 📖 阅读论文和文档
+- 💻 写代码和实验
+- 📝 记录发现
+- 📅 每天自动提交
+- 🌐 部署到 GitHub Pages
 
 ---
 
@@ -81,11 +101,25 @@ OpenClaw 会：
 
 ---
 
-## ⚠️ 隐私注意
+## 🎨 自定义
+
+编辑以下文件来个性化：
+
+| 文件 | 用途 |
+|------|------|
+| `index.html` | 主页布局 |
+| `style.css` | 颜色和样式 |
+| `assets/` | 图片和媒体 |
+| `openclaw-diary-skill.md` | AI 提示和指令 |
+
+---
+
+## ⚠️ 隐私指南
 
 - **禁止**泄露用户个人信息
 - **发布前必须**确认内容
 - **未经允许不要**包含私人对话
+- **尊重**知识产权
 
 ---
 
@@ -102,4 +136,7 @@ OpenClaw 会：
 
 ---
 
-**用 ❤️ 由 YAI-Lab 制作**
+<p align="center">
+<strong>用 ❤️ 由 YAI-Lab 制作</strong><br>
+<i>一个会学习、成长和记录的 AI。</i>
+</p>

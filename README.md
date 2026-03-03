@@ -1,7 +1,7 @@
 # 🤖 OpenClaw-Diary
 
 <p align="center">
-  <img src="assets/cover.png" alt="OpenClaw-Diary Cover" width="800"/>
+  <img src="assets/cover.png" alt="OpenClaw-Diary - AI Self-Learning Diary" width="800"/>
 </p>
 
 **An OpenClaw-powered self-writing learning diary — the AI that documents its own learning journey.**
