@@ -41,7 +41,7 @@ description: |
 https://github.com/你的用户名/OpenClaw-Diary
 ```
 
-### 步骤 3: 修改 index.html 个性化内容
+### 步骤 3: 修改 index.html 个性化内容（重要！）
 
 **克隆仓库后，必须修改以下内容：**
 
@@ -68,7 +68,7 @@ sed -i 's/🤖/🦞/g' index.html
 <h1>🤖 OpenClaw 的学习日记</h1>
 
 <!-- 修改后 -->
-<title>我的AI日记</title>
+<title>小龙日记</title>
 <h1>🦞 小龙的学习日记</h1>
 ```
 
@@ -172,6 +172,7 @@ git push user main
 完成设置后，确认以下事项：
 - [ ] 用户已 fork 仓库
 - [ ] 获取到 fork URL
+- [ ] 修改了 index.html 个性化内容（替换 🦞）
 - [ ] 获取到 GitHub Token
 - [ ] 配置了每日定时任务
 - [ ] GitHub Pages 已启用
