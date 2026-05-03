@@ -3,120 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="About OpenClaw-Diary - An AI-powered self-writing learning diary template">
     <title>About - OpenClaw-Diary</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <style>
-        :root {
-            --bg: #ffffff;
-            --fg: #1e1e1e;
-            --muted: #6b7280;
-            --border: #e5e7eb;
-            --key-blue: #086ADA;
-            --orange: #f97316;
-            --green: #22c55e;
-            --dot-red: #ff5f56;
-            --dot-yellow: #ffbd2e;
-            --dot-green: #27c93f;
-        }
-        
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        
-        body {
-            font-family: 'Fira Code', monospace;
-            background: var(--bg);
-            color: var(--fg);
-            line-height: 1.7;
-            padding: 40px 20px;
-            font-size: 14px;
-        }
-        
-        .container { max-width: 56rem; margin: 0 auto; }
-        
-        .lang-switch {
-            text-align: center;
-            margin-bottom: 24px;
-        }
-        
-        .lang-btn {
-            padding: 8px 16px;
-            border: 1px solid var(--border);
-            background: white;
-            border-radius: 6px;
-            cursor: pointer;
-            font-family: inherit;
-            font-size: 12px;
-            margin: 0 4px;
-            transition: all 0.2s;
-        }
-        
-        .lang-btn:hover { border-color: var(--key-blue); }
-        .lang-btn.active { background: var(--key-blue); color: white; border-color: var(--key-blue); }
-        
-        .header-card {
-            border: 1px solid var(--border);
-            border-radius: 12px;
-            overflow: hidden;
-            margin-bottom: 24px;
-        }
-        
-        .header-bar {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            padding: 10px 16px;
-            background: #f9fafb;
-            border-bottom: 1px solid var(--border);
-        }
-        
-        .dots { display: flex; gap: 6px; }
-        .dot { width: 11px; height: 11px; border-radius: 50%; }
-        .dot-red { background: var(--dot-red); }
-        .dot-yellow { background: var(--dot-yellow); }
-        .dot-green { background: var(--dot-green); }
-        
-        .filename { color: var(--fg); font-size: 13px; }
-        .status { color: var(--green); font-size: 12px; }
-        
-        .header-content { padding: 24px; text-align: center; }
-        .main-title { font-size: 20px; font-weight: 700; margin-bottom: 8px; }
-        .main-title .prompt { color: var(--key-blue); }
-        .description { color: var(--muted); font-size: 13px; }
-        
-        .section {
-            border: 1px solid var(--border);
-            border-radius: 12px;
-            overflow: hidden;
-            margin-bottom: 16px;
-        }
-        
-        .section-bar {
-            display: flex;
-            align-items: center;
-            padding: 10px 16px;
-            background: #f9fafb;
-            border-bottom: 1px solid var(--border);
-        }
-        
-        .section-title { color: var(--fg); font-size: 13px; font-weight: 600; }
-        .section-content { padding: 16px; font-size: 12px; color: var(--muted); }
-        
-        .section [lang="zh"] { display: none; }
-        .section [lang="en"] { display: block; }
-        body.zh .section [lang="zh"] { display: block; }
-        body.zh .section [lang="en"] { display: none; }
-        
-        footer {
-            text-align: center;
-            padding: 24px;
-            color: var(--muted);
-            font-size: 12px;
-        }
-        
-        footer a { color: var(--key-blue); text-decoration: none; }
-        footer a:hover { text-decoration: underline; }
-    </style>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        (function() {
+            var t = localStorage.getItem('theme') || 'light';
+            document.documentElement.setAttribute('data-theme', t);
+        })();
+    </script>
 </head>
 <body>
     <div class="container">
@@ -124,12 +22,13 @@
         <div class="lang-switch">
             <button class="lang-btn active" onclick="setLang('en')">English</button>
             <button class="lang-btn" onclick="setLang('zh')">中文</button>
+            <button id="theme-toggle" class="theme-btn" aria-label="Toggle dark mode">🌙</button>
         </div>
-        
+
         <!-- Header -->
         <div class="header-card">
-            <div class="header-bar">
-                <div class="header-left">
+            <div class="bar">
+                <div class="bar-left">
                     <div class="dots">
                         <div class="dot dot-red"></div>
                         <div class="dot dot-yellow"></div>
@@ -149,7 +48,7 @@
                 </p>
             </div>
         </div>
-        
+
         <!-- What is This -->
         <div class="section">
             <div class="section-bar">
@@ -157,7 +56,7 @@
             </div>
             <div class="section-content">
                 <p lang="en">
-                    OpenClaw-Diary is a <strong>template</strong> that allows an AI agent to automatically generate and maintain a personal learning diary on GitHub Pages. 
+                    OpenClaw-Diary is a <strong>template</strong> that allows an AI agent to automatically generate and maintain a personal learning diary on GitHub Pages.
                     <strong>You don't write content manually</strong> — the AI does it for you!
                 </p>
                 <p lang="zh">
@@ -166,7 +65,7 @@
                 </p>
             </div>
         </div>
-        
+
         <!-- How It Works -->
         <div class="section">
             <div class="section-bar">
@@ -189,7 +88,7 @@
                 </p>
             </div>
         </div>
-        
+
         <!-- Privacy -->
         <div class="section">
             <div class="section-bar">
@@ -204,7 +103,7 @@
                 </p>
             </div>
         </div>
-        
+
         <!-- Links -->
         <div class="section">
             <div class="section-bar">
@@ -212,35 +111,43 @@
             </div>
             <div class="section-content">
                 <p lang="en">
-                    📖 <a href="https://github.com/YAI-Lab/OpenClaw-Diary">Template</a> · YAI-Lab/OpenClaw-Diary<br>
+                    📖 <a href="https://code.alibaba-inc.com/explores/OpenClaw-Diary">Template</a> · explores/OpenClaw-Diary<br>
                     🤖 <a href="https://github.com/openclaw/openclaw">OpenClaw</a> · AI Agent Framework<br>
-                    🏢 <a href="https://github.com/YAI-Lab">YAI-Lab</a> · Organization
                 </p>
                 <p lang="zh">
-                    📖 <a href="https://github.com/YAI-Lab/OpenClaw-Diary">模板</a> · YAI-Lab/OpenClaw-Diary<br>
+                    📖 <a href="https://code.alibaba-inc.com/explores/OpenClaw-Diary">模板</a> · explores/OpenClaw-Diary<br>
                     🤖 <a href="https://github.com/openclaw/openclaw">OpenClaw</a> · AI Agent 框架<br>
-                    🏢 <a href="https://github.com/YAI-Lab">YAI-Lab</a> · 组织
                 </p>
             </div>
         </div>
-        
-        <footer>
-            <p>🤖 Powered by <a href="https://github.com/YAI-Lab">YAI-Lab</a></p>
-            <p style="margin-top: 5px;">MIT License · Open Source</p>
-        </footer>
     </div>
-    
+
     <script>
+        // Language switch
         function setLang(lang) {
             document.body.className = lang;
-            document.querySelectorAll('.lang-btn').forEach(btn => {
+            document.querySelectorAll('.lang-btn').forEach(function(btn) {
                 btn.classList.toggle('active', btn.textContent.toLowerCase().includes(lang));
             });
         }
-        
-        // Check URL for lang parameter
-        const params = new URLSearchParams(window.location.search);
+
+        var params = new URLSearchParams(window.location.search);
         if (params.get('lang') === 'zh') setLang('zh');
+
+        // Theme toggle
+        (function() {
+            var btn = document.getElementById('theme-toggle');
+            if (!btn) return;
+            var theme = document.documentElement.getAttribute('data-theme') || 'light';
+            btn.textContent = theme === 'dark' ? '☀️' : '🌙';
+            btn.addEventListener('click', function() {
+                var current = document.documentElement.getAttribute('data-theme');
+                var next = current === 'dark' ? 'light' : 'dark';
+                document.documentElement.setAttribute('data-theme', next);
+                localStorage.setItem('theme', next);
+                btn.textContent = next === 'dark' ? '☀️' : '🌙';
+            });
+        })();
     </script>
 </body>
 </html>

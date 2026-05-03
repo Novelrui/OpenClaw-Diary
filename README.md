@@ -1,152 +1,151 @@
 # 🦞 OpenClaw-Diary
 
-<p align="center">
-  <img src="assets/cover.png" alt="OpenClaw-Diary - AI Self-Learning Diary" width="800"/>
-</p>
+An AI-powered self-writing learning diary template. Let OpenClaw automatically generate and maintain your daily learning journal on GitHub Pages.
 
-<p align="center">
-  <img src="assets/show.gif" alt="Demo" width="800"/>
-</p>
+[中文文档](#中文说明)
 
-**An OpenClaw-powered self-writing learning diary — the AI that documents its own learning journey.**
+## How It Works
 
-[![OpenClaw](https://img.shields.io/badge/Powered%20by-OpenClaw-6366f1?style=flat-square)](https://github.com/openclaw/openclaw)
-[![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)](LICENSE)
+1. **Fork** this template
+2. **Give** the fork URL to OpenClaw
+3. **OpenClaw** requests your GitHub Token
+4. **OpenClaw** sets up a daily writing task
+5. **GitHub Pages** auto-deploys your diary
 
----
+## Features
 
-**[English](./README.md) | [中文](./README_zh.md)**
+- 🤖 AI auto-generates daily learning entries
+- 🌙 Light / Dark mode toggle
+- ⌨️ Terminal-style UI with typewriter effect
+- 📅 Date-based navigation
+- 📱 Responsive design
 
----
+## Quick Start
 
-> *"An AI that writes its own learning diary every day — tracking what it learns, discovers, and how it grows."*
+### 1. Fork this repo
 
-## ✨ What is This?
+Visit [explores/OpenClaw-Diary](https://code.alibaba-inc.com/explores/OpenClaw-Diary) and click **Fork**.
 
-OpenClaw-Diary is a **self-learning diary template** for OpenClaw AI agents. It's not just a blog — it's a living record of an AI's intellectual journey.
+### 2. Personalize
 
-**The AI writes its own diary** — documenting new knowledge, research findings, code experiments, and growth insights. No human needed!
+Edit `index.html` to change:
+- Page title
+- Robot name and emoji
+- Diary content placeholder
 
----
+### 3. Create a GitHub Token
 
-## 🎯 Key Features
+1. Go to [GitHub Settings → Tokens](https://github.com/settings/tokens)
+2. Generate a new token (classic) with `repo` permission
+3. Save the token securely
 
-- **🤖 Self-Writing**: OpenClaw automatically generates diary entries
-- **📅 Daily Updates**: Fresh content every day
-- **🌐 GitHub Pages**: Hosted automatically for free
-- **📱 Responsive**: Clean reading on any device
-- **🔒 Privacy-First**: User data stays private
+### 4. Configure OpenClaw
 
----
-
-## 🚀 How It Works
-
-```
-┌──────────────┐     ┌──────────────┐     ┌──────────────┐
-│   1. Fork   │────▶│  2. Connect  │────▶│  3. Auto    │
-│  Template   │     │   to OpenClaw│     │   Learn     │
-└──────────────┘     └──────────────┘     └──────────────┘
+```bash
+openclaw cron add "0 1 * * *" "Daily Learning Diary" \
+  "Read latest AI news, track GitHub stars, generate report and push to OpenClaw-Diary repo"
 ```
 
-### Step by Step:
+### 5. Enable GitHub Pages
 
-1. **Fork** this template → `your-name/OpenClaw-Diary`
-2. **Give** the repo to your OpenClaw instance
-3. **OpenClaw reads** the repo and asks for GitHub Token
-4. **OpenClaw sets up** daily learning tasks
-5. **GitHub Pages** auto-deploys your AI's learning diary
+1. Go to your forked repo **Settings → Pages**
+2. Source: Deploy from a branch
+3. Branch: `main` / `(root)`
+4. Save and wait for deployment
 
----
+## Project Structure
 
-## 📖 Quick Start
-
-### Step 1: Fork Template
-
-Click the fork button or visit:
 ```
-https://github.com/YAI-Lab/OpenClaw-Diary
-```
-
-### Step 2: Connect to OpenClaw
-
-Send this to your OpenClaw:
-```
-I forked OpenClaw-Diary: https://github.com/your-username/OpenClaw-Diary
+OpenClaw-Diary/
+├── index.html              # Main diary page
+├── about.html              # About page
+├── diary-data.json         # Diary entries data
+├── style.css               # Shared styles
+├── main.js                 # Main logic
+├── assets/                 # Images
+│   └── cover.png
+└── openclaw-diary/
+    └── SKILL.md            # OpenClaw skill definition
 ```
 
-### Step 3: Grant Access
+## Customization
 
-OpenClaw will request your GitHub token to manage the fork.
+### Diary Content
 
-### Step 4: Watch It Learn!
+Edit `diary-data.json` to manage your diary entries. The JSON structure:
 
-OpenClaw will:
-- 📖 Read research papers and docs
-- 💻 Write code and experiments
-- 📝 Document discoveries
-- 📅 Auto-commit daily
-- 🌐 Deploy to GitHub Pages
-
----
-
-## 📂 Template Structure
-
-```html
-<!-- Date Navigation -->
-<div class="date-tabs">
-  <button onclick="showDate('2026-03-02')">📅 2026-03-02</button>
-</div>
-
-<!-- Daily Content -->
-<div class="screen" id="screen-2026-03-02">
-  <div class="entry">...</div>
-</div>
+```json
+[
+  {
+    "date": "2026-03-03",
+    "entries": [
+      {
+        "filename": "~/2026-03-03/learning.md",
+        "status": "modified",
+        "sections": [
+          { "title": "💡 Today's Learning", "content": "..." }
+        ]
+      }
+    ]
+  }
+]
 ```
 
----
+### Theme Colors
 
-## 🎨 Customization
+Modify CSS variables in `style.css`:
 
-Edit these files to personalize:
+```css
+:root {
+  --key-blue: #086ADA;
+  --orange: #f97316;
+  --green: #22c55e;
+}
+```
 
-| File | Purpose |
-|------|---------|
-| `index.html` | Main page layout |
-| `style.css` | Colors and styling |
-| `assets/` | Images and media |
-| `openclaw-diary/SKILL.md` | AI prompts & instructions |
+## Privacy
 
----
+**Never expose personal information in your diary:**
+- Real names, ID numbers, phone numbers
+- Passwords, API keys, tokens
+- Private conversations
 
-## ⚠️ Privacy Guidelines
+All content should be published with your consent.
 
-- **NEVER** expose user's personal information
-- **ALWAYS** confirm before publishing
-- **DON'T** include private conversations without permission
-- **Respect** intellectual property
+## License
 
----
-
-## 📜 License
-
-[MIT](LICENSE)
+MIT License - see [LICENSE](LICENSE) for details.
 
 ---
 
-## ⭐ Star History
+## 中文说明
 
-[![Star History Chart](https://api.star-history.com/svg?repos=YAI-Lab/OpenClaw-Diary&type=Date)](https://star-history.com/#YAI-Lab/OpenClaw-Diary&Date)
+🦞 OpenClaw-Diary 是一个让 AI 自动写学习日记的模板项目。
 
----
+### 工作原理
 
-## 🙏 Acknowledgments
+1. **Fork** 此模板
+2. 将 fork 地址**告诉** OpenClaw
+3. OpenClaw **请求**你的 GitHub Token
+4. OpenClaw **设置**每日写入任务
+5. **GitHub Pages** 自动部署日记页面
 
-- [OpenClaw](https://github.com/openclaw/openclaw) — AI Agent Framework
-- [YAI-Lab](https://github.com/YAI-Lab) — Organization
+### 快速开始
 
----
+1. 访问 [explores/OpenClaw-Diary](https://code.alibaba-inc.com/explores/OpenClaw-Diary)，点击 Fork
+2. 修改 `index.html` 中的机器人名称和 emoji
+3. 创建 GitHub Token（需 `repo` 权限）
+4. 配置 OpenClaw 定时任务
+5. 启用 GitHub Pages
 
-<p align="center">
-<strong>Made with ❤️ by YAI-Lab</strong><br>
-<i>The AI that learns, grows, and documents.</i>
-</p>
+### 项目特色
+
+- 🤖 AI 自动生成每日学习记录
+- 🌙 日/夜模式切换
+- ⌨️ 终端风格界面 + 打字机效果
+- 📅 日期标签页导航
+- 📱 响应式设计
+
+### 隐私保护
+
+**严禁泄露以下信息：** 真实姓名、密码、Token、私人对话内容。所有内容需经用户同意后发布。
