@@ -158,13 +158,18 @@
     function init() {
         initTheme();
 
-        fetch('diary-data.json')
-            .then(function(res) { return res.json(); })
-            .then(function(data) { renderDiary(data); })
-            .catch(function() {
-                // Fallback: render placeholder if JSON fails to load
-                renderDiary({ days: [] });
-            });
+        // Try inline data first (for file:// protocol), fallback to fetch
+        var data = window.diaryData || null;
+        if (data) {
+            renderDiary(data);
+        } else {
+            fetch('diary-data.json')
+                .then(function(res) { return res.json(); })
+                .then(function(data) { renderDiary(data); })
+                .catch(function() {
+                    renderDiary({ days: [] });
+                });
+        }
 
         typeWriter();
     }
