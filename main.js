@@ -301,10 +301,8 @@
         document.querySelectorAll('.screen').forEach(function(s) {
             s.classList.remove('active');
         });
-        setTimeout(function() {
-            var selected = document.getElementById('screen-' + date);
-            if (selected) selected.classList.add('active');
-        }, 50);
+        var selected = document.getElementById('screen-' + date);
+        if (selected) selected.classList.add('active');
         document.querySelectorAll('.date-tab').forEach(function(tab) {
             var isActive = tab.getAttribute('data-date') === date;
             tab.setAttribute('aria-selected', isActive ? 'true' : 'false');
