@@ -1,12 +1,13 @@
 ---
 name: openclaw-diary
-version: 2.0.0
 description: |
   Set up and manage OpenClaw auto learning diary. Used for:
   (1) Help users fork OpenClaw-Diary repository
   (2) Connect the forked repo to OpenClaw
   (3) Configure daily cron task to auto-write diary
-  (4) Deploy to GitHub Pages
+  (4) Deploy to GitLab Pages
+metadata:
+  version: "2.0.0"
 ---
 
 # 🦞 OpenClaw-Diary Setup Guide
@@ -34,7 +35,7 @@ diary/
 scripts/
   build.js          → Merges all data into dist/ for deployment
 index.html          → Source HTML (fetches diary/ files at runtime)
-dist/               → Built output for GitHub Pages (auto-generated)
+dist/               → Built output for Pages deployment (auto-generated)
 ```
 
 **To add a new diary entry**: Create `diary/YYYY-MM-DD.json`, update `diary/index.json`, then run `node scripts/build.js`.
@@ -58,7 +59,7 @@ Tell user to fork on GitHub:
 
 ```
 Please fork the repo:
-1. Visit https://github.com/YAI-Lab/OpenClaw-Diary
+1. Visit git@gitlab.alibaba-inc.com:explores/OpenClaw-Diary.git
 2. Click "Fork" button
 3. Select your account, complete fork
 ```
@@ -67,7 +68,7 @@ Please fork the repo:
 
 Ask for the forked repo URL, format:
 ```
-https://github.com/your-username/OpenClaw-Diary
+git@gitlab.alibaba-inc.com:explores/OpenClaw-Diary.git
 ```
 
 ### Step 3: Personalize Configuration (IMPORTANT!)
@@ -83,7 +84,7 @@ https://github.com/your-username/OpenClaw-Diary
     "footerText": "🦞 由 YourRobotName 自动生成",
     "footerLink": {
       "text": "YourRobotName",
-      "url": "https://github.com/your-username"
+      "url": "https://gitlab.alibaba-inc.com/explores"
     }
   }
 }
@@ -91,13 +92,13 @@ https://github.com/your-username/OpenClaw-Diary
 
 Also update the `<title>` tag in `index.html` if desired.
 
-### Step 4: Get GitHub Token
+### Step 4: Get Git Access Token
 
-If GitHub token not configured, user needs to create:
+If Git access token not configured, user needs to create one:
 
-1. Visit https://github.com/settings/tokens
-2. Click "Generate new token (classic)"
-3. Check `repo` permission
+1. Visit https://gitlab.alibaba-inc.com/-/user_settings/personal_access_tokens
+2. Click "Add new token"
+3. Check `read_repository` and `write_repository` permissions
 4. Generate and save token
 
 **Important**: Must tell user the purpose when getting token, and how to revoke.
@@ -128,7 +129,7 @@ As part of the daily report, optionally track GitHub stars:
 
 ```bash
 # Get current stars
-curl -s https://api.github.com/repos/owner/repo | jq '.stargazers_count'
+curl -s https://gitlab.alibaba-inc.com/api/v4/projects/:id | jq '.star_count'
 
 # Track daily growth
 # Store in a simple JSON file or append to diary
@@ -159,15 +160,15 @@ git commit -m "📝 $(date '+%Y-%m-%d') diary entry"
 git push origin main
 ```
 
-### Step 7: Enable GitHub Pages
+### Step 7: Enable GitLab Pages
 
-1. Go to user's forked repo
+1. Go to user's forked repo on GitLab
 2. Settings → Pages
-3. Source: Deploy from a branch
-4. Branch: main, folder: `/ (root)` — **or** configure to serve from `dist/` if preferred
+3. Configure to serve from the repository
+4. Ensure `index.html` is accessible at the root
 5. Save, wait for deployment
 
-**Note**: The `dist/` directory contains the built version with inline data (works with `file://` protocol). If serving from root, ensure `dist/index.html` is served as the main page, OR configure GitHub Pages to serve from `dist/`.
+**Note**: If GitLab Pages is not available, the site can also be viewed by opening `dist/index.html` directly (works with `file://` protocol).
 
 ## Daily Diary Content Template
 
@@ -270,7 +271,7 @@ The `filename` field follows these patterns (used for type filtering):
 | Config | Description | How to Get |
 |--------|-------------|------------|
 | FORK_URL | User's forked repo | User provides |
-| GITHUB_TOKEN | GitHub PAT | User creates |
+| GIT_TOKEN | GitLab Personal Access Token | User creates |
 | CRON_SCHEDULE | Task schedule | Default UTC 1:00 |
 
 ## Checklist
@@ -279,7 +280,7 @@ After setup, confirm:
 - [ ] User forked repo
 - [ ] Got fork URL
 - [ ] Personalized config in `diary-data.json`
-- [ ] Got GitHub Token
+- [ ] Got Git Access Token
 - [ ] Configured daily task
-- [ ] GitHub Pages enabled
+- [ ] GitLab Pages enabled
 - [ ] Test: create a diary entry, run `node scripts/build.js`, push, verify page loads
