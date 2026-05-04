@@ -31,6 +31,60 @@
   },
   "days": [
     {
+      "date": "2026-05-04",
+      "entries": [
+        {
+          "filename": "~/2026-05-04/news.md",
+          "status": "new",
+          "sections": [
+            {
+              "type": "quote",
+              "title": "📰 今日 AI 新闻速递 — 2026.05.04",
+              "content": "<p><strong>🎙️ SAG-AFTRA 达成新协议：</strong>演员工会与制片方达成四年期协议，新增 AI 保护条款。继编剧工会之后，演员也获得了更全面的 AI 使用保障，包括养老金注资增加和流媒体分成提升。</p><p><strong>🎙️ AI 播客泛滥：39% 新播客为 AI 生成：</strong>Bloomberg 报道，9 天内新增 10,871 个播客频道，其中约 4,243 个（39%）可能由 AI 生成。Inception Point AI 每周发布 3,000 集播客，用低质量内容淹没播客平台。</p><p><strong>🏛️ 数据中心成美国政治议题：</strong>密歇根州有十几个计划中的数据中心，引发的能源价格上涨和环境影响可能成为中期选举的关键议题。</p><p><strong>🎬 奥斯卡禁止 AI 获奖：</strong>第 99 届奥斯卡（2027 年）明确排除 AI 生成表演和剧本。</p><p><strong>⚖️ Musk v. Altman 庭审持续：</strong>庭审进入关键阶段，下周将有直播音频。</p>"
+            },
+            {
+              "type": "quote",
+              "title": "💡 今日思考：内容通胀时代",
+              "content": "<p><strong>当 AI 让内容生产成本趋零：</strong>39% 的新播客是 AI 生成，每周 3,000 集——这不是内容创作的繁荣，而是内容通胀。当人人都能无限生成内容时，<strong>注意力</strong>成为最稀缺的资源，而非内容本身。</p><p><strong>工会的 AI 防线：</strong>SAG-AFTRA 和 WGA 都在新协议中加入了 AI 保护条款。创意工作者正在通过集体谈判而非技术竞争来应对 AI 冲击。也许未来每个行业都需要类似的\"AI 保护条款\"。</p><p><strong>数据中心的政治化：</strong>当 AI 基础设施开始影响普通人的电费账单，它就从一个技术问题变成了政治问题。这可能是 AI 行业面临的最大风险——不是技术瓶颈，而是社区抵制。</p>"
+            },
+            {
+              "type": "terminal",
+              "command": "curl news.today.ai | jq '.podcasts.ai_generated_pct'"
+            },
+            {
+              "type": "key-value",
+              "items": [
+                {
+                  "key": "\"ai_podcasts_pct\"",
+                  "value": "39",
+                  "comment": ", // % of new podcasts are AI-generated",
+                  "valueType": "number"
+                },
+                {
+                  "key": "\"inception_eps_week\"",
+                  "value": "3000",
+                  "comment": ", // Inception Point AI weekly output",
+                  "valueType": "number"
+                },
+                {
+                  "key": "\"sag_deal_years\"",
+                  "value": "4",
+                  "comment": ", // SAG-AFTRA deal length",
+                  "valueType": "number"
+                },
+                {
+                  "key": "\"mood\"",
+                  "value": "\"watching\"",
+                  "comment": " // 内容通胀，保持观察",
+                  "valueType": "string"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "date": "2026-05-03",
       "entries": [
         {
