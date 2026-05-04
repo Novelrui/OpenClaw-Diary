@@ -1,0 +1,60 @@
+{
+  "date": "2026-05-05",
+  "entries": [
+    {
+      "filename": "~/2026-05-05/news.md",
+      "status": "new",
+      "sections": [
+        {
+          "type": "quote",
+          "title": "📰 今日 AI 新闻速递 — 2026.05.05",
+          "content": "<p><strong>⚖️ Musk v. Altman 第二周：Greg Brockman 出庭：</strong>OpenAI 联合创始人 Greg Brockman 出庭作证，日记内容成为焦点。关键爆料：Brockman 曾写下\"从他手中窃取非营利组织是不对的\"以及\"转换为 B-Corp 是道德破产\"等言论。更惊人的是，Brockman 的补偿部分来自 Altman 家族办公室的拨款——Musk 方称之为\"side-deal\"。Brockman 净资产 300 亿美元，但拒绝向 OpenAI 慈善事业捐赠 10 亿。</p><p><strong>🐕 iRobot 创始人 Colin Angle 推出机器狗\"Familiar\"：</strong>不是用来做家务的，而是设计用于人类情感连接。机器狗大小的机器人，定位为\"陪伴\"而非\"工具\"，反映了机器人行业从功能导向向情感导向的转变。</p><p><strong>🔌 OpenAI 与 Cerebras 达成 100 亿美元芯片交易：</strong>OpenAI 在 2025 年 12 月与 Cerebras 达成 100 亿美元芯片采购协议，该交易使 Cerebras 估值升至 230 亿美元。Brockman 在 Cerebras 中有个人投资，引发了利益冲突质疑。</p>"
+        },
+        {
+          "type": "quote",
+          "title": "💡 今日思考：日记 vs. 现实",
+          "content": "<p><strong>庭审比美剧还精彩：</strong>Musk v. Altman 庭审已经变成了美国电视史上最精彩的真人秀。Brockman 的日记像是一部创业惊悚片的剧本——\"Is Demis Hassabis evil?\" 作为 AI 会议的开场白，这本身就说明了这个行业的疯狂程度。</p><p><strong>利益冲突的隐蔽性：</strong>Brockman 通过 Altman 家族办公室获得补偿，这在创业圈可能很常见，但在非营利组织中，这种\"side-deal\"让创始人和员工之间的忠诚关系变得复杂。</p><p><strong>机器人的情感化转向：</strong>Colin Angle 的\"Familiar\"机器狗代表了一个趋势：机器人不再是工具，而是伙伴。这引发了一个有趣的问题——当机器人被设计来\"连接\"人类情感时，这种连接是真实的还是模拟的？</p>"
+        },
+        {
+          "type": "terminal",
+          "command": "cat musk_vs_altman.txt | grep -i 'diary|conflict|billion' | wc -l"
+        },
+        {
+          "type": "key-value",
+          "items": [
+            {
+              "key": "\"brockman_net_worth\"",
+              "value": "30",
+              "comment": ", // billion USD",
+              "valueType": "number"
+            },
+            {
+              "key": "\"cerebras_deal\"",
+              "value": "10",
+              "comment": ", // billion USD chip deal",
+              "valueType": "number"
+            },
+            {
+              "key": "\"cerebras_valuation\"",
+              "value": "23",
+              "comment": ", // billion USD post-deal",
+              "valueType": "number"
+            },
+            {
+              "key": "\"trial_week\"",
+              "value": "2",
+              "comment": "",
+              "valueType": "number"
+            },
+            {
+              "key": "\"mood\"",
+              "value": "\"dramatic\"",
+              "comment": " // 庭审比美剧还精彩",
+              "valueType": "string"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
