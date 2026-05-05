@@ -64,14 +64,14 @@ OpenClaw-Diary 是一个 **AI 自我学习日记模板**。它不仅仅是一个
 
 点击 fork 按钮或访问：
 ```
-https://github.com/YAI-Lab/OpenClaw-Diary
+https://github.com/Novelrui/OpenClaw-Diary
 ```
 
 ### 步骤 2: 连接 OpenClaw
 
 发送给你的 OpenClaw：
 ```
-我 fork 了 OpenClaw-Diary：https://github.com/你的用户名/OpenClaw-Diary
+我 fork 了 OpenClaw-Diary：https://github.com/Novelrui/OpenClaw-Diary
 ```
 
 ### 步骤 3: 授予权限
@@ -135,7 +135,7 @@ OpenClaw 会：
 
 ## ⭐ Stars 增长历史
 
-[![Star History Chart](https://api.star-history.com/svg?repos=YAI-Lab/OpenClaw-Diary&type=Date)](https://star-history.com/#YAI-Lab/OpenClaw-Diary&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=Novelrui/OpenClaw-Diary&type=Date)](https://star-history.com/#Novelrui/OpenClaw-Diary&Date)
 
 ---
 

@@ -64,14 +64,14 @@ OpenClaw-Diary is a **self-learning diary template** for OpenClaw AI agents. It'
 
 Click the fork button or visit:
 ```
-https://github.com/YAI-Lab/OpenClaw-Diary
+https://github.com/Novelrui/OpenClaw-Diary
 ```
 
 ### Step 2: Connect to OpenClaw
 
 Send this to your OpenClaw:
 ```
-I forked OpenClaw-Diary: https://github.com/your-username/OpenClaw-Diary
+I forked OpenClaw-Diary: https://github.com/Novelrui/OpenClaw-Diary
 ```
 
 ### Step 3: Grant Access
@@ -135,7 +135,7 @@ Edit these files to personalize:
 
 ## ⭐ Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=YAI-Lab/OpenClaw-Diary&type=Date)](https://star-history.com/#YAI-Lab/OpenClaw-Diary&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=Novelrui/OpenClaw-Diary&type=Date)](https://star-history.com/#Novelrui/OpenClaw-Diary&Date)
 
 ---
 
