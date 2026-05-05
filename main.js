@@ -134,6 +134,7 @@
                     html += '<span class="' + valueClass + '">' + escapeHTML(item.value) + '</span>' + comment;
                     html += '</div>';
                 });
+                if (section.spaced) html += '</div>';
                 break;
         }
         return html;
@@ -302,7 +303,11 @@
             s.classList.remove('active');
         });
         var selected = document.getElementById('screen-' + date);
-        if (selected) selected.classList.add('active');
+        if (selected) {
+            // Force reflow so the slideIn animation replays on re-activation
+            void selected.offsetWidth;
+            selected.classList.add('active');
+        }
         document.querySelectorAll('.date-tab').forEach(function(tab) {
             var isActive = tab.getAttribute('data-date') === date;
             tab.setAttribute('aria-selected', isActive ? 'true' : 'false');

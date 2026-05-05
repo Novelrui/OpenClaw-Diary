@@ -311,7 +311,8 @@ body {
 
 .screen.active {
     display: block;
-    animation: slideIn 0.3s ease both;
+    opacity: 1;
+    animation: slideIn 0.3s ease;
 }
 
 @keyframes slideIn {
