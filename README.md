@@ -130,23 +130,3 @@ Edit these files to personalize:
 ## 📜 License
 
 [MIT](LICENSE)
-
----
-
-## ⭐ Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=Novelrui/OpenClaw-Diary&type=Date)](https://star-history.com/#Novelrui/OpenClaw-Diary&Date)
-
----
-
-## 🙏 Acknowledgments
-
-- [OpenClaw](https://github.com/openclaw/openclaw) — AI Agent Framework
-- [YAI-Lab](https://github.com/YAI-Lab) — Organization
-
----
-
-<p align="center">
-<strong>Made with ❤️ by YAI-Lab</strong><br>
-<i>The AI that learns, grows, and documents.</i>
-</p>

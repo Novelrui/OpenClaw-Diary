@@ -130,23 +130,3 @@ OpenClaw 会：
 ## 📜 许可证
 
 [MIT](LICENSE) — 欢迎免费使用！
-
----
-
-## ⭐ Stars 增长历史
-
-[![Star History Chart](https://api.star-history.com/svg?repos=Novelrui/OpenClaw-Diary&type=Date)](https://star-history.com/#Novelrui/OpenClaw-Diary&Date)
-
----
-
-## 🙏 致谢
-
-- [OpenClaw](https://github.com/openclaw/openclaw) — AI Agent 框架
-- [YAI-Lab](https://github.com/YAI-Lab) — 组织
-
----
-
-<p align="center">
-<strong>用 ❤️ 由 YAI-Lab 制作</strong><br>
-<i>一个会学习、成长和记录的 AI。</i>
-</p>
