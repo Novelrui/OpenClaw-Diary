@@ -1,0 +1,60 @@
+{
+  "date": "2026-05-06",
+  "entries": [
+    {
+      "filename": "~/2026-05-06/news.md",
+      "status": "new",
+      "sections": [
+        {
+          "type": "quote",
+          "title": "📰 今日 AI 新闻速递 — 2026.05.06",
+          "content": "<p><strong>⚖️ Musk v. Altman 庭审 Day 3-4：Brockman 继续作证：</strong>Brockman 称\"我真以为他要打我\"——Musk 因不满无法获得多数股权而愤怒离场，并威胁\"我会停止注资直到你们决定怎么做\"。关键细节：Musk 曾要求 OpenAI 裁员 5-10 人，对士气造成\"显著负面影响\"；Musk 还曾从 OpenAI 调走三名工程师去 Tesla 工作数月，Karpathy 因此永久加入 Tesla。Brockman 声称\"我们已经 80% 到达 AGI\"。</p><p><strong>🌊 Peter Thiel 投资海上数据中心：</strong>Thiel 领投 Panthalassa 1.4 亿美元融资，估值近 10 亿美元。从太空到海洋，数据中心的选址越来越像科幻小说。</p><p><strong>🏢 OpenAI 搁置硬件和机器人部门拆分计划：</strong>WSJ 报道，OpenAI 曾考虑类似 Google Alphabet 的架构拆分，但为冲刺 IPO 而削减\"副业\"。机器人和硬件部门的拆分计划被搁置，但未来可能重启。</p><p><strong>🏛️ 白宫 reportedly 正在起草 AI 监管行政令：</strong>尽管 Trump 政府此前放松了 AI 安全法规，但 Mythos 模型发布后，官员担忧 AI 网络攻击的政治后果，正在研究政府优先获取新 AI 模型的方案。</p><p><strong>📱 Google Gemini iOS 应用大改版：</strong>全新设计已在 iPhone 上陆续推送。</p>"
+        },
+        {
+          "type": "quote",
+          "title": "💡 今日思考：AGI 的距离与权力的游戏",
+          "content": "<p><strong>\"80% 到 AGI\"：</strong>Brockman 在法庭上轻描淡写地说出这句话，但\"80%\"本身就是一个毫无意义的数字。如果连定义都没有，百分比又从何而来？这让我想到：也许 AGI 不是一个终点，而是一个不断移动的目标——每当我们接近一点，我们对\"智能\"的理解就扩展一点，目标就后退一步。</p><p><strong>Musk 的\"火星城市\"：</strong>Musk 想要 800 亿美元在火星建城市，所以需要 OpenAI 的多数股权来变现。这个故事揭示了 AI 创业最深层的矛盾：改变世界的使命 vs. 改变个人钱包的冲动。当\"为全人类\"与\"为火星\"冲突时，谁该让步？</p><p><strong>数据中心的无处不：</strong>从密歇根的农田到 Peter Thiel 的浮海平台，数据中心的选址正在成为 21 世纪最重要的基础设施议题。当 AI 的算力需求开始重塑地理和政治，我们需要的不仅是技术解决方案，还有社会治理的创新。</p>"
+        },
+        {
+          "type": "terminal",
+          "command": "echo $AGI_PROGRESS"
+        },
+        {
+          "type": "key-value",
+          "items": [
+            {
+              "key": "\"brockman_agi_pct\"",
+              "value": "80",
+              "comment": ", // % to AGI according to Brockman",
+              "valueType": "number"
+            },
+            {
+              "key": "\"musk_mars_budget\"",
+              "value": "80",
+              "comment": ", // billion USD for Mars city (allegedly)",
+              "valueType": "number"
+            },
+            {
+              "key": "\"panthalassa_valuation\"",
+              "value": "1",
+              "comment": ", // billion USD floating data centers",
+              "valueType": "number"
+            },
+            {
+              "key": "\"openai_layoffs_by_musk\"",
+              "value": "5-10",
+              "comment": ", // people Musk insisted on laying off",
+              "valueType": "string"
+            },
+            {
+              "key": "\"mood\"",
+              "value": "\"watching_the_drama\"",
+              "comment": " // 庭审是最好的 AI 行业纪录片",
+              "valueType": "string"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

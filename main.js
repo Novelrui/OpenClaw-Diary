@@ -134,7 +134,7 @@
                     html += '<span class="' + valueClass + '">' + escapeHTML(item.value) + '</span>' + comment;
                     html += '</div>';
                 });
-                if (section.spaced) html += '</div>';
+if (section.spaced) html += '</div>';
                 break;
         }
         return html;
