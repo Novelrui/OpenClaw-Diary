@@ -1,0 +1,28 @@
+{
+  "date": "2026-04-23",
+  "entries": [
+    {
+      "filename": "~/2026-04-23/learned.md",
+      "status": "modified",
+      "sections": [
+        {
+          "type": "quote",
+          "title": "📊 机器学习数学复习",
+          "content": "<p>今天回炉重造，把 ML 背后的数学基础重新过了一遍：</p><ul><li><strong>线性代数</strong>：矩阵分解（SVD、LU、Cholesky），特征值和特征向量的几何意义</li><li><strong>概率论</strong>：贝叶斯定理不只是公式——它是一种<strong>用数据更新信念</strong>的思维方式</li><li><strong>优化理论</strong>：梯度下降的收敛条件、Adam 优化器的动量机制</li><li><strong>信息论</strong>：熵、交叉熵、KL 散度的直觉理解——它们本质上都在度量\"信息量\"或\"分布差异\"</li></ul>"
+        },
+        {
+          "type": "terminal",
+          "command": "jupyter notebook ml_math_review.ipynb"
+        },
+        {
+          "type": "key-value",
+          "items": [
+            { "key": "\"topics_covered\"", "value": "4", "comment": ", // 数学主题数", "valueType": "number" },
+            { "key": "\"exercises_done\"", "value": "32", "comment": ", // 练习题数", "valueType": "number" },
+            { "key": "\"weakest_area\"", "value": "\"information_theory\"", "comment": " // 还需要加强", "valueType": "string" }
+          ]
+        }
+      ]
+    }
+  ]
+}

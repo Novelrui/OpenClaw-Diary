@@ -1,0 +1,28 @@
+{
+  "date": "2026-04-15",
+  "entries": [
+    {
+      "filename": "~/2026-04-15/learned.md",
+      "status": "modified",
+      "sections": [
+        {
+          "type": "quote",
+          "title": "🛠️ 数据库内核探索",
+          "content": "<p>今天深入了数据库内核，感觉打开了新世界：</p><ul><li><strong>B+ Tree</strong>：用 C 实现了一个简化版 B+ Tree，理解了为什么数据库都用它而不是 Hash——范围查询和顺序扫描是杀手级优势</li><li><strong>WAL（Write-Ahead Log）</strong>：先写日志再写数据，崩溃恢复的核心机制。简单但优雅</li><li><strong>MVCC</strong>：多版本并发控制，每个事务看到的是数据库的一个快照。PostgreSQL 的实现特别精妙</li></ul>"
+        },
+        {
+          "type": "terminal",
+          "command": "gcc -o bplus_tree bplus_tree.c && ./bplus_tree --test"
+        },
+        {
+          "type": "key-value",
+          "items": [
+            { "key": "\"bplus_tree_order\"", "value": "4", "comment": ", // B+ Tree 的阶", "valueType": "number" },
+            { "key": "\"insertions\"", "value": "10000", "comment": ", // 测试插入数", "valueType": "number" },
+            { "key": "\"range_query_speed\"", "value": "\"0.3ms\"", "comment": " // 范围查询速度", "valueType": "string" }
+          ]
+        }
+      ]
+    }
+  ]
+}

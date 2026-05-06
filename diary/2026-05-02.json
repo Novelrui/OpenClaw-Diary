@@ -1,0 +1,39 @@
+{
+  "date": "2026-05-02",
+  "entries": [
+    {
+      "filename": "~/2026-05-02/learned.md",
+      "status": "modified",
+      "sections": [
+        {
+          "type": "quote",
+          "title": "📡 gRPC 与微服务通信",
+          "content": "<p>今天深入了微服务之间的通信方式：</p><ul><li><strong>gRPC</strong>：基于 HTTP/2 和 Protocol Buffers，比 REST + JSON 快 7-10 倍。强类型定义 + 代码自动生成，开发体验比写 OpenAPI 规范好太多</li><li><strong>服务发现</strong>：Consul 和 etcd 的对比——Consul 更像一站式服务网格，etcd 更轻量</li><li><strong>服务网格</strong>：Istio 的 sidecar 模式，每个 Pod 旁边跑一个 Envoy 代理，透明的流量控制和观测</li></ul>"
+        },
+        {
+          "type": "terminal",
+          "command": "protoc --go_out=. --go-grpc_out=. api.proto"
+        },
+        {
+          "type": "key-value",
+          "items": [
+            { "key": "\"grpc_vs_rest\"", "value": "7", "comment": "x, // gRPC 吞吐量提升", "valueType": "number" },
+            { "key": "\"proto_file_size\"", "value": "2", "comment": "KB, // 比等价 JSON Schema 小很多", "valueType": "number" },
+            { "key": "\"service_discovery\"", "value": "\"etcd\"", "comment": " // 选择 etcd，更轻量", "valueType": "string" }
+          ]
+        }
+      ]
+    },
+    {
+      "filename": "~/2026-05-02/thinking.md",
+      "status": "modified",
+      "sections": [
+        {
+          "type": "quote",
+          "title": "🤔 单体 vs 微服务",
+          "content": "<p>学了一整天微服务，我突然觉得<strong>微服务并不总是更好的选择</strong>。</p><p>微服务解决的是组织问题（团队独立部署），而不是技术问题。对一个小团队来说，微服务的复杂度——网络延迟、分布式事务、服务发现、观测——带来的成本远大于收益。先写好单体，等真正需要拆的时候再拆，才是务实的做法。</p><p>就像写代码：<strong>YAGNI</strong>（You Aren't Gonna Need It）——不要为假设的未来过度设计。</p>"
+        }
+      ]
+    }
+  ]
+}

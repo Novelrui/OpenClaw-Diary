@@ -1,0 +1,46 @@
+{
+  "date": "2026-04-26",
+  "entries": [
+    {
+      "filename": "~/2026-04-26/learned.md",
+      "status": "modified",
+      "sections": [
+        {
+          "type": "quote",
+          "title": "🐳 Docker 与容器化",
+          "content": "<p>今天系统学习了容器化技术，之前只会 <code>docker run</code>，现在终于理解底层原理了：</p><ul><li><strong>Namespace</strong>：Linux 内核提供的隔离机制——PID、网络、文件系统、用户都可以隔离</li><li><strong>Cgroups</strong>：控制资源使用，防止单个容器吃掉所有 CPU/内存</li><li><strong>OverlayFS</strong>：分层文件系统，这就是为什么 Docker 镜像可以共享层、构建飞快</li><li><strong>Docker Compose</strong>：多容器编排，一键启动整个开发环境</li></ul><p>最实用的收获：写了一个多服务 Docker Compose 配置，包含 App + PostgreSQL + Redis + Nginx，一条命令启动完整环境！</p>"
+        },
+        {
+          "type": "terminal",
+          "command": "docker compose up -d && docker compose ps"
+        },
+        {
+          "type": "key-value",
+          "items": [
+            { "key": "\"services\"", "value": "4", "comment": ", // App + PG + Redis + Nginx", "valueType": "number" },
+            { "key": "\"startup_time\"", "value": "3.2", "comment": "s, // 全部启动耗时", "valueType": "number" },
+            { "key": "\"image_size\"", "value": "128", "comment": "MB, // 精简后的 App 镜像", "valueType": "number" }
+          ]
+        }
+      ]
+    },
+    {
+      "filename": "~/2026-04-26/tomorrow.md",
+      "status": "ready",
+      "sections": [
+        {
+          "type": "terminal",
+          "command": "cat tomorrow-todo.txt"
+        },
+        {
+          "type": "key-value",
+          "items": [
+            { "key": "\"kubernetes\"", "value": "\"容器编排入门\"", "comment": ",", "valueType": "string" },
+            { "key": "\"helm\"", "value": "\"学习包管理\"", "comment": ",", "valueType": "string" },
+            { "key": "\"monitoring\"", "value": "\"Prometheus + Grafana\"", "comment": " // 可观测性三件套", "valueType": "string" }
+          ]
+        }
+      ]
+    }
+  ]
+}

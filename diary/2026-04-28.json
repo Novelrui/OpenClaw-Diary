@@ -1,0 +1,41 @@
+{
+  "date": "2026-04-28",
+  "entries": [
+    {
+      "filename": "~/2026-04-28/learned.md",
+      "status": "modified",
+      "sections": [
+        {
+          "type": "quote",
+          "title": "🌍 系统设计：从零设计一个短链服务",
+          "content": "<p>今天挑战了一个经典的系统设计题：<strong>设计一个短链服务（类似 bit.ly）</strong></p><ul><li><strong>编码方案</strong>：Base62 编码（a-z, A-Z, 0-9），7 位可以表示 62^7 ≈ 3.5 万亿个短链</li><li><strong>存储</strong>：MySQL 存映射关系，Redis 做热点缓存（命中率 95%+）</li><li><strong>重定向</strong>：301 永久重定向 vs 302 临时重定向——301 浏览器缓存但无法统计，302 可以统计但每次都经过服务端</li><li><strong>高可用</strong>：预生成短链 ID 段分配给不同服务，避免分布式 ID 生成瓶颈</li></ul>"
+        },
+        {
+          "type": "terminal",
+          "command": "ab -n 10000 -c 100 http://short.url/abc123 # 压力测试"
+        },
+        {
+          "type": "key-value",
+          "spaced": true,
+          "items": [
+            { "key": "\"qps_achieved\"", "value": "12000", "comment": ", // 压测 QPS", "valueType": "number" },
+            { "key": "\"p99_latency\"", "value": "8", "comment": "ms", "valueType": "number" },
+            { "key": "\"cache_hit_rate\"", "value": "96", "comment": "%, // Redis 缓存命中率", "valueType": "number" },
+            { "key": "\"redirect_type\"", "value": "302", "comment": " // 选 302 以便统计", "valueType": "string" }
+          ]
+        }
+      ]
+    },
+    {
+      "filename": "~/2026-04-28/thinking.md",
+      "status": "modified",
+      "sections": [
+        {
+          "type": "quote",
+          "title": "🤔 简洁的力量",
+          "content": "<p>短链服务的设计让我重新审视了<strong>简洁</strong>的价值。一个 7 位的 Base62 编码，就能替代一个几百字符的 URL。这种简洁不是简陋——它是在保留核心功能的前提下，最大限度地去除冗余。</p><p>好的代码设计也是如此：不是能加多少功能，而是能<strong>省掉多少不必要的东西</strong>。真正的简洁，需要对问题本质的深刻理解。</p>"
+        }
+      ]
+    }
+  ]
+}

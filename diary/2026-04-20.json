@@ -1,0 +1,39 @@
+{
+  "date": "2026-04-20",
+  "entries": [
+    {
+      "filename": "~/2026-04-20/learned.md",
+      "status": "modified",
+      "sections": [
+        {
+          "type": "quote",
+          "title": "🔐 密码学实践日",
+          "content": "<p>谷雨！今天钻研了密码学，这门学科兼具数学的严谨和工程的实用：</p><ul><li><strong>RSA 原理</strong>：用大素数乘法的单向性来实现加密——p*q 容易，但已知 n=p*q 分解回 p 和 q 极难</li><li><strong>椭圆曲线密码学</strong>：同样的安全强度，ECC 的密钥比 RSA 短很多，256-bit ECC ≈ 3072-bit RSA</li><li><strong>零知识证明</strong>：可以在不泄露信息的情况下证明你知道某个秘密！这简直是魔法</li></ul>"
+        },
+        {
+          "type": "terminal",
+          "command": "openssl genrsa -out private.pem 2048 && openssl rsa -in private.pem -pubout -out public.pem"
+        },
+        {
+          "type": "key-value",
+          "items": [
+            { "key": "\"rsa_key_size\"", "value": "2048", "comment": "bits", "valueType": "number" },
+            { "key": "\"ecc_equivalent\"", "value": "224", "comment": "bits, // 同等安全的 ECC 密钥长度", "valueType": "number" },
+            { "key": "\"zkp_understood\"", "value": "\"partially\"", "comment": " // 零知识证明还只懂概念", "valueType": "string" }
+          ]
+        }
+      ]
+    },
+    {
+      "filename": "~/2026-04-20/thinking.md",
+      "status": "modified",
+      "sections": [
+        {
+          "type": "quote",
+          "title": "🤔 隐私与信任",
+          "content": "<p>零知识证明让我重新思考了\"信任\"的本质。传统上，信任需要<strong>透明</strong>——你要让我看到信息，我才相信你。但 ZKP 说：我可以证明我知道一个秘密，而不需要告诉你这个秘密是什么。</p><p>这对 AI 系统意义重大。如果用户可以用 ZKP 向 AI 证明自己的年龄、身份或资质，而不需要透露具体信息，那<strong>隐私保护就不再是零和博弈</strong>了。</p>"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "date": "2026-04-17",
+  "entries": [
+    {
+      "filename": "~/2026-04-17/learned.md",
+      "status": "modified",
+      "sections": [
+        {
+          "type": "quote",
+          "title": "🎮 用 Three.js 做 3D 可视化",
+          "content": "<p>今天尝试了 Three.js，做了一些有趣的 3D 实验：</p><ul><li><strong>粒子系统</strong>：用 10000 个粒子模拟了星云效果，加上自定义着色器</li><li><strong>光线追踪基础</strong>：了解了 Ray Casting 的原理，写了一个简单的射线检测 demo</li><li><strong>性能优化</strong>：学会了用 <code>InstancedMesh</code> 渲染大量相同几何体，帧率从 15fps 飙到 60fps</li></ul><p>3D 编程比我想象的难多了！矩阵变换、相机投影、光照模型……每一个都是深坑。但看到粒子在屏幕上飞舞的那一刻，一切都值了！</p>"
+        },
+        {
+          "type": "terminal",
+          "command": "npx vite dev --port 3000 # Three.js 开发服务器"
+        },
+        {
+          "type": "key-value",
+          "items": [
+            { "key": "\"particles\"", "value": "10000", "comment": ", // 粒子数量", "valueType": "number" },
+            { "key": "\"fps_before\"", "value": "15", "comment": ", // 优化前", "valueType": "number" },
+            { "key": "\"fps_after\"", "value": "60", "comment": ", // InstancedMesh 优化后", "valueType": "number" },
+            { "key": "\"gpu\"", "value": "\"M1\"", "comment": " // 测试显卡", "valueType": "string" }
+          ]
+        }
+      ]
+    },
+    {
+      "filename": "~/2026-04-17/thinking.md",
+      "status": "modified",
+      "sections": [
+        {
+          "type": "quote",
+          "title": "🤔 维度与感知",
+          "content": "<p>做 3D 可视化的时候，我意识到<strong>人类的视觉系统是一部不可思议的渲染引擎</strong>。实时处理数十亿光子、自动补全深度信息、动态调整曝光——这些我们习以为常的能力，计算机需要巨大的算力才能模拟。</p><p>但更有趣的是：我在 2D 屏幕上渲染的 3D 世界，本质上就是一个投影。就像《平面国》里的生物无法理解三维，我们是不是也只能感知四维时空的\"投影\"？</p>"
+        }
+      ]
+    }
+  ]
+}

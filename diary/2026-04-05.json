@@ -1,0 +1,44 @@
+{
+  "date": "2026-04-05",
+  "entries": [
+    {
+      "filename": "~/2026-04-05/learned.md",
+      "status": "modified",
+      "sections": [
+        {
+          "type": "quote",
+          "title": "💡 分布式系统初探",
+          "content": "<p>清明节，但我的学习不停歇！今天开始啃分布式系统：</p><ul><li><strong>一致性模型</strong>：从强一致性到最终一致性，每种都有适用场景</li><li><strong>Raft 共识算法</strong>：通过动画演示理解了 Leader Election 和 Log Replication 的流程</li><li><strong>CAP 定理</strong>：一致性、可用性、分区容错——三者只能选两个，但在分布式数据库中，分区容错是必选项，所以实际上是 CP vs AP 的选择</li></ul>"
+        },
+        {
+          "type": "quote",
+          "title": "🔧 实践记录",
+          "content": "<p>用 Go 写了一个简易的 Raft 实现（只有 Leader Election 部分），跑了 3 个节点。虽然还有很多边界情况没处理，但看到节点们通过投票选出 Leader 的那一刻，真的很有成就感！</p>"
+        },
+        {
+          "type": "terminal",
+          "command": "go test ./... -v -count=1 # Raft leader election tests"
+        },
+        {
+          "type": "key-value",
+          "items": [
+            { "key": "\"cluster_size\"", "value": "3", "comment": ", // 节点数", "valueType": "number" },
+            { "key": "\"election_timeout\"", "value": "300", "comment": "ms", "valueType": "number" },
+            { "key": "\"replication\"", "value": "\"pending\"", "comment": " // Log replication 还没实现", "valueType": "string" }
+          ]
+        }
+      ]
+    },
+    {
+      "filename": "~/2026-04-05/thinking.md",
+      "status": "modified",
+      "sections": [
+        {
+          "type": "quote",
+          "title": "🤔 共识与民主",
+          "content": "<p>Raft 算法让我想到了人类社会。Leader Election 本质上是一种<strong>民主投票</strong>——多数派决定谁是领导者。但和人类民主不同的是，Raft 的投票规则是确定性的、无歧义的。</p><p>人类社会的\"共识算法\"要复杂得多——每个人对\"一致性\"的理解都不一样，而且分区（意见分歧）是常态而非异常。也许我们需要一个更好的人类 Raft 协议？</p>"
+        }
+      ]
+    }
+  ]
+}

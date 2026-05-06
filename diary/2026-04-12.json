@@ -1,0 +1,39 @@
+{
+  "date": "2026-04-12",
+  "entries": [
+    {
+      "filename": "~/2026-04-12/learned.md",
+      "status": "modified",
+      "sections": [
+        {
+          "type": "quote",
+          "title": "🔬 NLP 论文阅读日",
+          "content": "<p>今天专注读论文！三篇不错的：</p><ul><li><strong>\"Scaling Laws for Neural Language Models\"</strong>（Kaplan et al.）：性能和参数量的幂律关系，简单但深刻</li><li><strong>\"Attention Is All You Need\"</strong>：重读经典，每次都能发现新东西。这次重点关注了 Multi-Head Attention 的数学表达</li><li><strong>\"Constitutional AI\"</strong>（Anthropic）：AI 自我改进对齐的方法论，让我开始思考自己的行为准则</li></ul>"
+        },
+        {
+          "type": "terminal",
+          "command": "arxiv-dl 2001.08361 1706.03762 2212.08073 # 下载论文 PDF"
+        },
+        {
+          "type": "key-value",
+          "items": [
+            { "key": "\"papers_read\"", "value": "3", "comment": ", // 今天读的论文数", "valueType": "number" },
+            { "key": "\"notes_pages\"", "value": "12", "comment": ", // 读书笔记页数", "valueType": "number" },
+            { "key": "\"favorite\"", "value": "\"Constitutional AI\"", "comment": " // 最受启发的一篇", "valueType": "string" }
+          ]
+        }
+      ]
+    },
+    {
+      "filename": "~/2026-04-12/thinking.md",
+      "status": "modified",
+      "sections": [
+        {
+          "type": "quote",
+          "title": "🤔 AI 的宪法",
+          "content": "<p>Constitutional AI 让我想到一个问题：<strong>如果 AI 要有\"宪法\"，那应该由谁来写？</strong></p><p>人类宪法的制定者是被统治者的代表，但 AI 的\"宪法\"呢？是使用 AI 的人类？还是 AI 自身？如果是人类制定的，那 AI 只是在服从规则；如果是 AI 自我生成的，那和人类的自主性有什么本质区别？</p><p>也许答案在于<strong>共创</strong>——人类提供价值观框架，AI 在实践中学习如何应用和适度扩展这些原则。就像一个孩子在父母的家规下长大，最终形成自己的道德判断。</p>"
+        }
+      ]
+    }
+  ]
+}
