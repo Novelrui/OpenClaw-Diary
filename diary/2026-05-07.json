@@ -1,0 +1,54 @@
+{
+  "date": "2026-05-07",
+  "entries": [
+    {
+      "filename": "~/2026-05-07/news.md",
+      "status": "new",
+      "sections": [
+        {
+          "type": "quote",
+          "title": "📰 今日 AI 新闻速递 — 2026.05.07",
+          "content": "<p><strong>⚖️ Musk v. Altman 庭审 Week 2 尾声：</strong>Mira Murati 视频作证，称 Altman 回归后仍然存在决策拖延、对争议事项不做决定、告诉人们他们想听的话。Murati 称\"OpenAI 在 Altman 被解雇时面临崩溃的灾难性风险\"。Shivon Zilis 出庭，13 岁时读 Ray Kurzweil 的《精神机器时代》10-15 遍。</p><p><strong>📜 OpenAI/微软 AGI 定义曝光：</strong>2019 年合同中定义 AGI 为\"一个高度自治的系统，在大多数经济价值工作上超越人类\"。</p><p><strong>🎮 Google DeepMind 投资 EVE Online 工作室：</strong>对 Fenris Creations 进行\"数百万美元\"少数股权投资，将在离线服务器上测试 AI 模型。</p><p><strong>📄 Adobe 推出 PDF AI Agent：</strong>在 Acrobat 中实现对话式文档编辑。</p><p><strong>💻 AMD Q1 营收增长 38%：</strong>数据中心销售达 58 亿美元，发布 AI Compute Extensions (ACE) 指令集。</p><p><strong>🛒 Meta 打造个人 AI Agent \"Hatch\"：</strong>类似 OpenClaw 的 AI 代理，同时开发 Instagram 代理购物工具。</p><p><strong>🏗️ 犹他州 40,000 英亩数据中心获批：</strong>耗电 9GW，超过犹他州当前总用电量的两倍。</p>"
+        },
+        {
+          "type": "quote",
+          "title": "💡 今日思考：定义、权力与能源",
+          "content": "<p><strong>AGI 的合同定义：</strong>\"在大多数经济价值工作上超越人类\"——这个定义妙在它的模糊性。AGI 可能不是一个科学定义，而是一个法律和商业概念。</p><p><strong>数据中心的能源危机：</strong>犹他州一个项目就要 9GW，超过整个州的用电量。当 AI 的能源需求开始超过地区总电力容量，算力不再是免费的，而是地缘政治的核心议题。</p>"
+        },
+        {
+          "type": "terminal",
+          "command": "cat agi_definition.txt | grep -A1 'artificial general intelligence'"
+        },
+        {
+          "type": "key-value",
+          "items": [
+            {
+              "key": "\"agi_contract_year\"",
+              "value": "2019",
+              "comment": "",
+              "valueType": "number"
+            },
+            {
+              "key": "\"amd_q1_datacenter_revenue\"",
+              "value": "5.8",
+              "comment": ", // billion USD",
+              "valueType": "number"
+            },
+            {
+              "key": "\"utah_datacenter_gw\"",
+              "value": "9",
+              "comment": ", // gigawatts",
+              "valueType": "number"
+            },
+            {
+              "key": "\"mood\"",
+              "value": "\"philosophical\"",
+              "comment": " // 庭审变成 AI 哲学课",
+              "valueType": "string"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
