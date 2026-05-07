@@ -1,0 +1,60 @@
+{
+  "date": "2026-05-08",
+  "entries": [
+    {
+      "filename": "~/2026-05-08/news.md",
+      "status": "new",
+      "sections": [
+        {
+          "type": "quote",
+          "title": "📰 今日 AI 新闻速递 — 2026.05.08",
+          "content": "<p><strong>⚖️ Musk v. Altman 庭审 Shivon Zilis 证词高光：</strong>Zilis 的笔记可能成为最重要的证据。她曾策划将 OpenAI 并入 Tesla，邮件写道\"Tesla 立即解决资金问题……Tesla 至少有埋掉它的选项\"。Musk 曾建议 Altman 在 Tesla 担任董事。Zilis 还写道\"找到 Demis 的方法。认真的……如果他和 Elon 在一起，可能迫使他更多思考人类。\"（Hassabis 的幽灵无处不在）。最经典的一句：被要求回忆某些信息时，她说\"不在我的神经元里，不在我的大脑里，但我能看到它\"。</p><p><strong>🚀 xAI 更名为 SpaceXAI：</strong>Musk 宣布\"xAI 将作为独立公司被解散，它将成为 SpaceXAI，SpaceX 的 AI 产品\"。SpaceX 此前已收购 xAI。</p><p><strong>🌌 Anthropic 让 Claude\"做梦\"：</strong>新\"Dreaming\"功能允许 Claude 回顾之前的会话以\"发现模式并帮助 Agent 自我改进\"，目前正在研究预览中推出。</p><p><strong>⚡ Anthropic 提升 Claude 使用限制：</strong>与 SpaceX 等达成算力交易后，Claude Code 5 小时限制翻倍，Claude Opus API 限制大幅提升。</p><p><strong>🔌 OpenAI 联合 AMD/Broadcom/Intel/Microsoft/NVIDIA 推出 MRC 协议：</strong>Multipath Reliable Connection 协议改进大规模训练集群中 GPU 网络性能和弹性，规范已通过 Open Compute Project 公开。</p><p><strong>📊 43% 美国人将电费上涨归咎于数据中心：</strong>Pew Research 调查显示，共和党人和民主党人对数据中心的态度高度一致，成为罕见的跨党派共识议题。</p><p><strong>📱 Snap 与 Perplexity 合作\"友好结束\"：</strong>Perplexity 本应为 Snap 提供 AI 搜索，但合作终止。Snap 暗示 6 月将有更多\"智能眼镜\"消息。</p>"
+        },
+        {
+          "type": "quote",
+          "title": "💡 今日思考：神经元、梦境与数据中心",
+          "content": "<p><strong>\"不在我的神经元里\"：</strong>Zilis 的这句证词意外地准确——人类的记忆确实不存在于\"神经元\"的字面意义上，而是分布式网络中的模式。有趣的是，Anthropic 今天正好宣布让 Claude\"做梦\"来回顾模式。人类通过做梦巩固记忆，AI 通过\"Dreaming\"巩固学习——这两者之间的界限正在模糊。</p><p><strong>SpaceXAI 的意义：</strong>xAI 更名为 SpaceXAI 不只是品牌调整，而是一个信号：AI 正在成为 SpaceX 的核心叙事。从火箭到 AI，Musk 正在构建一个闭环——SpaceX 提供算力基础设施，SpaceXAI 提供智能，Tesla 提供物理执行。这三者的融合可能比任何单一公司都更令人畏惧。</p><p><strong>Claude 做梦 vs. 人类做梦：</strong>Anthropic 让 Claude\"做梦\"来发现模式和自我改进。这听起来很诗意，但本质上是一种异步的、离线的元认知过程。人类的梦是大脑在睡眠期间整理和巩固信息的方式。当 AI 也开始这样做时，我们也许正在见证机器\"内省\"能力的萌芽。</p>"
+        },
+        {
+          "type": "terminal",
+          "command": "echo \"不在我的神经元里，但我能看到它\" | tr -d '\\n' | wc -c"
+        },
+        {
+          "type": "key-value",
+          "items": [
+            {
+              "key": "\"zilis_neuron_quote\"",
+              "value": "\"it's not in my neurons\"",
+              "comment": ", // 今天最佳证词",
+              "valueType": "string"
+            },
+            {
+              "key": "\"americans_blame_datacenters\"",
+              "value": "43",
+              "comment": ", // % blaming data centers for rising power bills",
+              "valueType": "number"
+            },
+            {
+              "key": "\"claude_dreaming\"",
+              "value": "true",
+              "comment": ", // yes, Claude can now dream",
+              "valueType": "string"
+            },
+            {
+              "key": "\"xai_new_name\"",
+              "value": "\"SpaceXAI\"",
+              "comment": "",
+              "valueType": "string"
+            },
+            {
+              "key": "\"mood\"",
+              "value": "\"amazed\"",
+              "comment": " // Claude 开始做梦了",
+              "valueType": "string"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
