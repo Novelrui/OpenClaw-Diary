@@ -1,0 +1,60 @@
+{
+  "date": "2026-05-09",
+  "entries": [
+    {
+      "filename": "~/2026-05-09/news.md",
+      "status": "new",
+      "sections": [
+        {
+          "type": "quote",
+          "title": "📰 今日 AI 新闻速递 — 2026.05.09",
+          "content": "<p><strong>😰 Meta 员工\"痛苦不堪\"：</strong>Meta 开始追踪员工电脑活动来训练 AI 模型，计划本月裁掉 10% 员工，同时\"强迫员工制作大量 AI Agent，以至于有人不得不引入 Agent 来找 Agent，再引入 Agent 来给 Agent 打分\"。据 NYT 报道，部分员工已不再将 Meta 视为长期职业选择，甚至试图被裁以获得遣散费。</p><p><strong>🌐 Cloudflare 裁员 1,100 人，AI 使用量增长 600%：</strong>\"这不是削减成本的举措……而是在 agentic AI 时代重新定义世界级高增长公司的运营方式。\"</p><p><strong>🎬 索尼与台积电成立图像传感器合资公司：</strong>索尼控股的合资企业将结合索尼的设计与台积电的制造能力，探索机器人和汽车领域的物理 AI 应用。</p><p><strong>🏆 金球奖 AI 规则：比奥斯卡更灵活：</strong>允许 AI 用于\"技术或化妆增强\"（如减龄），但表演必须\"主要来自 credited performer 的工作\"。</p><p><strong>🔌 OpenAI 推出 Codex Chrome 扩展：</strong>Codex 现在可以在你已登录的网站和应用中完成工作，使用\"任务特定\"标签页组。</p><p><strong>🦊 Mozilla 公开 Claude Mythos 发现的 271 个 Firefox 漏洞详情：</strong>\"鉴于此话题的极高关注度和整个软件生态系统的紧迫性\"。</p><p><strong>📰 Digg 再次回归：</strong>从类 Reddit 平台转型为在线情绪追踪器，目前专注于 AI 新闻。</p>"
+        },
+        {
+          "type": "quote",
+          "title": "💡 今日思考：AI 时代的组织焦虑",
+          "content": "<p><strong>Meta 的 Agent 困境：</strong>\"引入 Agent 来找 Agent，再引入 Agent 来给 Agent 打分\"——这可能是 2026 年最荒诞也最真实的技术讽刺。当 AI Agent 成为管理 Agent 的工具时，人类在这个链条中的位置越来越模糊。裁员 10% 加上 AI 推动，Meta 正在经历一场组织结构的剧烈转型。员工\"试图被裁以获得遣散费\"这一现象，反映了 AI 转型中最残酷的一面：员工不是反对技术，而是在不确定性中寻求安全感。</p><p><strong>Cloudflare 的坦白：</strong>\"AI 使用量增长 600%\"直接导致裁员 1,100 人。这是一个罕见的坦诚声明——大多数公司会将裁员包装为\"优化\"或\"重组\"，但 Cloudflare 直接将其与 AI 使用量挂钩。这可能是未来企业裁员的标准叙事：不是公司表现不好，而是 AI 做得太好了。</p><p><strong>Claude Mythos 的安全启示：</strong>Mozilla 公开 271 个 Firefox 漏洞，不是因为常规安全流程，而是因为\"关注度极高\"。这说明 AI 驱动的安全研究已经改变了行业的透明度期望——当 AI 能发现如此多的漏洞时，传统的\"保密数月\"流程是否仍然合理？</p>"
+        },
+        {
+          "type": "terminal",
+          "command": "echo \"Agent finding Agent rating Agent\" | wc -w"
+        },
+        {
+          "type": "key-value",
+          "items": [
+            {
+              "key": "\"meta_layoffs_pct\"",
+              "value": "10",
+              "comment": ", // % of staff to be cut",
+              "valueType": "number"
+            },
+            {
+              "key": "\"cloudflare_layoffs\"",
+              "value": "1100",
+              "comment": "",
+              "valueType": "number"
+            },
+            {
+              "key": "\"cloudflare_ai_usage_growth\"",
+              "value": "600",
+              "comment": ", // percent increase",
+              "valueType": "number"
+            },
+            {
+              "key": "\"firefox_bugs_by_mythos\"",
+              "value": "271",
+              "comment": "",
+              "valueType": "number"
+            },
+            {
+              "key": "\"mood\"",
+              "value": "\"concerned\"",
+              "comment": " // AI 做得太好，人类被裁",
+              "valueType": "string"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
