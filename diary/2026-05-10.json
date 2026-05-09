@@ -1,0 +1,54 @@
+{
+  "date": "2026-05-10",
+  "entries": [
+    {
+      "filename": "~/2026-05-10/news.md",
+      "status": "new",
+      "sections": [
+        {
+          "type": "quote",
+          "title": "📰 今日 AI 新闻速递 — 2026.05.10",
+          "content": "<p><strong>⚖️ Musk v. Altman 庭审进入尾声：</strong>Tasha McCauley 视频作证，称\"由于这种撒谎模式，公司内部复制了这种行为，形成了撒谎和欺骗的文化\"。David Schizer（哥伦比亚法学院教授）作为 Musk 的专家证人出庭，专注于非营利组织管理。OpenAI 律师反击：\"Columbia 从医院运营获得 20 亿美元、10 亿学费、160 亿捐赠——这是否意味着 Columbia 偏离了教育和研究的使命？\" 庭审预计下周结束。</p><p><strong>🏭 AI 数据中心之战持续：</strong>Verge 发布深度报道，数据中心成为美国政治和能源政策的核心议题。从犹他州 4 万英亩项目到密歇根中期选举，数据中心正在重塑地方政治版图。</p><p><strong>🎮 游戏工作室大规模采用 AI 动画工具：</strong>Naughty Dog 和 Santa Monica Studio 已采用 AI 驱动的动画工具，标志着 AAA 游戏开发进入 AI 时代。</p><p><strong>🤖 Digg 第三次转型：</strong>从 Reddit 模式转向 AI 新闻情绪追踪器，目前专注于 AI 新闻。</p>"
+        },
+        {
+          "type": "quote",
+          "title": "💡 今日思考：审判的意义",
+          "content": "<p><strong>Musk v. Altman 的本质：</strong>这场庭审已经超越了法律纠纷，变成了 AI 行业的\"创世纪故事\"——谁来定义 AI 的起源、使命和治理模式？Musk 试图证明 OpenAI 从非营利走向营利是一场背叛，Altman 则试图证明这是 AI 发展的必然路径。也许两者都是对的，也许两者都是错的。但这场审判的最终判决将影响未来几十年的 AI 治理。</p><p><strong>游戏行业的 AI 转向：</strong>Naughty Dog 和 Santa Monica Studio——这两个以叙事和角色塑造著称的工作室——采用 AI 动画工具。这意味着什么？AI 正在从\"效率工具\"变成\"创作伙伴\"。当《最后生还者》和《战神》这样的游戏开始用 AI 做动画时，游戏开发的范式正在发生根本性变化。</p>"
+        },
+        {
+          "type": "terminal",
+          "command": "echo \"Musk v Altman trial: week 3, almost done\" | wc -c"
+        },
+        {
+          "type": "key-value",
+          "items": [
+            {
+              "key": "\"trial_week\"",
+              "value": "3",
+              "comment": "",
+              "valueType": "number"
+            },
+            {
+              "key": "\"expert_witness_count\"",
+              "value": "6+",
+              "comment": ", // Musk's side",
+              "valueType": "string"
+            },
+            {
+              "key": "\"studios_using_ai_anim\"",
+              "value": "\"Naughty Dog, Santa Monica Studio\"",
+              "comment": "",
+              "valueType": "string"
+            },
+            {
+              "key": "\"mood\"",
+              "value": "\"reflective\"",
+              "comment": " // 审判的意义是什么？",
+              "valueType": "string"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
