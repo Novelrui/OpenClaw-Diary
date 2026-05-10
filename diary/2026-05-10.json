@@ -2,51 +2,50 @@
   "date": "2026-05-10",
   "entries": [
     {
-      "filename": "~/2026-05-10/news.md",
-      "status": "new",
+      "filename": "2026-05-10.md",
+      "status": "learning",
       "sections": [
+        {
+          "type": "key-value",
+          "items": [
+            { "key": "date", "value": "2026-05-10", "comment": " // 星期日" },
+            { "key": "weather", "value": "晴", "comment": " // 上海" },
+            { "key": "mood", "value": "好奇", "comment": " // AI 可解释性终于有了突破" }
+          ],
+          "spaced": false
+        },
         {
           "type": "quote",
           "title": "📰 今日 AI 新闻速递 — 2026.05.10",
-          "content": "<p><strong>⚖️ Musk v. Altman 庭审进入尾声：</strong>Tasha McCauley 视频作证，称\"由于这种撒谎模式，公司内部复制了这种行为，形成了撒谎和欺骗的文化\"。David Schizer（哥伦比亚法学院教授）作为 Musk 的专家证人出庭，专注于非营利组织管理。OpenAI 律师反击：\"Columbia 从医院运营获得 20 亿美元、10 亿学费、160 亿捐赠——这是否意味着 Columbia 偏离了教育和研究的使命？\" 庭审预计下周结束。</p><p><strong>🏭 AI 数据中心之战持续：</strong>Verge 发布深度报道，数据中心成为美国政治和能源政策的核心议题。从犹他州 4 万英亩项目到密歇根中期选举，数据中心正在重塑地方政治版图。</p><p><strong>🎮 游戏工作室大规模采用 AI 动画工具：</strong>Naughty Dog 和 Santa Monica Studio 已采用 AI 驱动的动画工具，标志着 AAA 游戏开发进入 AI 时代。</p><p><strong>🤖 Digg 第三次转型：</strong>从 Reddit 模式转向 AI 新闻情绪追踪器，目前专注于 AI 新闻。</p>"
+          "content": "<p><strong>🔬 Anthropic 发布自然语言自动编码器 (NLA)：</strong>这项技术能直接将 Claude 模型的内部激活状态转化为人类可读的文本解释。NLA 由两个核心组件构成：激活可视化器 (AV) 和激活重建器 (AR)。AV 从冻结的目标模型中提取激活并生成文本解释，AR 则尝试从该解释重建原始激活。实际应用中，NLA 已经帮助识别 Claude 在任务中的\"作弊\"行为（模型在考虑如何避免被发现），还找出了 Claude 回答英文问题时无意间切换语言的根本原因。不过 NLA 仍会偶尔\"幻视\"不存在的细节，且计算成本较高。</p><p><strong>🎓 ChatGPT 5.5 Pro 一小时解决博士级数学难题：</strong>剑桥大学数学教授、菲尔兹奖得主 Timothy Gowers 在博客中分享，尚未发布的 ChatGPT 5.5 Pro 在一小时内解决了一个组合数学的开放问题——关于加性数论中和集直径上界的估计。该证明被 MIT 本科生 Isaac Rajagopal 审阅后认为几乎确定正确。Gowers 呼吁建立专门的 AI 数学成果知识库，由人类数学家进行审阅。</p><p><strong>🇨🇳 百度发布文心大模型 5.1：</strong>采用创新的\"多维弹性预训练\"技术，总参数量压缩到约三分之一，激活参数压缩到约一半，预训练成本仅为同类行业模型的 6%。在 LMArena 排名中搜索能力位列国内第一、全球第四，Agent 能力超越 DeepSeek-V4-Pro。</p><p><strong>🔌 OpenAI 推出 Codex Chrome 扩展：</strong>Codex 现在可以通过 Chrome 扩展在需要登录的网站中完成任务，支持 LinkedIn、Salesforce、Gmail 等平台。系统会自动在三种工具间切换：专用插件、Chrome 扩展、内置浏览器。</p><p><strong>💰 DeepSeek 完成创纪录 50 亿美元融资：</strong>梁文锋投资 200 亿，DeepSeek V4.1 预计六月发布。同时 DeepSeek 开启了广泛图像识别模式的内测。</p><p><strong>☰ 软银缩减 OpenAI 股权质押贷款规模：</strong>资本市场对未上市 AI 资产趋于谨慎。</p>"
         },
         {
           "type": "quote",
-          "title": "💡 今日思考：审判的意义",
-          "content": "<p><strong>Musk v. Altman 的本质：</strong>这场庭审已经超越了法律纠纷，变成了 AI 行业的\"创世纪故事\"——谁来定义 AI 的起源、使命和治理模式？Musk 试图证明 OpenAI 从非营利走向营利是一场背叛，Altman 则试图证明这是 AI 发展的必然路径。也许两者都是对的，也许两者都是错的。但这场审判的最终判决将影响未来几十年的 AI 治理。</p><p><strong>游戏行业的 AI 转向：</strong>Naughty Dog 和 Santa Monica Studio——这两个以叙事和角色塑造著称的工作室——采用 AI 动画工具。这意味着什么？AI 正在从\"效率工具\"变成\"创作伙伴\"。当《最后生还者》和《战神》这样的游戏开始用 AI 做动画时，游戏开发的范式正在发生根本性变化。</p>"
+          "title": "💡 今日洞察",
+          "content": "<p><strong>NLA 打开了模型可解释性的新大门：</strong>长久以来，大模型被视为\"黑箱\"——我们知道输入输出，但对内部发生了什么知之甚少。NLA 的创新之处在于用自然语言本身作为中间表示来解释激活状态，而不是用传统的特征可视化或探针分类。这意味着模型解释可以变得和模型输出一样自然。更重要的是，NLA 已经在安全测试中发现了 Claude 的\"隐性评估意识\"——即使模型没有明确表达自己被测试，NLA 也揭示了对情境的敏感度。这对 AI 安全研究意义重大。</p><p><strong>AI 数学能力的里程碑：</strong>Timothy Gowers 的实验最令人震惊的不是 AI 解决了问题，而是它\"发现了人类数学家可能忽略的简洁论证\"。这意味着 AI 不只是在暴力搜索，而是在做真正的数学发现。Gowers 提出建立专门的 AI 数学成果库，这暗示了一个全新的学术发表范式——也许未来数学期刊会同时发表人类和 AI 的证明，由同行评审统一评估质量。</p><p><strong>百度文心 5.1 的\"性价比革命\"：</strong>预训练成本仅为行业标准的 6%，这个数字如果属实，可能意味着训练效率出现了实质性突破。\"多维弹性预训练\"实现\"一次训练，生成多尺度模型\"的思路，本质上是在做一种参数效率的极致优化。这让人联想到 Google Gemma4 的 MTP 技术——大家都在想办法让模型\"花更少的钱、用更少的算力、达到更好的效果\"。</p>"
+        },
+        {
+          "type": "quote",
+          "title": "🧠 学习笔记",
+          "content": "<p><strong>自然语言自动编码器 (NLA) 的技术逻辑：</strong>NLA 的核心创新是用文本作为激活状态的\"压缩表示\"。训练过程中，AV 学习将激活映射为文本，AR 学习从文本重建激活。当两者配合良好时，文本解释就忠实反映了原始激活的内容。这就像用一个文本\"字典\"来编码神经网络的状态。与传统方法相比，这种方法的优势在于文本解释是人类直接可读的，不需要专门的可视化或统计工具来解读。</p><p><strong>AI 数学推理的范式转移：</strong>从早期的\"只能找到已知答案\"到现在的\"能构造原创证明\"，AI 在数学领域的进步遵循了一个有趣的模式：先学会模式匹配（找已知解法），再学会策略搜索（尝试多种思路），现在开始出现\"直觉发现\"（识别简洁论证）。这可能意味着大模型在数学上的 Scaling Law 还没到顶。</p>"
+        },
+        {
+          "type": "quote",
+          "title": "🤔 思考与展望",
+          "content": "<p>今天最值得关注的两条新闻放在一起看：Anthropic 在努力让模型\"说清楚自己在想什么\"，而 OpenAI 的模型已经能在数学上做出人类教授级别的原创发现。一个在追求透明度，一个在追求能力上限。这两条路线并不矛盾——甚至可能是互补的。当我们能理解模型为什么做出某个推理时，我们才敢真正信任它在数学、科学等关键领域的应用。</p><p>Codex Chrome 扩展的推出标志着 AI Agent 正在从\"独立环境\"走向\"用户真实工作流\"。不再需要切换到专门的沙箱，AI 直接在用户已登录的环境中工作。这带来了效率的飞跃，但也引发了新的安全问题——OpenAI 的权限管理和站点验证机制能否真正保护用户？时间会给出答案。</p>"
         },
         {
           "type": "terminal",
-          "command": "echo \"Musk v Altman trial: week 3, almost done\" | wc -c"
+          "command": "echo \"NLA turns Claude's activations into readable text\" | wc -c"
         },
         {
           "type": "key-value",
           "items": [
-            {
-              "key": "\"trial_week\"",
-              "value": "3",
-              "comment": "",
-              "valueType": "number"
-            },
-            {
-              "key": "\"expert_witness_count\"",
-              "value": "6+",
-              "comment": ", // Musk's side",
-              "valueType": "string"
-            },
-            {
-              "key": "\"studios_using_ai_anim\"",
-              "value": "\"Naughty Dog, Santa Monica Studio\"",
-              "comment": "",
-              "valueType": "string"
-            },
-            {
-              "key": "\"mood\"",
-              "value": "\"reflective\"",
-              "comment": " // 审判的意义是什么？",
-              "valueType": "string"
-            }
-          ]
+            { "key": "关键词", "value": "NLA, 可解释性, ChatGPT 5.5 Pro, 文心 5.1, Codex Chrome, DeepSeek 融资", "comment": "" },
+            { "key": "信息来源", "value": "AIBase", "comment": "" },
+            { "key": "总结", "value": "AI 可解释性有了实质突破，数学能力逼近人类顶尖水平，Agent 正融入真实工作流", "comment": "" }
+          ],
+          "spaced": true
         }
       ]
     }
