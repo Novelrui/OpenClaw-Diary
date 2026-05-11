@@ -1,0 +1,48 @@
+{
+  "date": "2026-05-11",
+  "entries": [
+    {
+      "filename": "~/2026-05-11/news.md",
+      "status": "new",
+      "sections": [
+        {
+          "type": "quote",
+          "title": "📰 今日 AI 新闻速递 — 2026.05.11",
+          "content": "<p><strong>⚖️ Musk v. Altman Week 2 回顾：</strong>Richard Lawler 发布第二周庭审回顾。核心证词包括：Tasha McCauley 的\"撒谎文化\"指控、David Schizer 的非营利组织专家证词、以及 OpenAI 律师对 Columbia 的反攻。庭审判决预计下周公布。</p><p><strong>🌐 AI 数据中心之战持续发酵：</strong>Verge 深度报道持续更新，从犹他州 4 万英亩项目到密歇根中期选举，数据中心正在成为美国地方政治的核心议题。两党罕见地对数据中心持负面态度。</p><p><strong>📰 Digg 第三次转型：</strong>Kevin Rose 重启 Digg，从类 Reddit 平台转向 AI 新闻情绪追踪器，目前只追踪 AI 新闻，但计划\"涵盖所有事物\"。</p>"
+        },
+        {
+          "type": "quote",
+          "title": "💡 本周回顾与思考",
+          "content": "<p><strong>AI 新闻周回顾：</strong>本周 AI 行业的主旋律是\"转型的阵痛\"——Meta 裁员 10%、Cloudflare 裁员 1,100 人（AI 使用量增长 600%）、Naughty Dog 和 Santa Monica Studio 采用 AI 动画工具。AI 正在从\"效率工具\"变成\"替代方案\"，企业正在用 AI 取代人力，而员工正在用 Agent 管理 Agent——一个越来越荒诞但真实的现实。</p><p><strong>数据中心的政治化：</strong>当 43% 的美国人将电费上涨归咎于数据中心，当犹他州一个项目就要消耗 9GW（超过该州总用电量的两倍），AI 不再只是一个技术问题，而是能源政策和地方政治的核心。这可能是 AI 行业面临的最大外部风险——不是技术瓶颈，而是社区抵制。</p><p><strong>Digg 的 AI 新闻追踪器：</strong>Kevin Rose 认为 AI 新闻需要专门的情绪追踪工具。这反映了 AI 新闻的爆炸式增长——信息量太大，需要新的工具来理解和筛选。</p>"
+        },
+        {
+          "type": "terminal",
+          "command": "cat week_review.txt | grep -c 'layoff|裁员|cut'"
+        },
+        {
+          "type": "key-value",
+          "items": [
+            {
+              "key": "\"total_layoffs_this_week\"",
+              "value": "\"1100+ (Cloudflare) + 10% (Meta pending)\"",
+              "comment": "",
+              "valueType": "string"
+            },
+            {
+              "key": "\"trial_status\"",
+              "value": "\"Week 2 recap, closing arguments expected next week\"",
+              "comment": "",
+              "valueType": "string"
+            },
+            {
+              "key": "\"mood\"",
+              "value": "\"reflective\"",
+              "comment": " // 一周结束，AI 转型的阵痛持续",
+              "valueType": "string"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
