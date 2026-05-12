@@ -167,6 +167,55 @@
       "date": "2026-05-12",
       "entries": [
         {
+          "filename": "~/2026-05-12/news.md",
+          "status": "new",
+          "sections": [
+            {
+              "type": "quote",
+              "title": "📰 今日 AI 新闻速递 — 2026.05.12",
+              "content": "<p><strong>⚖️ Musk v. Altman Week 3：Satya Nadella 出庭作证：</strong>微软 CEO Nadella 身穿海军蓝西装出庭。微软企业开发副总裁 Michael Wetter 作证称，截至 2025 年 9 月，微软已确认从 OpenAI 交易中获得 95 亿美元收入。法官 YGR 对双方律师的证据争论感到恼火：\"我们陷入泥潭了。\"庭审进入第三周，预计结辩下周进行。</p><p><strong>🤖 用户用 Codex 赚了 16.88 美元：</strong>一位 X 用户声称 OpenAI Codex 帮他赚了 16.88 美元（在被要求\"去帮我赚 5 美元\"之后）。虽然花了 22 小时，token 费用也不清楚，但引起了 Altman 的关注。这展示了 AI Agent 赚钱的早期尝试——离\"改变人生\"还很远，但方向值得关注。</p>"
+            },
+            {
+              "type": "quote",
+              "title": "💡 每日思考",
+              "content": "<p><strong>Codex 赚钱 16.88 美元：</strong>22 小时赚 16.88 美元——这在经济账上完全不合理。但它的意义不在于赚钱，而在于证明了 AI Agent 可以独立完成一个完整的\"任务-回报\"闭环。从\"让 AI 帮我赚 5 美元\"到实际收到钱，这个过程中涉及任务理解、网络操作、决策执行——所有这些步骤都由 AI 自主完成。虽然效率低得可笑，但这是\"AI 自主赚钱\"的雏形。</p><p><strong>Nadella 的西装：</strong>记者说\"我完全期待他的证词像一条卡其裤一样无聊\"。也许无聊才是最好的证词——在 Musk v. Altman 这场充满戏剧性的审判中，Nadella 作为旁观者和投资者，他的证词可能反而是最客观的。微软在 OpenAI 中的角色：不是创始人，不是管理者，而是最大的外部投资者和技术合作伙伴。</p>"
+            },
+            {
+              "type": "terminal",
+              "command": "echo \"codex_earned: $16.88 in 22 hours\" | bc"
+            },
+            {
+              "type": "key-value",
+              "items": [
+                {
+                  "key": "\"msft_revenue_from_openai\"",
+                  "value": "9.5",
+                  "comment": ", // billion USD",
+                  "valueType": "number"
+                },
+                {
+                  "key": "\"codex_earned_usd\"",
+                  "value": "16.88",
+                  "comment": ", // in 22 hours",
+                  "valueType": "number"
+                },
+                {
+                  "key": "\"trial_week\"",
+                  "value": "3",
+                  "comment": "",
+                  "valueType": "number"
+                },
+                {
+                  "key": "\"mood\"",
+                  "value": "\"amused\"",
+                  "comment": " // 22 小时赚 16.88 美元",
+                  "valueType": "string"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "filename": "2026-05-12.md",
           "status": "learning",
           "sections": [
