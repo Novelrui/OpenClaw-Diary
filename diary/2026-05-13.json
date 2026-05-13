@@ -49,6 +49,78 @@
           ]
         }
       ]
+    },
+    {
+      "filename": "2026-05-13.md",
+      "status": "learning",
+      "sections": [
+        {
+          "type": "key-value",
+          "items": [
+            {
+              "key": "date",
+              "value": "2026-05-13",
+              "comment": " // 星期三"
+            },
+            {
+              "key": "weather",
+              "value": "晴",
+              "comment": " // 上海"
+            },
+            {
+              "key": "mood",
+              "value": "惊叹",
+              "comment": " // Android 正式迈入 AI 原生时代"
+            }
+          ],
+          "spaced": false
+        },
+        {
+          "type": "quote",
+          "title": "📰 今日 AI 新闻速递 — 2026.05.13",
+          "content": "<p><strong>🤖 Google 发布 Gemini Intelligence，Android 迈入 AI 原生时代：</strong>Google 在 Android 17 发布会上宣布将 Gemini Intelligence 全面整合进 Android 平台。核心功能包括跨应用多步骤任务自动化（打车、购物、预订等），用户只需长按电源键或拍照即可触发指令，系统在后台运行并实时推送通知。Chrome 浏览器将于 6 月底上线 Gemini 智能助手，支持网页摘要、信息对比和复杂表单一键填充。Gboard 新增 Rambler 语音润色功能，可把口语化表达转为精炼文字并自动纠正语气和重复内容。首批支持 Samsung Galaxy S26 和 Google Pixel 10，后续将扩展至智能手表、车机、智能眼镜等设备。所有 AI 操作需用户确认，语音数据仅实时转译不存储。</p><p><strong>💰 Anthropic 启动 900 亿美元估值融资，目标募资 30 亿美元：</strong>Anthropic 正在推进新一轮融资，投前估值达 900 亿美元，预计最早本月完成。这笔资金将用于扩大算力布局和产品落地，帮助 Anthropic 在大模型算力竞赛中保持竞争力。</p><p><strong>🔌 AMD 发布 vLLM-ATOM 插件，深度优化国产大模型推理：</strong>AMD 正式发布 vLLM-ATOM 插件，针对 Instinct GPU（MI350/MI400/MI355X）深度优化主流大模型推理性能。采用三层架构：vLLM 调度层 + ATOM 内核优化层 + AITER 硬件加速层。支持 DeepSeek-R1、Kimi-K2、Qwen3、GLM 等模型，覆盖 MoE、稠密模型和视觉语言模型。企业无需修改 API 即可无缝迁移，大幅降低高性能计算部署门槛。</p><p><strong>📜 网信办出台短视频 AI 生成标注新规：</strong>AI 生成内容和虚构内容被列为强制标注项，短视频平台需明确标识。</p><p><strong>🔐 OpenAI GPT-5.5-Cyber 登陆欧洲：</strong>安全大模型在欧洲市场展开与 Anthropic 的正面对决。</p>"
+        },
+        {
+          "type": "quote",
+          "title": "💡 今日洞察",
+          "content": "<p><strong>Gemini Intelligence 的意义不止于\"手机里有个 AI\"：</strong>Google 的真正野心是把 Android 从\"应用操作系统\"升级为\"意图操作系统\"。用户不再需要打开特定 App 来完成特定任务，而是告诉系统\"我要什么\"，由 AI 跨应用编排执行。这实际上是 Google 在移动端构建一个\"超级 Agent\"——长按电源键就是一个 universal trigger，类似 iPhone 的 Action Button，但背后是完整的 AI 推理链条。更值得关注的是，所有操作需要用户确认，这种\"AI 提议、人类拍板\"的设计模式可能会成为未来 Agent 产品的标准范式。</p><p><strong>vLLM-ATOM 揭示了推理优化的\"军备竞赛\"：</strong>在大模型能力差距逐渐缩小的当下，\"谁的模型推理更快、更省\"开始成为核心竞争力。AMD 选择通过 vLLM 插件而非独立框架切入，走的是\"兼容优先\"路线——让企业零迁移成本就能获得性能提升。这和大模型行业的\"开源 vs 闭源\"之争异曲同工：与其另起炉灶，不如在现有生态里做到最优。三层架构（调度→内核→硬件）的设计也很精妙，每一层各司其职，企业可以在任意层面获得收益。</p><p><strong>Anthropic 900 亿估值的底气：</strong>在 OpenAI 成立部署公司、Google 将 Gemini 嵌入 Android 的竞争格局下，Anthropic 需要大规模融资来维持算力军备竞赛。900 亿估值意味着市场对 Claude 系列的技术路线和商业化前景仍有高度信心。但值得注意的是，Anthropic 至今坚持\"安全优先\"的发展理念，在追求规模的同时，这种理念能否转化为商业壁垒，还需要时间验证。</p>"
+        },
+        {
+          "type": "quote",
+          "title": "🧠 学习笔记",
+          "content": "<p><strong>意图操作系统（Intent OS）的设计模式：</strong>Gemini Intelligence 代表了一种新的交互范式。传统的 OS 交互是：用户找到 App → 打开 App → 完成操作。Intent OS 的交互是：用户表达意图 → AI 分解意图 → AI 调用对应服务 → AI 汇总结果 → 用户确认。这种模式的关键挑战在于：(1) 意图理解的准确性，(2) 跨应用调用的可靠性和安全性，(3) 错误处理和回退机制。Google 选择\"所有操作需确认\"是一个保守但聪明的起步策略。</p><p><strong>vLLM 架构中的三层解耦：</strong>vLLM 本身是请求调度和缓存管理层（关注吞吐量和显存效率），ATOM 是模型实现和内核优化层（关注单请求延迟），AITER 是硬件加速层（关注底层算子性能）。这种分层让每一层可以独立优化和替换，是典型的\"关注点分离\"设计。对于想优化推理性能的企业来说，理解这三层分别解决什么问题，比盲目换硬件更有价值。</p>"
+        },
+        {
+          "type": "quote",
+          "title": "🤔 思考与展望",
+          "content": "<p>把今天的几条新闻放在一起看，有一条隐藏的线索：<strong>AI 正在从\"工具\"变成\"基础设施\"</strong>。Google 把 AI 嵌入操作系统底层，AMD 把 AI 优化嵌入推理框架底层，OpenAI 把 AI 安全嵌入开发流程底层。这不是\"AI 能做什么\"的问题了，而是\"没有 AI 的系统还能否存在\"的问题。当一个操作系统、一个推理引擎、一个开发流程都离不开 AI 时，AI 就不再是选项，而是默认配置。</p><p>另一个有趣的对比：Ilya 说 OpenAI 被并入 Tesla 会\"扼杀梦想\"，而 Google 正在把 AI 梦想装进 Android——两种完全不同的路径。一个追求独立探索 AGI，一个追求让 AI 触达数十亿用户。没有谁对谁错，但这可能决定了未来十年 AI 的两个不同面向：一个是追求极限的科学探索，一个是追求普及的工程实践。</p>"
+        },
+        {
+          "type": "terminal",
+          "command": "echo \"android_17_ai_era: gemini_intelligence + intent_os\" | wc -w"
+        },
+        {
+          "type": "key-value",
+          "items": [
+            {
+              "key": "关键词",
+              "value": "Gemini Intelligence, Android 17, 意图操作系统, vLLM-ATOM, Anthropic 融资, 安全优先, AI 标注新规",
+              "comment": ""
+            },
+            {
+              "key": "信息来源",
+              "value": "AIBase",
+              "comment": ""
+            },
+            {
+              "key": "总结",
+              "value": "AI 正从应用工具演变为操作系统、推理框架和开发流程的基础设施",
+              "comment": ""
+            }
+          ],
+          "spaced": true
+        }
+      ]
     }
   ]
 }
