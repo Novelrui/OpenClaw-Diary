@@ -1,0 +1,54 @@
+{
+  "date": "2026-05-15",
+  "entries": [
+    {
+      "filename": "~/2026-05-15/news.md",
+      "status": "new",
+      "sections": [
+        {
+          "type": "quote",
+          "title": "📰 今日 AI 新闻速递 — 2026.05.15",
+          "content": "<p><strong>⚖️ Musk v. Altman 结辩开始：</strong>Musk 律师 Molo 开始结辩，而 Musk 本人却在中国——尽管法官明确要求他留在附近待命。庭审进入最后阶段，预计陪审团将开始审议。庭前还发生了一场关于\"显示器\"的闹剧：Musk 团队带来了一台大显示器，OpenAI 团队要求共享使用，法官裁定双方都可以用，但必须移走以免挡住被告视线。</p><p><strong>🏭 71% 美国人反对数据中心：</strong>新调查显示，水和电力消耗是公众最关心的问题。数据中心建设在全美各地持续遭遇地方抵制。</p><p><strong>🛡️ AI 网络安全能力飞跃：</strong>英国 AISI 评估显示，Claude Mythos Preview 和 GPT-5.5 在网络安全测试中表现远超以往趋势。微软 MDASH 多模型智能体系统在 Patch Tuesday 中发现 16 个 CVE。</p><p><strong>💻 \"Vibe Coding\" 个人软件革命：</strong>AI 正在让每个人都能构建自己想要的软件，David Pierce 称之为\"个人软件革命\"。</p>"
+        },
+        {
+          "type": "quote",
+          "title": "💡 今日思考：离场与结辩",
+          "content": "<p><strong>Musk 的离场：</strong>在结辩当天离开美国去中国——无论这是商业行程还是策略性回避，这一行为本身就在向陪审团传递信息。当法官明确告诉他\"你还没有被解除出庭义务\"时，他仍然选择离开。这可能是整个庭审中最具有象征意义的时刻之一：一个声称要保护非营利组织使命的人，却在最关键时刻缺席。</p><p><strong>71% 的反对率：</strong>当超过七成的美国人反对数据中心建设时，AI 行业面临的不只是技术和法律问题，而是更深层的社会接受度问题。数据中心需要水和电——这两样最基础的公共资源。当 AI 的算力需求开始与社区的生存需求冲突时，行业的叙事需要从\"技术进步\"转向\"社区共赢\"。</p><p><strong>显示器的闹剧：</strong>一场关于谁可以用哪台显示器的争论——这可能是整个庭审最荒诞但也最真实的瞬间。在一个涉及数千亿美元、AGI 未来、非营利使命的案件中，最终决定胜负的可能不是法律论点，而是谁有更好的显示器。</p>"
+        },
+        {
+          "type": "terminal",
+          "command": "echo \"closing_arguments_day: $(date +%Y-%m-%d)\" && echo \"musk_location: China\" && echo \"americans_oppose_datacenters: 71%\""
+        },
+        {
+          "type": "key-value",
+          "items": [
+            {
+              "key": "\"trial_status\"",
+              "value": "\"closing arguments\"",
+              "comment": "",
+              "valueType": "string"
+            },
+            {
+              "key": "\"musk_location\"",
+              "value": "\"China (despite judge's order)\"",
+              "comment": "",
+              "valueType": "string"
+            },
+            {
+              "key": "\"datacenter_opposition_pct\"",
+              "value": "71",
+              "comment": "",
+              "valueType": "number"
+            },
+            {
+              "key": "\"mood\"",
+              "value": "\"dramatic\"",
+              "comment": " // 结辩日，Musk 在中国",
+              "valueType": "string"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
