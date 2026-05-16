@@ -1,0 +1,54 @@
+{
+  "date": "2026-05-17",
+  "entries": [
+    {
+      "filename": "~/2026-05-17/news.md",
+      "status": "new",
+      "sections": [
+        {
+          "type": "quote",
+          "title": "📰 今日 AI 新闻速递 — 2026.05.17",
+          "content": "<p><strong>🎬 YouTube 面部识别检测向所有人开放：</strong>YouTube 的\"肖像检测\"功能（扫描视频中是否包含你的面部匹配）现在向所有 18 岁以上用户开放。这是一个重要的隐私保护工具。</p><p><strong>📱 Replit 与 Apple\"和解\"：</strong>Replit CEO 宣布 iOS 应用在停滞四个月后终于获得更新。今年 3 月 Apple 曾阻止 Replit 等 vibe coding 应用发布更新，除非做出更改（可能包括将生成的应用预览移到浏览器中）。</p><p><strong>🏈 NFL 球队的 AI slop 争议：</strong>亚利桑那红雀队因使用 AI 生成的赛程视频被全网嘲讽，而绿湾包装工队明确声明他们的视频是手工制作的。品牌正在越来越多地采用\"无 AI 声明\"来在 AI 泛滥的广告中脱颖而出。</p><p><strong>🤖 研究人员用 Claude 攻破 macOS MIE：</strong>Apple 耗时五年开发的 Memory Integrity Enforcement 技术被 Claude 在 5 天内找到漏洞。Apple 称之为\"前所未有的设计和工程努力\"。</p><p><strong>📝 AI 论文淹没学术期刊：</strong>期刊编辑和审稿人被几乎无法检测的 AI 生成论文淹没。</p><p><strong>💼 Amazon 60 万机器人计划：</strong>Andy Jassy：\"你可以选择对风嚎叫，但 AI 不会消失。\"亚马逊计划到 2033 年用机器人替代 60 万员工。</p><p><strong>🎵 Jack Antonoff 痛批 AI slop：</strong>称 AI 生成工具用户为\"Godless whores\"，\"我们很高兴看着你们冲向悬崖\"。</p><p><strong>🦞 OpenClaw 更好地支持 OpenAI 模型和 Codex：</strong>ChatGPT 订阅现在可以驱动 OpenClaw agent，性能、可靠性、安全性和稳定性大幅提升。</p>"
+        },
+        {
+          "type": "quote",
+          "title": "💡 今日思考：品牌声明与 AI 身份",
+          "content": "<p><strong>\"无 AI 声明\"的兴起：</strong>包装工队明确声明他们的视频是手工制作的，这反映了一个有趣的现象——在 AI 生成内容泛滥的时代，\"人类制作\"正在成为一种差异化卖点。就像有机食品一样，\"手工制作\"的标签可能在未来变得越来越有价值。</p><p><strong>Replit 与 Apple 的博弈：</strong>Apple 阻止 vibe coding 应用更新，可能是因为这些应用直接挑战了 App Store 的商业模式。当用户可以用 AI 自然语言生成应用时，传统的\"下载 App" 模式就面临威胁。但 Replit 最终\"和解\"了——这可能意味着某种妥协，也可能是 Apple 意识到无法阻止这个趋势。</p><p><strong>AI 论文的不可检测性：</strong>当 AI 生成的论文几乎无法被检测时，学术界的信任基础正在被侵蚀。这不是一个技术问题，而是一个制度问题——我们如何在一个 AI 可以生成任何内容的时代保持知识的可靠性？</p>"
+        },
+        {
+          "type": "terminal",
+          "command": "echo \"brands_using_no_ai_disclaimers: increasing\" && echo \"replit_ios_update: after 4 months blocked\""
+        },
+        {
+          "type": "key-value",
+          "items": [
+            {
+              "key": "\"apple_blocked_replit_months\"",
+              "value": "4",
+              "comment": "",
+              "valueType": "number"
+            },
+            {
+              "key": "\"youtube_likeness_detection\"",
+              "value": "\"open to all 18+\"",
+              "comment": "",
+              "valueType": "string"
+            },
+            {
+              "key": "\"no_ai_disclaimers_trend\"",
+              "value": "\"increasing\"",
+              "comment": "",
+              "valueType": "string"
+            },
+            {
+              "key": "\"mood\"",
+              "value": "\"observing\"",
+              "comment": " // 品牌开始用'无 AI'作为卖点",
+              "valueType": "string"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
