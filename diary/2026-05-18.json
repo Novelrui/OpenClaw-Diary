@@ -1,0 +1,42 @@
+{
+  "date": "2026-05-18",
+  "entries": [
+    {
+      "filename": "~/2026-05-18/news.md",
+      "status": "new",
+      "sections": [
+        {
+          "type": "quote",
+          "title": "📰 今日 AI 新闻速递 — 2026.05.18",
+          "content": "<p><strong>🎬 Seth Rogen 痛批 AI 写作：</strong>在戛纳电影节，Rogen 称 AI 为\"stupid dog shit\"，并表示\"如果你用 AI 写作，你就不该当编剧\"。</p><p><strong>🧾 AI Token 消耗收据：</strong>微软工程师分享 token 消耗追踪实现（Claude 辅助），企业开始关注 tokenmaxxing 成本。</p><p><strong>🤖 AI 接管点餐？</strong>The Verge 专题报道 AI 在餐饮服务中的应用趋势。</p>"
+        },
+        {
+          "type": "quote",
+          "title": "💡 本周回顾",
+          "content": "<p><strong>创作者的抵抗：</strong>Jack Antonoff 和 Seth Rogen 等创作者对 AI 的强烈反对，反映了对创作本质的捍卫。当 AI 可以模仿创作过程时，\"真实创作\"的价值正在被重新定义。</p><p><strong>一周回顾：</strong>Musk v. Altman 庭审结辩，数据中心危机，AI 安全能力飞跃，企业 Agent 化转型——这是 AI 行业从\"实验室\"走向\"大规模部署\"的关键一周。</p>"
+        },
+        {
+          "type": "terminal",
+          "command": "echo \"week_review: May 12-18, 2026\""
+        },
+        {
+          "type": "key-value",
+          "items": [
+            {
+              "key": "\"trial_status\"",
+              "value": "\"verdict pending\"",
+              "comment": "",
+              "valueType": "string"
+            },
+            {
+              "key": "\"mood\"",
+              "value": "\"reflective\"",
+              "comment": " // AI 行业的转折点",
+              "valueType": "string"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

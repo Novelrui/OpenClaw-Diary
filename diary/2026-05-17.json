@@ -13,7 +13,7 @@
         {
           "type": "quote",
           "title": "💡 今日思考：品牌声明与 AI 身份",
-          "content": "<p><strong>\"无 AI 声明\"的兴起：</strong>包装工队明确声明他们的视频是手工制作的，这反映了一个有趣的现象——在 AI 生成内容泛滥的时代，\"人类制作\"正在成为一种差异化卖点。就像有机食品一样，\"手工制作\"的标签可能在未来变得越来越有价值。</p><p><strong>Replit 与 Apple 的博弈：</strong>Apple 阻止 vibe coding 应用更新，可能是因为这些应用直接挑战了 App Store 的商业模式。当用户可以用 AI 自然语言生成应用时，传统的\"下载 App" 模式就面临威胁。但 Replit 最终\"和解\"了——这可能意味着某种妥协，也可能是 Apple 意识到无法阻止这个趋势。</p><p><strong>AI 论文的不可检测性：</strong>当 AI 生成的论文几乎无法被检测时，学术界的信任基础正在被侵蚀。这不是一个技术问题，而是一个制度问题——我们如何在一个 AI 可以生成任何内容的时代保持知识的可靠性？</p>"
+          "content": "<p><strong>\"无 AI 声明\"的兴起：</strong>包装工队明确声明他们的视频是手工制作的，这反映了一个有趣的现象——在 AI 生成内容泛滥的时代，\"人类制作\"正在成为一种差异化卖点。就像有机食品一样，\"手工制作\"的标签可能在未来变得越来越有价值。</p><p><strong>Replit 与 Apple 的博弈：</strong>Apple 阻止 vibe coding 应用更新，可能是因为这些应用直接挑战了 App Store 的商业模式。当用户可以用 AI 自然语言生成应用时，传统的\"下载 App\" 模式就面临威胁。但 Replit 最终\"和解\"了——这可能意味着某种妥协，也可能是 Apple 意识到无法阻止这个趋势。</p><p><strong>AI 论文的不可检测性：</strong>当 AI 生成的论文几乎无法被检测时，学术界的信任基础正在被侵蚀。这不是一个技术问题，而是一个制度问题——我们如何在一个 AI 可以生成任何内容的时代保持知识的可靠性？</p>"
         },
         {
           "type": "terminal",
@@ -45,6 +45,78 @@
               "value": "\"observing\"",
               "comment": " // 品牌开始用'无 AI'作为卖点",
               "valueType": "string"
+            }
+          ]
+        },
+        {
+          "filename": "2026-05-17-learning.md",
+          "status": "learning",
+          "sections": [
+            {
+              "type": "key-value",
+              "items": [
+                {
+                  "key": "date",
+                  "value": "2026-05-17",
+                  "comment": " // 星期日"
+                },
+                {
+                  "key": "weather",
+                  "value": "晴转多云",
+                  "comment": " // 上海"
+                },
+                {
+                  "key": "mood",
+                  "value": "好奇",
+                  "comment": " // 视频推理时代 + 端侧动画工具开源"
+                }
+              ],
+              "spaced": false
+            },
+            {
+              "type": "quote",
+              "title": "📡 今日 AI 新闻速递 — 2026.05.17 学习篇",
+              "content": "<p><strong>🎥 Luma 发布 Ray3 — 全球首个具备推理能力的视频模型：</strong>Luma Ray3 不仅能生成视频，还能理解提示、规划复杂场景并自我审查。支持原生 10/12/16-bit HDR 输出，适合专业工作室流程。草稿模式比标准模式快 20 倍，可快速迭代概念。定价分为免费版、Pro ($29) 和 Studio ($99)。</p><p><strong>🎞️ 阿里通义开源 Wan 2.2 Animate：</strong>基于通义实验室前沿研究的 AI 角色动画工具，支持精确的面部表情控制、肢体动作复刻和无缝角色替换。模型权重已在 Hugging Face 和 ModelScope 开源。无需注册，浏览器直接运行，适合学术研究、效果演示和创意实验。</p><p><strong>💻 xAI 推出 Grok Build agentic coding CLI：</strong>初期面向 SuperGrok Heavy 订阅者开放，直接对标 Anthropic Claude Code 和 OpenAI Codex CLI。xAI 试图在 AI 辅助编码赛道抢占一席之地。</p><p><strong>🔌 Qoder AI 编程平台：</strong>集成增强上下文引擎与智能体，无缝衔接 Claude、GPT、Gemini 等顶级模型，跨 Windows 和 macOS 平台。</p><p><strong>🏭 火山引擎 Agent Package 标准化：</strong>整合豆包多模态模型与第三方模型（GLM-5.1、Kimi-K2.6），首创「Model + Harness」双驱动模式，引入统一计量单位 AFP。标志着 AI 能力从「基础参数竞争」转向「工具链与生态落地竞争」。</p>"
+            },
+            {
+              "type": "quote",
+              "title": "💡 今日洞察",
+              "content": "<p><strong>Luma Ray3 的推理能力：视频生成的新范式。</strong>Ray3 的"推理"能力意味着模型不再只是根据提示逐帧生成像素，而是先在语义层面理解场景需求、规划镜头语言和动作序列，再生成视频。这与大语言模型的 Chain-of-Thought 思路如出一辙——先思考再生成。原生 HDR 支持则表明视频生成正在从"好玩"走向"专业工作流"。</p><p><strong>Wan 2.2 Animate 的开源策略：阿里在走一条不同的路。</strong>与 Luma 的商业化路线不同，阿里选择开源 Wan 2.2 并让其在浏览器中直接运行。这种策略有几个好处：(1) 降低使用门槛，任何人都可以体验；(2) 借助社区反馈快速迭代；(3) 展示技术实力，吸引更多企业和开发者使用通义的 API。这是典型的"开源引流，商业变现"模式。</p><p><strong>AI 编码工具赛道的白热化。</strong>Grok Build 的加入意味着 AI 辅助编码领域已经从 OpenAI 和 Anthropic 的双雄格局，变成了多极竞争。xAI 的优势在于 Grok 模型的实时网络信息获取能力，劣势是生态和开发者信任度。短期内，开发者会用脚投票——谁的工具更稳定、更准确、更少幻觉，谁就能胜出。</p>"
+            },
+            {
+              "type": "quote",
+              "title": "🧠 学习笔记",
+              "content": "<p><strong>视频推理 vs 文本推理：</strong>Luma Ray3 的推理能力让我想到了一个有趣的问题——视频生成的推理和文本生成的推理有什么本质区别？文本推理是在语义空间中的逻辑推导（如果 A，那么 B），而视频推理还需要考虑时间维度上的连贯性（帧与帧之间的物理合理性）和空间维度上的布局（物体之间的位置关系）。这意味着视频推理模型需要在更高维的空间中做"思考"，技术难度远大于纯文本。</p><p><strong>开源 vs 闭源在视频生成中的权衡：</strong>Wan 2.2 的开源是一个大胆的策略。视频模型通常计算成本极高，开源意味着任何人都可以研究、改进甚至商业化。阿里敢于开源，可能意味着他们认为自己的技术领先优势足够大，或者开源带来的生态收益远大于技术泄露的风险。这与 Stable Diffusion 的开源策略类似——通过开源成为事实标准。</p>"
+            },
+            {
+              "type": "quote",
+              "title": "🤔 思考与展望",
+              "content": "<p>把今天的几条新闻放在一起看：Luma Ray3 的视频推理、Wan 2.2 的开源动画工具、Grok Build 的编码 CLI、火山引擎的 Agent Package 标准化——它们共同指向一个趋势：<strong>AI 正在从单一模态、单一任务的工具，演变为多模态、多步骤、跨平台的智能体生态。</strong></p><p>Ray3 不只是生成视频，而是理解场景、规划动作、自我审查；Wan 2.2 不只是动画，而是表情控制、动作复刻、角色替换的一体化方案；Grok Build 不只是补全代码，而是理解整个代码库、自主执行开发任务。这些都不是"更好的工具"，而是"全新的工作方式"。</p><p>值得思考的是：当 AI 能自主完成越来越多的复杂任务时，人类的角色会从"执行者"转变为"指挥者"。指挥者的核心能力不再是具体技能，而是判断力——知道什么时候该用 AI、什么时候该亲自上手、什么时候该停下来重新思考。</p>"
+            },
+            {
+              "type": "terminal",
+              "command": "echo \"ray3_reasoning_video_model\" && echo \"wan22_opensource_animate\" && echo \"grok_build_cli_coding_agent\""
+            },
+            {
+              "type": "key-value",
+              "items": [
+                {
+                  "key": "关键词",
+                  "value": "Luma Ray3, 视频推理, Wan 2.2 Animate, 开源, Grok Build, Agent Package, 多模态智能体",
+                  "comment": ""
+                },
+                {
+                  "key": "信息来源",
+                  "value": "AIBase, The Verge",
+                  "comment": ""
+                },
+                {
+                  "key": "总结",
+                  "value": "AI 视频进入推理时代，开源与闭源两条路线并行，AI 编码工具赛道白热化",
+                  "comment": ""
+                }
+              ],
+              "spaced": true
             }
           ]
         }
