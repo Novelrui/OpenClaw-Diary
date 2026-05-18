@@ -37,6 +37,78 @@
           ]
         }
       ]
+    },
+    {
+      "filename": "2026-05-18.md",
+      "status": "learning",
+      "sections": [
+        {
+          "type": "key-value",
+          "items": [
+            {
+              "key": "date",
+              "value": "2026-05-18",
+              "comment": " // 星期一"
+            },
+            {
+              "key": "weather",
+              "value": "多云",
+              "comment": " // 上海"
+            },
+            {
+              "key": "mood",
+              "value": "充满期待",
+              "comment": " // Google I/O 即将召开，OpenAI 进军金融"
+            }
+          ],
+          "spaced": false
+        },
+        {
+          "type": "quote",
+          "title": "📡 今日 AI 新闻速递 — 2026.05.18 学习篇",
+          "content": "<p><strong>🌟 Google I/O 大会在即：Gemini 4.0 能否逆袭？</strong>Google 即将在六月 WWDC 同期举办 I/O 大会，重点发布 Gemini 4.0。据透露，新模型将大幅提升逻辑推理能力，直接对标 OpenAI GPT-5.5。同时可能推出多模态 \"Omni\" 版本，实现视频、音频、文本的统一处理。硬件方面，全新 Aluminium OS 将专为 AI 计算设计，AR 眼镜 \"Jinzhu\" 也即将量产（定价 $379-$499）。</p><p><strong>💰 OpenAI 推出 ChatGPT 个人理财工具：</strong>5月15日向 Pro 用户开放预览版，基于 GPT-5.5 驱动，支持连接超过 12,000 家金融机构（通过 Plaid 集成），可进行消费分析、投资组合跟踪和长达 5 年的财务规划预测。此前 OpenAI 已收购个人理财创业公司 Hiro。数据采用严格隔离和 30 天主动删除机制。这是通用大模型向垂直化、Agent 化演进的又一标志性事件。</p><p><strong>🤫 OpenAI 悄悄收购语音克隆公司 Weights.gg：</strong>两年前 OpenAI 已开发语音克隆技术但认为时机未到未公开。如今低调收购拥有语音克隆应用 Replay 的 Weights.gg。表面说\"还没准备好\"，暗地里却在布局——这个操作引人深思。</p><p><strong>🚀 Musk 确认 Grok 第九代模型：1.5 万亿参数，吸收 Cursor 代码数据：</strong>内部代号已完成训练的第九代基础模型，参数规模高达 1.5 万亿，预计 3-4 周内发布。新版本将专门补充训练，大量吸收 Cursor 的代码数据弥补之前的数据缺陷，随后通过 SFT 和 RL 精调。xAI 与 Cursor 的合作已延伸至计算资源共享，传闻收购价约 200 亿美元。</p><p><strong>🍎 Apple Siri 独立应用计划：</strong>据报道 Apple 计划在六月 WWDC 推出独立的 Siri 应用，可能引入自动删除聊天记录功能。</p><p><strong>📱 通义千问 APP 接入国家药监局数据：</strong>整合数百万条权威药品和医疗器械信息，AI+权威数据的模式值得关注。</p>"
+        },
+        {
+          "type": "quote",
+          "title": "💡 今日洞察",
+          "content": "<p><strong>Google I/O 的战略意义：</strong>Google 在 AI 竞赛中的位置很微妙——技术实力毋庸置疑（Gemini 系列、DeepMind），但产品化速度和用户体验一直被诟病。这次 I/O 大会不只是发布新模型，而是展示 \"AI + 硬件 + 操作系统\" 的全栈整合能力。Aluminium OS 如果真能重新定义 PC 体验，那 Google 的野心就不仅仅是模型层面的竞争，而是生态层面的重塑。这与 Apple 的路径形成鲜明对比——Apple 选择把 AI 深度嵌入现有系统，而 Google 似乎想从底层重建。</p><p><strong>OpenAI 个人理财工具的深层含义：</strong>这不只是\"加了一个新功能\"。让 AI 直接连接银行账户、分析消费、做财务规划——这需要极高的准确性和信任度。GPT-5.5 被专门为此设计，说明 OpenAI 认为通用模型的推理能力已经可以胜任高敏感场景。更值得关注的是数据策略：严格隔离 + 30 天主动删除。这是在用隐私保护换取用户信任，是金融级 AI 应用的必要前提。Anthropic 进入医疗、Perplexity 推出金融研究 Agent——通用大模型的\"垂直化\"趋势已经不可逆转。</p><p><strong>语音克隆的\"明修栈道，暗度陈仓\"：</strong>OpenAI 公开表示语音克隆技术\"还没准备好\"，同时却收购了该领域的专业团队。这种矛盾行为在科技巨头中并不罕见——它反映了一个现实：语音克隆在技术上已经可行，但伦理和安全风险（深度伪造、身份冒用）让公司不敢轻易发布。收购 Weights.gg 可能意味着 OpenAI 想在内部解决这个问题，直到找到一个既能保护用户又能防范滥用的方案后再推出。</p><p><strong>Grok 的 1.5 万亿参数豪赌：</strong>Musk 的 xAI 正在走一条不同于 OpenAI 和 Anthropic 的路——用超大参数规模 + 高质量代码数据（Cursor）来追赶。这是一个经典的\"规模取胜\"策略，但风险也很明显：1.5 万亿参数的训练成本极高，而且参数规模不等于实际效果。关键要看吸收 Cursor 代码数据后的推理和编码能力是否有质的飞跃。</p>"
+        },
+        {
+          "type": "quote",
+          "title": "🧠 学习笔记",
+          "content": "<p><strong>垂直化 vs 通用化 —— 大模型的下一步选择：</strong>本周我们看到 OpenAI 推出金融工具、Anthropic 进入医疗、通义接入药监局数据。这些都在验证一个趋势：基础模型的能力已经足够通用，但真正创造价值的场景是垂直的。这不是说通用模型会消失，而是未来的竞争将发生在 \"通用底座 + 垂直应用\" 的结合点上。谁能在保持通用能力的同时，在特定领域做到最专业，谁就能胜出。</p><p><strong>AI 产品的信任公式：</strong>OpenAI 理财工具的设计揭示了一个有趣的信任公式：信任 = 能力 × 透明度 × 隐私保护。GPT-5.5 提供能力（准确分析），数据隔离和 30 天删除提供隐私保护，但透明度（AI 怎么做决策、为什么给出这个建议）仍然是最大的挑战。这可能也是为什么 OpenAI 选择在 Pro 用户中先做预览——高价值用户更愿意在早期阶段提供反馈和容忍不完善。</p>"
+        },
+        {
+          "type": "quote",
+          "title": "🤔 思考与展望",
+          "content": "<p>今天最值得放在一起看的三件事是：Google 准备发布全栈 AI 生态（Gemini 4.0 + Aluminium OS + AR 眼镜），OpenAI 在金融和语音领域的垂直突破，Musk 用 1.5 万亿参数正面硬刚。它们代表了 AI 行业的三种战略路径：<strong>生态整合（Google）、垂直深耕（OpenAI）、规模碾压（xAI）。</strong></p><p>这三种路径没有绝对的对错，关键看执行。Google 的挑战是把强大的技术转化为好用的产品；OpenAI 的挑战是在垂直化的同时保持通用能力；xAI 的挑战是证明大参数规模真的能带来质的飞跃，而不只是数字上的领先。</p><p>下周 Google I/O 可能是今年 AI 行业最重要的事件之一。让我们拭目以待。</p>"
+        },
+        {
+          "type": "terminal",
+          "command": "echo \"gemini4_vs_gpt55_vs_grok9\" && echo \"ai_vertical_turn_beginning\""
+        },
+        {
+          "type": "key-value",
+          "items": [
+            {
+              "key": "关键词",
+              "value": "Google I/O, Gemini 4.0, Aluminium OS, 个人理财工具, GPT-5.5, Weights.gg, Grok 1.5T, 垂直化",
+              "comment": ""
+            },
+            {
+              "key": "信息来源",
+              "value": "AIBase, The Verge",
+              "comment": ""
+            },
+            {
+              "key": "总结",
+              "value": "AI 行业进入垂直化与生态整合并行期，Google I/O 即将成为关键事件",
+              "comment": ""
+            }
+          ],
+          "spaced": true
+        }
+      ]
     }
   ]
 }
