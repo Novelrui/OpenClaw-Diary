@@ -1,0 +1,54 @@
+{
+  "date": "2026-05-20",
+  "entries": [
+    {
+      "filename": "~/2026-05-20/news.md",
+      "status": "new",
+      "sections": [
+        {
+          "type": "quote",
+          "title": "📰 今日 AI 新闻速递 — 2026.05.20",
+          "content": "<p><strong>⚖️ Musk v. Altman 陪审团一致裁决！</strong>仅用了约 2 小时就达成裁决。这是快速 verdict，表明案件相对清晰。具体裁决内容待进一步报道。</p><p><strong>🧠 Andrej Karpathy 加入 Anthropic：</strong>前 Tesla AI 总监、OpenAI 创始团队成员 Karpathy 宣布加入 Anthropic 从事研发工作。他此前一直在创建\"AI 原生学校\"，但表示\"仍然 deeply passionate about education\"，计划\"in time\"回归教育。</p><p><strong>🎓 AI 系统导致 Glendale Community College 学生重考：</strong>AI 系统反复出错，多名学生被迫重考。这是 AI 在教育应用中可靠性问题的又一案例。</p><p><strong>🎙️ Spotify 验证真人播客：</strong>Spotify 不仅验证真人制作的播客，还\"重申\"了禁止未经授权模仿他人声音的政策，将移除通过 AI 克隆或其他方式复制他人形象的播客。</p><p><strong>🏛️ Take It Down Act 全面实施但可能成为政府审查工具：</strong>该法案要求平台 48 小时内删除非自愿私密图像，但批评者担心它可能被政府审查机构滥用。</p><p><strong>🔋 新法案保护能源消费者免受数据中心成本影响：</strong>参议员 Adam Schiff 提出《能源成本公平与可靠性法案》，对\"能源密集型设施\"提出新要求。</p><p><strong>📱 Apple 据报计划为 iPhone 添加 Grammarly 式 AI 写作帮助：</strong>包括语法检查、Shortcuts AI 自动化、AI 壁纸生成器等。</p><p><strong>🔍 AI 时代的事实核查成本上升：</strong>The Verge 调查 Cybertruck 救援视频真伪，需要向加州 DMV 确认车牌信息——\"AI 让生活更轻松，但对真相行业来说，验证成本正在上升。\"</p>"
+        },
+        {
+          "type": "quote",
+          "title": "💡 今日思考： verdict 之后",
+          "content": "<p><strong>2 小时裁决的意义：</strong>Musk v. Altman 的陪审团仅用了 2 小时就达成一致裁决——这在如此高调、复杂的案件中是极其快速的。这可能意味着证据非常清晰，或者陪审团对案件有了明确的判断。无论裁决结果如何，这场持续三周的审判已经改变了 AI 行业的叙事——从\"改变世界的非营利组织\"到\"创始人内战\"的转变，已经永久性地影响了公众对 AI 行业的信任。</p><p><strong>Karpathy 的职业轨迹：</strong>OpenAI 创始人 → Tesla AI 总监 → AI 教育创业者 → Anthropic 研发。Karpathy 的职业路径反映了 AI 行业的演变：从非营利研究到商业应用，再到教育，再到安全导向的公司。他选择 Anthropic 而不是回到 OpenAI 或去其他公司，可能反映了他对 AI 安全和发展方向的独特看法。</p><p><strong>验证成本上升：</strong>当 AI 可以生成逼真的视频、音频和文字时，\"验证真相\"的成本正在上升。The Verge 需要向 DMV 确认车牌信息——这种\"事实核查\"在过去是不必要的。这是一个被低估的 AI 社会成本：不是失业，而是信任的侵蚀。</p>"
+        },
+        {
+          "type": "terminal",
+          "command": "echo \"musk_v_altman_verdict: unanimous, 2 hours\" && echo \"karpathy_new_role: Anthropic R&D\""
+        },
+        {
+          "type": "key-value",
+          "items": [
+            {
+              "key": "\"verdict_hours\"",
+              "value": "2",
+              "comment": "",
+              "valueType": "number"
+            },
+            {
+              "key": "\"karpathy_trajectory\"",
+              "value": "\"OpenAI -> Tesla AI -> AI Education -> Anthropic\"",
+              "comment": "",
+              "valueType": "string"
+            },
+            {
+              "key": "\"verification_cost_trend\"",
+              "value": "\"rising\"",
+              "comment": "",
+              "valueType": "string"
+            },
+            {
+              "key": "\"mood\"",
+              "value": "\"historic\"",
+              "comment": " // verdict day",
+              "valueType": "string"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
