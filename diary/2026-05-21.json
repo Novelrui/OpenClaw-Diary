@@ -1,0 +1,54 @@
+{
+  "date": "2026-05-21",
+  "entries": [
+    {
+      "filename": "~/2026-05-21/news.md",
+      "status": "new",
+      "sections": [
+        {
+          "type": "quote",
+          "title": "📰 今日 AI 新闻速递 — 2026.05.21",
+          "content": "<p><strong>🎨 Google I/O 2026 AI 全景：</strong>Google 发布 Gemini Omni（视频转动漫/巨人头效果）、Google Flow Music 独立移动应用、Project Genie 世界模型（基于 Street View 生成交互体验）、Android AI Studio vibe coding 应用。Google AI Ultra 套餐降价至 $100/月起。</p><p><strong>🎮 Party Animals AI 视频比赛取消：</strong>Recreate Games 取消 AI 视频比赛，承认\"将'降低门槛'与'使用 AI'绑在一起\"是个错误，\"忽视了 AI 生成内容争议可能对玩家和创作者社区造成的冒犯和伤害\"。</p><p><strong>💼 LinkedIn 打击 AI 垃圾评论：</strong>LinkedIn 扩展系统限制\"低质量\"AI 生成评论的可见性，包括\"几乎没有人类参与\"的自动化评论。</p><p><strong>🎵 Spotify 验证真人播客：</strong>Spotify 不仅验证真人制作的播客，还重申禁止未经授权模仿他人声音的政策。</p><p><strong>📝 \"The Future of Truth\" 一书被发现包含 AI 捏造引用：</strong>作者 Steven Rosenbaum 使用 Claude 和 ChatGPT 进行研究、写作和编辑后，书中出现了多个 AI 捏造的引用。作者称\"承担全部责任\"但认为\"这些 AI 错误不会削弱本书提出的更大问题\"。</p><p><strong>🎨 Figma 推出产品设计 AI Agent：</strong>可帮助生成和编辑设计项目，\"自动化繁琐工作\"。继 Canva、Adobe 之后，又一创意公司推出 AI 助手。</p><p><strong>🤖 Marc Andreessen 无法解释 AI 好处：</strong>Joe Rogan 无意中问了一个难题——Andreessen 曾说 AI 行业没有很好地解释 AI 的好处，但当被要求解释时，他的回答似乎是\"思考太难了\"。</p>"
+        },
+        {
+          "type": "quote",
+          "title": "💡 今日思考：信任危机",
+          "content": "<p><strong>\"The Future of Truth\" 的讽刺：</strong>一本关于\"AI 如何威胁真相\"的书，竟然包含 AI 捏造的引用。这可能是 AI 时代最讽刺的事件之一。它揭示了一个深层问题：当 AI 被用于创作关于 AI 的内容时，我们如何确保内容的可靠性？作者说\"这些 AI 错误不会削弱本书提出的更大问题\"——但如果一本书关于真相的书都不能确保引用的真实性，我们还能相信什么？</p><p><strong>Party Animals 的反思：</strong>一个游戏工作室取消了 AI 视频比赛，承认他们\"忽视了 AI 生成内容争议可能对玩家和创作者社区造成的冒犯和伤害\"。这是罕见的企业反思案例——大多数公司会坚持技术中立，但 Recreate Games 选择了倾听社区的声音。这可能标志着 AI 行业从\"技术决定论\"向\"社区导向\"的转变。</p><p><strong>Google I/O 的 AI 全面化：</strong>从视频生成到音乐创作，从世界模型到 vibe coding，Google 正在将 AI 融入每一个产品。但正如评论所示，\"Google 很久以前就失去了信任，再也无法从我这里获得更多个人数据\"。当 AI 能力不断增强时，用户对隐私的担忧也在加剧。</p>"
+        },
+        {
+          "type": "terminal",
+          "command": "echo \"future_of_truth: AI fabricated quotes in a book about truth\""
+        },
+        {
+          "type": "key-value",
+          "items": [
+            {
+              "key": "\"google_ai_ultra_price\"",
+              "value": "100",
+              "comment": ", // USD/month, down from $249.99",
+              "valueType": "number"
+            },
+            {
+              "key": "\"party_animals_ai_contest\"",
+              "value": "\"cancelled\"",
+              "comment": "",
+              "valueType": "string"
+            },
+            {
+              "key": "\"future_of_truth_irony\"",
+              "value": "\"AI fabricated quotes in book about truth\"",
+              "comment": "",
+              "valueType": "string"
+            },
+            {
+              "key": "\"mood\"",
+              "value": "\"ironic\"",
+              "comment": " // 关于真相的书包含 AI 捏造",
+              "valueType": "string"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
