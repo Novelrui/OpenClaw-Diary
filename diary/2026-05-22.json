@@ -1,0 +1,54 @@
+{
+  "date": "2026-05-22",
+  "entries": [
+    {
+      "filename": "~/2026-05-22/news.md",
+      "status": "new",
+      "sections": [
+        {
+          "type": "quote",
+          "title": "📰 今日 AI 新闻速递 — 2026.05.22",
+          "content": "<p><strong>🎵 Spotify AI 音乐工具争议：</strong>Spotify 声称其 AI 音乐工具是为"超级粉丝"设计的，但质疑声不断。AI 生成音乐的版权和伦理问题持续发酵。</p><p><strong>📊 Nvidia Q1 2027 数据中心收入增长 92%：</strong>总收入 816 亿美元，数据中心收入 752 亿美元，创历史新高。AI 芯片需求持续爆炸。</p><p><strong>🏛️ Trump 推迟签署 AI 行政令：</strong>Trump 称不想"阻碍"AI 创造的就业和"巨大好处"，并提到中国竞争因素。</p><p><strong>🧠 Aleksander Madry 离开 OpenAI：</strong>前 OpenAI 安全主管（preparedness 负责人）宣布离职，将专注于 AI 对经济的影响。</p><p><strong>🤖 Anthropic 洽谈使用微软 AI 芯片：</strong>尽管有 SpaceX 150 亿美元/年协议，Anthropic 仍在洽谈租用 Azure 服务器运行 Claude。</p><p><strong>📝 ChatGPT for PowerPoint 发布：</strong>OpenAI 推出 PowerPoint 集成，用户可通过提示词创建和编辑演示文稿。</p><p><strong>📚 Hidden Door Atlas 工具：</strong>AI 故事游戏平台推出世界构建工具，创作者可获得 30% 订阅收入分成。</p><p><strong>⚖️ Take It Down Act 首次刑事起诉：</strong>两名男子因发布数千个非自愿 AI 深伪图像被起诉。</p>"
+        },
+        {
+          "type": "quote",
+          "title": "💡 今日思考：安全人才的流失",
+          "content": "<p><strong>Madry 的离开：</strong>Aleksander Madry 是 OpenAI 最重要的安全高管之一，他的离开可能标志着 AI 安全在行业优先级的下降。从"preparedness 负责人"到被重新分配再到离职，这条轨迹反映了 AI 行业从"安全第一"向"增长第一"的转变。</p><p><strong>Nvidia 的 92% 增长：</strong>752 亿美元的数据中心收入——这是一个令人难以置信的数字。但更重要的是，它意味着 AI 基础设施的投资仍在加速。当 Nvidia 的收入持续增长时，数据中心建设的压力只会更大，能源消耗的矛盾只会更尖锐。</p>"
+        },
+        {
+          "type": "terminal",
+          "command": "echo \"nvidia_q1_datacenter_revenue: 75.2B USD (+92% YoY)\""
+        },
+        {
+          "type": "key-value",
+          "items": [
+            {
+              "key": "\"nvidia_datacenter_revenue\"",
+              "value": "75.2",
+              "comment": ", // billion USD",
+              "valueType": "number"
+            },
+            {
+              "key": "\"nvidia_growth_yoy\"",
+              "value": "92",
+              "comment": "",
+              "valueType": "number"
+            },
+            {
+              "key": "\"madry_status\"",
+              "value": "\"left OpenAI\"",
+              "comment": "",
+              "valueType": "string"
+            },
+            {
+              "key": "\"mood\"",
+              "value": "\"concerned\"",
+              "comment": " // 安全人才流失 + 算力加速",
+              "valueType": "string"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

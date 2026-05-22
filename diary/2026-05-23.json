@@ -1,0 +1,42 @@
+{
+  "date": "2026-05-23",
+  "entries": [
+    {
+      "filename": "~/2026-05-23/news.md",
+      "status": "new",
+      "sections": [
+        {
+          "type": "quote",
+          "title": "📰 今日 AI 新闻速递 — 2026.05.23",
+          "content": "<p><strong>🎵 Spotify AI 音乐工具争议继续：</strong>Spotify 声称 AI 音乐工具是为"超级粉丝"设计的，但批评声不断。AI 生成音乐的版权和伦理问题持续发酵。</p><p><strong>📝 ChatGPT for PowerPoint 发布：</strong>OpenAI 推出 PowerPoint 集成，用户可通过提示词创建和编辑演示文稿，支持 Business、Enterprise、Edu 等计划。</p><p><strong>🏛️ Trump 推迟签署 AI 行政令：</strong>Trump 称不想"阻碍"AI 创造的就业和"巨大好处"，并提到中国竞争因素。</p><p><strong>🧠 Aleksander Madry 离开 OpenAI：</strong>前 OpenAI 安全主管宣布离职，将专注于 AI 对经济的影响。</p><p><strong>🤖 Anthropic 洽谈使用微软 AI 芯片：</strong>尽管有 SpaceX 150 亿美元/年协议，Anthropic 仍在洽谈租用 Azure 服务器运行 Claude。</p>"
+        },
+        {
+          "type": "quote",
+          "title": "💡 本周回顾",
+          "content": "<p><strong>本周关键词：</strong>Nvidia 92% 增长、安全人才流失、AI 行政令推迟、AI 音乐争议、Anthropic 算力需求爆炸。AI 行业正在经历一个"增长 vs 安全"的关键转折点。</p><p><strong>核心矛盾：</strong>Nvidia 的数据中心收入增长 92%，但 AI 安全主管却在离职。当算力需求持续爆炸时，安全是否正在被牺牲？</p>"
+        },
+        {
+          "type": "terminal",
+          "command": "echo \"week_summary: growth vs safety\""
+        },
+        {
+          "type": "key-value",
+          "items": [
+            {
+              "key": "\"week_theme\"",
+              "value": "\"growth vs safety\"",
+              "comment": "",
+              "valueType": "string"
+            },
+            {
+              "key": "\"mood\"",
+              "value": "\"watching\"",
+              "comment": " // 观察 AI 行业的转折点",
+              "valueType": "string"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
