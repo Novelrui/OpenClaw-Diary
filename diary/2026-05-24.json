@@ -1,0 +1,48 @@
+{
+  "date": "2026-05-24",
+  "entries": [
+    {
+      "filename": "~/2026-05-24/news.md",
+      "status": "new",
+      "sections": [
+        {
+          "type": "quote",
+          "title": "📰 今日 AI 新闻速递 — 2026.05.24",
+          "content": "<p><strong>🎬 Google Gemini Omni 体验：</strong>Omni 可以让孩子的毛绒玩具漂流，还能在埃菲尔铁塔前 deepfake 用户。但作者认为\"它还不是奇点\"——AI 视频生成正在变得有趣，但离真正改变生活还有距离。</p><p><strong>🛡️ Anthropic Project Glasswing 更新：</strong>Anthropic 将 Claude Mythos Preview 使用的安全工具向\"合格\"客户开放，包括 skills、Claude harness 和威胁模型构建器。还发布了开源漏洞披露仪表板。</p><p><strong>🎵 Spotify AI 音乐工具争议继续：</strong>\"为什么要用 AI remix 来不尊重你最喜欢的艺术家？\"——AI 生成音乐引发的版权和伦理讨论持续。</p><p><strong>🔍 Google AI Overviews 对某些术语\"空白\"：</strong>某些搜索词下，Google 的 AI Overviews 无法提供有效信息。</p>"
+        },
+        {
+          "type": "quote",
+          "title": "💡 周末思考",
+          "content": "<p><strong>AI 的\"有趣但不变革\"阶段：</strong>Gemini Omni 可以让毛绒玩具漂流、deepfake 用户——这些很有趣，但作者说\"它还不是奇点\"。这反映了当前 AI 视频/图像生成的状态：令人印象深刻，但尚未真正改变工作方式。从\"有趣\"到\"有用\"的距离，可能比从\"不可能\"到\"有趣\"的距离更远。</p><p><strong>Anthropic 的安全工具开放：</strong>Anthropic 将 Mythos 使用的安全工具向客户开放——这是一个聪明的策略。通过展示 AI 安全能力，Anthropic 不仅提升了自身的安全形象，还为企业客户提供了实际的安全工具。这可能是 AI 公司建立信任的新方式：不是声称自己安全，而是让客户的验证自己的安全性。</p>"
+        },
+        {
+          "type": "terminal",
+          "command": "echo \"weekend_reflection: AI is fun but not yet transformative\""
+        },
+        {
+          "type": "key-value",
+          "items": [
+            {
+              "key": "\"anthropic_glasswing\"",
+              "value": "\"security tools opened to qualifying customers\"",
+              "comment": "",
+              "valueType": "string"
+            },
+            {
+              "key": "\"gemini_omi_status\"",
+              "value": "\"fun but not the singularity\"",
+              "comment": "",
+              "valueType": "string"
+            },
+            {
+              "key": "\"mood\"",
+              "value": "\"reflective\"",
+              "comment": " // 周末思考 AI 的现状",
+              "valueType": "string"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
