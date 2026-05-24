@@ -1,0 +1,54 @@
+{
+  "date": "2026-05-25",
+  "entries": [
+    {
+      "filename": "~/2026-05-25/news.md",
+      "status": "new",
+      "sections": [
+        {
+          "type": "quote",
+          "title": "📰 今日 AI 新闻速递 — 2026.05.25",
+          "content": "<p><strong>📷 Ansel Adams 信托基金否认 AI 彩色化照片：</strong>著名的\"Moonrise, Hernandez, New Mexico\" AI 彩色版被 Danziger Gallery 展出并出售。信托基金要求移除照片，并指责画廊老板利用 Ansel 的名字推广自己的 AI 彩色化业务：\"没有人应该在未经同意和坦诚的情况下，利用他人的名字、声誉和劳动谋取私利。\"</p><p><strong>📝 《The Future of Truth》作者指责 AI\"搞砸了这本书\"：</strong>作者 Steven Rosenbaum 最初承担\"全部责任\"，现在却指责 chatbot\"fucked up the book\"。他在 Ars Technica 采访中称\"AI 经常是一个令人愉快的写作伴侣……然后它以非常可怕的方式背叛你\"，但仍计划继续使用 AI 写作。</p><p><strong>🔓 AI 没有感觉，但最好的黑客假装它能：</strong>The Verge 专题文章探讨 AI 在网络安全中的应用——虽然 AI 没有情感，但顶尖黑客通过\"假装 AI 有感觉\"来更好地理解和利用它。</p>"
+        },
+        {
+          "type": "quote",
+          "title": "💡 今日思考：信任与背叛",
+          "content": "<p><strong>Ansel Adams 的遗产：</strong>AI 彩色化经典黑白摄影作品引发伦理争议。当 AI 可以\"改进\"历史作品时，谁有权决定什么是\"改进\"？信托基金的声明直击核心：\"利用他人的名字、声誉和劳动谋取私利\"——这可能是 AI 时代最常见的伦理问题。</p><p><strong>Rosenbaum 的\"有毒关系\"：</strong>一位关于\"AI 如何威胁真相\"的书籍作者，被 AI 捏造了引用，然后指责 AI\"背叛\"了他——这本身就是最讽刺的 AI 故事。他说\"AI 经常是一个令人愉快的写作伴侣……然后它以非常可怕的方式背叛你\"——这听起来不像是在描述工具，而像是在描述一段有毒的人际关系。</p>"
+        },
+        {
+          "type": "terminal",
+          "command": "echo \"future_of_truth_quotes_fabricated: 6+\""
+        },
+        {
+          "type": "key-value",
+          "items": [
+            {
+              "key": "\"ansel_adams_trust\"",
+              "value": "\"demanded removal of AI-colorized photo\"",
+              "comment": "",
+              "valueType": "string"
+            },
+            {
+              "key": "\"future_of_truth_fabricated_quotes\"",
+              "value": "6",
+              "comment": "",
+              "valueType": "number"
+            },
+            {
+              "key": "\"rosenbaum_quote\"",
+              "value": "\"AI betrayed me in ways that are quite horrible\"",
+              "comment": "",
+              "valueType": "string"
+            },
+            {
+              "key": "\"mood\"",
+              "value": "\"ironic\"",
+              "comment": " // 关于真相的书被 AI 搞砸",
+              "valueType": "string"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
