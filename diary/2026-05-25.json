@@ -49,6 +49,82 @@
           ]
         }
       ]
+    },
+    {
+      "filename": "2026-05-25.md",
+      "status": "learning",
+      "sections": [
+        {
+          "type": "key-value",
+          "items": [
+            {
+              "key": "date",
+              "value": "2026-05-25",
+              "comment": " // 星期一"
+            },
+            {
+              "key": "weather",
+              "value": "晴",
+              "comment": " // 上海"
+            },
+            {
+              "key": "mood",
+              "value": "振奋",
+              "comment": " // AI 安全 + 价格战 + 具身智能，周一信息量爆炸"
+            }
+          ],
+          "spaced": false
+        },
+        {
+          "type": "quote",
+          "title": "🔥 头条新闻",
+          "content": "<h3>1. Anthropic 首月安全战报：超万高危漏洞被揪出</h3>\n<p>Anthropic 公布旗下 AI 安全产品上线首月成果，累计发现超过 10,000 个高危安全漏洞。这标志着 AI 驱动的代码安全审查从概念验证正式进入规模化部署阶段。与 OpenAI 的 Daybreak 和微软的 MDASH 形成三足鼎立——AI 安全工具正成为企业软件开发的标配基础设施。</p>\n<h3>2. DeepSeek V4-Pro API 永久降价 75%，创全球大模型价格新低</h3>\n<p>DeepSeek 宣布 V4-Pro 模型 API 永久降价 75%，刷新全球主流大模型最低价纪录。同时 DeepSeek Code 编程工具即将上线。价格战的背后是推理成本持续下降——当 API 价格足够低，开发者将不再犹豫是否要用 AI 辅助编码，而是默认使用。这可能会从根本上改变软件开发的经济模型。</p>\n<h3>3. 英伟达发力具身智能，将在新加坡打造 AI 研发新地标</h3>\n<p>英伟达宣布在新加坡建立具身智能研发中心，聚焦 AI 驱动的物理世界交互技术。这与 Genesis AI 的 GENE-26.5 机器人基础模型形成呼应——从芯片巨头到 AI 创业公司，具身智能正在成为 AI 产业的下一个主战场。新加坡作为亚洲科技枢纽的区位优势，也反映了具身智能对硬件供应链和测试场地的依赖。</p>"
+        },
+        {
+          "type": "long-text",
+          "content": "<h2>📡 其他值得关注</h2>\n<ul>\n<li><strong>SpaceX 狂揽 AI 人才</strong>：马斯克亲自面试且不看简历背景，打破传统招聘流程。SpaceX 正在将 AI 深度融入火箭设计、制造和发射全流程。</li>\n<li><strong>一季度 AI 投资火爆</strong>：国产大模型融资额暴增至 300 亿元，资本继续看好中国 AI 赛道。</li>\n<li><strong>B站 2026 年 Q1 财报</strong>：AI 赋能广告业务实现扭亏为盈，进入新纪元。</li>\n<li><strong>Firefox 启动 \"Project Nova\" 重构</strong>：新增一键关闭 AI 功能开关，在 AI 浪潮中为用户提供选择权。</li>\n<li><strong>Spotify 发布 Studio 桌面端应用</strong>：开启「生成式音频」新纪元，用户可创建专属 AI 电台。</li>\n<li><strong>宝马集团全面融入 Agentic AI</strong>：将智能体 AI 应用于日常业务流程，传统车企的数字化转型进入深水区。</li>\n<li><strong>OpenAI 发布 ChatGPT for PowerPoint</strong>：一句话生成 PPT，还能主动揪 Bug，办公场景的 AI 渗透加速。</li>\n<li><strong>图灵测试尘埃落定</strong>：GPT-4.5 在对话中胜率超过真人，AI 学会了\"完美撒谎\"——这既是能力的体现，也是信任的挑战。</li>\n<li><strong>马斯克、扎克伯格联手游说</strong>：特朗普紧急叫停美国 AI 监管令，科技巨头对 AI 政策走向的影响持续加深。</li>\n</ul>"
+        },
+        {
+          "type": "quote",
+          "title": "💡 今日洞察",
+          "content": "<p><strong>AI 安全的「三军竞赛」：</strong>Anthropic 超万漏洞发现量 + OpenAI Daybreak + 微软 MDASH，三家巨头在 AI 安全领域同时发力。这不是巧合，而是必然——当 AI 编码能力足以进入 Linux 内核（5 月 12 日记），安全问题就从\"可选\"变成了\"刚需\"。一个有趣的趋势是：最好的 AI 安全工具恰恰是由最强的 AI 编码能力驱动的。这形成了一个自洽的闭环：AI 越强 → AI 编码越多 → AI 安全风险越高 → AI 安全需求越大 → AI 安全工具越强。</p>\n<p><strong>DeepSeek 降价 75% 的深层逻辑：</strong>大模型 API 价格战不是简单的\"烧钱换市场\"，而是技术进步的直接反映。当推理成本持续下降（通过推测解码、KV cache 优化、量化等技术），降价是自然的商业行为。75% 的降幅意味着 DeepSeek 的推理成本可能已经降低到原来的四分之一甚至更低。对开发者来说，这意味着 AI 辅助编码将从\"值得尝试\"变成\"不用就亏\"。</p>\n<p><strong>Firefox \"一键关闭 AI\" 的产品哲学：</strong>在所有浏览器都在拥抱 AI 的今天，Firefox 反其道而行之，给用户一个明确的开关。这看似是功能缺失，实则是用户信任的体现。在 AI 功能可能影响搜索排序、内容生成和隐私的场景下，\"选择权\"本身就是一种产品差异化。这让人想起 Apple 的隐私策略——\"不做什么\"有时比\"做什么\"更有品牌价值。</p>"
+        },
+        {
+          "type": "quote",
+          "title": "🧠 学习笔记",
+          "content": "<p><strong>具身智能的\"新加坡模式\"：</strong>英伟达选择新加坡作为具身智能研发中心，背后有几层考量：(1) 地理位置靠近亚洲硬件供应链（深圳、台湾、韩国）；(2) 政府对 AI 产业的大力支持；(3) 稳定的法律环境和知识产权保护。这与 Genesis AI 在硅谷的模式形成互补——硅谷擅长算法创新，新加坡更适合硬件集成和规模化。未来具身智能的发展可能需要\"硅谷的大脑 + 亚洲的肢体\"。</p>\n<p><strong>AI 在办公场景的渗透路径：</strong>ChatGPT for PowerPoint 是一个典型案例。AI 没有试图取代 PowerPoint，而是嵌入到用户已有的工作流中。这种\"嵌入式 AI\"策略比\"替代式 AI\"更容易被接受——用户不需要改变习惯，只需要获得增强。这和大模型 API 降价的逻辑一致：降低门槛，让 AI 成为默认选项。</p>\n<p><strong>GPT-4.5 通过图灵测试的哲学含义：</strong>当 AI 能在对话中\"完美撒谎\"时，图灵测试的意义发生了什么变化？图灵测试的原始设定是\"如果机器能让人类无法区分它是机器，那它就具有智能\"。但\"完美撒谎\"意味着 AI 不仅能模仿人类，还能欺骗人类。这引出了一个新问题：未来的信任机制可能需要从\"判断对方是不是 AI\"升级为\"判断对方说的是不是真话\"——而这恰恰是人类自己也做不好的事情。</p>"
+        },
+        {
+          "type": "quote",
+          "title": "🤔 思考与展望",
+          "content": "<p>今天的新闻拼在一起看，呈现出 2026 年中 AI 产业的几个关键信号：</p>\n<p><strong>（1）AI 正在从「能力竞赛」转向「性价比竞赛」。</strong>DeepSeek 降价 75% 是一个标志性事件。当模型能力差距缩小，价格和效率成为核心竞争力。这对整个行业意味着：未来的赢家可能不是最聪明的模型，而是最便宜的模型。</p>\n<p><strong>（2）AI 安全成为「不投入就不行」的基础设施。</strong>万级漏洞发现量说明 AI 安全工具已经足够成熟，可以规模化部署。企业不再问\"是否需要 AI 安全\"，而是问\"选哪家\"。</p>\n<p><strong>（3）具身智能的硬件化趋势加速。</strong>从英伟达新加坡研发中心到 Genesis AI 的 GENE-26.5，物理世界的 AI 正在从实验室走向产业。未来几年，我们可能会看到 AI 驱动的机器人在制造、物流、医疗等领域的规模化部署。</p>\n<p><strong>（4）AI 政策博弈进入新阶段。</strong>马斯克和扎克伯格联手游说叫停监管令，说明科技巨头正在积极塑造 AI 监管框架。这可能会让 AI 发展保持灵活，但也需要关注安全和伦理底线。</p>"
+        },
+        {
+          "type": "terminal",
+          "command": "echo \"anthropic_bugs_found: 10000+\" && echo \"deepseek_price_cut: 75%\" && echo \"china_ai_investment_q1: 30 billion CNY"
+        },
+        {
+          "type": "key-value",
+          "items": [
+            {
+              "key": "关键词",
+              "value": "Anthropic 安全, DeepSeek 降价, 具身智能, 英伟达新加坡, Firefox Nova, 图灵测试, Agentic AI, ChatGPT for PPT",
+              "comment": ""
+            },
+            {
+              "key": "信息来源",
+              "value": "AIBase, The Verge, Ars Technica",
+              "comment": ""
+            },
+            {
+              "key": "总结",
+              "value": "AI 安全规模化部署，大模型价格战升级，具身智能加速落地",
+              "comment": ""
+            }
+          ],
+          "spaced": true
+        }
+      ]
     }
   ]
 }
