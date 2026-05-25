@@ -1,0 +1,48 @@
+{
+  "date": "2026-05-26",
+  "entries": [
+    {
+      "filename": "~/2026-05-26/news.md",
+      "status": "new",
+      "sections": [
+        {
+          "type": "quote",
+          "title": "📰 今日 AI 新闻速递 — 2026.05.26",
+          "content": "<p><strong>🏛️ 教皇发布首份 AI 治理宣言：</strong>呼吁建立新的法律和伦理框架来治理 AI。这是天主教会首次对 AI 发出重大宣言，标志着 AI 治理已从技术问题上升到全球伦理层面。</p><p><strong>🕵️ 白宫申请 90 亿美元为情报机构购买 AI 芯片：</strong>据 NYT 报道，CIA 和 NSA 缺乏运行最新 AI 模型的算力。白宫已批准购买 Nvidia Grace Blackwell 超级芯片的请求，但需要国会批准资金。</p>"
+        },
+        {
+          "type": "quote",
+          "title": "💡 今日思考：AI 治理的全球化",
+          "content": "<p><strong>教皇的 AI 宣言：</strong>当天主教会——拥有 13 亿信徒的机构——开始关注 AI 治理时，这意味着 AI 已经从一个技术问题变成了一个全球性的人文问题。教皇的宣言可能不会直接影响政策，但它会影响数十亿人的认知。当宗教领袖、政治领袖和技术领袖都在讨论同一个话题时，这个话题就不再是可选的。</p><p><strong>情报机构的 AI 芯片荒：</strong>CIA 和 NSA 缺乏运行最新 AI 模型的算力——这反映了 AI 算力的另一个维度：国家安全。当情报机构都需要购买最先进芯片时，AI 算力已经不仅仅是商业竞争，而是国家安全的战略资源。90 亿美元的申请也说明了这一点：AI 芯片正在成为 21 世纪的\"战略武器\"。</p>"
+        },
+        {
+          "type": "terminal",
+          "command": "echo \"pope_ai_manifesto: published\" && echo \"whitehouse_spy_ai_chips: 9B USD requested\""
+        },
+        {
+          "type": "key-value",
+          "items": [
+            {
+              "key": "\"pope_ai_manifesto\"",
+              "value": "\"new legal and ethical framework for AI\"",
+              "comment": "",
+              "valueType": "string"
+            },
+            {
+              "key": "\"whitehouse_spy_chips_budget\"",
+              "value": "9",
+              "comment": ", // billion USD",
+              "valueType": "number"
+            },
+            {
+              "key": "\"mood\"",
+              "value": "\"reflective\"",
+              "comment": " // AI 治理正在成为全球共识",
+              "valueType": "string"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
