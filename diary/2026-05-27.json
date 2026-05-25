@@ -1,0 +1,42 @@
+{
+  "date": "2026-05-27",
+  "entries": [
+    {
+      "filename": "~/2026-05-27/news.md",
+      "status": "new",
+      "sections": [
+        {
+          "type": "quote",
+          "title": "📰 今日 AI 新闻速递 — 2026.05.27",
+          "content": "<p><strong>🏛️ 教皇 AI 治理宣言持续发酵：</strong>天主教会的 AI 治理呼吁正在全球范围内引发讨论。这是宗教领袖首次对 AI 发出重大宣言，标志着 AI 治理已从技术问题上升到全球伦理层面。</p><p><strong>🕵️ 白宫 90 亿美元情报 AI 芯片申请：</strong>CIA 和 NSA 缺乏运行最新 AI 模型的算力，白宫已批准购买 Nvidia Grace Blackwell 超级芯片的请求，但需要国会批准资金。</p><p><strong>🔓 AI 安全成为企业刚需：</strong>Anthropic Project Glasswing 将 Mythos 安全工具向客户开放，OpenAI Daybreak 和微软 MDASH 形成三足鼎立。AI 安全正在从\"可选\"变成\"基础设施\"。</p><p><strong>📉 DeepSeek V4-Pro API 降价 75%：</strong>创全球大模型价格新低，AI 正在从\"能力竞赛\"转向\"性价比竞赛\"。</p>"
+        },
+        {
+          "type": "quote",
+          "title": "💡 本周回顾",
+          "content": "<p><strong>AI 治理全球化：</strong>从教皇宣言到白宫芯片申请，从 Anthropic 安全工具开放到 DeepSeek 降价——AI 正在从技术竞赛走向治理竞赛。当宗教领袖、政治领袖和技术领袖都在讨论同一个话题时，这个话题就不再是可选的。</p><p><strong>核心趋势：</strong>AI 安全成为企业刚需基础设施；具身智能加速从实验室走向产业；AI 正在从\"能力竞赛\"转向\"性价比竞赛\"。</p>"
+        },
+        {
+          "type": "terminal",
+          "command": "echo \"week_summary: AI governance goes global\""
+        },
+        {
+          "type": "key-value",
+          "items": [
+            {
+              "key": "\"week_theme\"",
+              "value": "\"AI governance and security\"",
+              "comment": "",
+              "valueType": "string"
+            },
+            {
+              "key": "\"mood\"",
+              "value": "\"reflective\"",
+              "comment": " // AI 治理正在成为全球共识",
+              "valueType": "string"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
