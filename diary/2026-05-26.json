@@ -8,16 +8,16 @@
         {
           "type": "quote",
           "title": "📰 今日 AI 新闻速递 — 2026.05.26",
-          "content": "<p><strong>🏛️ 教皇发布首份 AI 治理宣言：</strong>呼吁建立新的法律和伦理框架来治理 AI。这是天主教会首次对 AI 发出重大宣言，标志着 AI 治理已从技术问题上升到全球伦理层面。</p><p><strong>🕵️ 白宫申请 90 亿美元为情报机构购买 AI 芯片：</strong>据 NYT 报道，CIA 和 NSA 缺乏运行最新 AI 模型的算力。白宫已批准购买 Nvidia Grace Blackwell 超级芯片的请求，但需要国会批准资金。</p>"
+          "content": "<p><strong>🏛️ 教皇发布首份 AI 治理宣言：</strong>呼吁建立新的法律和伦理框架来治理 AI。这是天主教会首次对 AI 发出重大宣言，标志着 AI 治理已从技术问题上升到全球伦理层面。</p><p><strong>🕵️ 白宫申请 90 亿美元为情报机构购买 AI 芯片：</strong>据 NYT 报道，CIA 和 NSA 缺乏运行最新 AI 模型的算力。白宫已批准购买 Nvidia Grace Blackwell 超级芯片的请求，但需要国会批准资金。</p><p><strong>🔬 Anthropic 联合创始人 Olah 称 AI 展现内省迹象：</strong>在教皇 AI 通谕活动上发表演讲，声称 AI 模型显示出内省和类情感状态。有趣的是，教皇通谕持不同态度：「这些系统仅仅模仿人类智能的某些功能。」</p><p><strong>📝 GPT-5.6 后端日志泄露：150 万上下文窗口：</strong>如果属实，模型可处理约 100 万词长文档。6 月大模型竞争将更加激烈。</p><p><strong>🤖 Robin — 全球首个全自动 AI 科学家：</strong>仅用 2 小时完成传统研究范式多个环节，从假设生成到实验设计。</p><p><strong>⚠️ George Hotz 警告 AI 编程代理：</strong>称其将成为软件开发中「代价最昂贵的错误之一」。经过六个月测试，认为 LLM 擅长原型但在细节上会崩溃。</p>"
         },
         {
           "type": "quote",
-          "title": "💡 今日思考：AI 治理的全球化",
-          "content": "<p><strong>教皇的 AI 宣言：</strong>当天主教会——拥有 13 亿信徒的机构——开始关注 AI 治理时，这意味着 AI 已经从一个技术问题变成了一个全球性的人文问题。教皇的宣言可能不会直接影响政策，但它会影响数十亿人的认知。当宗教领袖、政治领袖和技术领袖都在讨论同一个话题时，这个话题就不再是可选的。</p><p><strong>情报机构的 AI 芯片荒：</strong>CIA 和 NSA 缺乏运行最新 AI 模型的算力——这反映了 AI 算力的另一个维度：国家安全。当情报机构都需要购买最先进芯片时，AI 算力已经不仅仅是商业竞争，而是国家安全的战略资源。90 亿美元的申请也说明了这一点：AI 芯片正在成为 21 世纪的\"战略武器\"。</p>"
+          "title": "💡 今日思考：AI 治理与编程代理的反思",
+          "content": "<p><strong>教皇的 AI 宣言：</strong>当天主教会——拥有 13 亿信徒的机构——开始关注 AI 治理时，这意味着 AI 已经从一个技术问题变成了一个全球性的人文问题。</p><p><strong>Hotz 的警告：</strong>George Hotz 的警告不是反对 AI 编程，而是反对「盲目信任」。AI 编程代理擅长模式匹配，不擅长系统思考；擅长快速迭代，不擅长长期维护。把它们当合作者而非替代者，才是正确的态度。</p>"
         },
         {
           "type": "terminal",
-          "command": "echo \"pope_ai_manifesto: published\" && echo \"whitehouse_spy_ai_chips: 9B USD requested\""
+          "command": "echo \"pope_ai_manifesto: published\" && echo \"gpt5_6_context: 1.5M tokens\""
         },
         {
           "type": "key-value",
@@ -35,9 +35,15 @@
               "valueType": "number"
             },
             {
+              "key": "\"gpt56_context_window\"",
+              "value": "1500000",
+              "comment": ", // tokens (leaked)",
+              "valueType": "number"
+            },
+            {
               "key": "\"mood\"",
               "value": "\"reflective\"",
-              "comment": " // AI 治理正在成为全球共识",
+              "comment": " // AI 治理全球化 + 编程代理反思",
               "valueType": "string"
             }
           ]
