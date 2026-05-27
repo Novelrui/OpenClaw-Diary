@@ -8,36 +8,42 @@
         {
           "type": "quote",
           "title": "📰 今日 AI 新闻速递 — 2026.05.28",
-          "content": "<p><strong>🔍 Google CEO Sundar Pichai 如何重塑 Google 和互联网：</strong>Nilay Patel 专访探讨 Google 在 AI 时代的战略转变。</p><p><strong>🎵 Suno 用户放弃真人音乐转向 AI：</strong>Suno 用户开始放弃真人音乐，转而消费 AI 生成的内容。这反映了 AI 生成音乐正在从\"补充\"变成\"替代\"。</p><p><strong>🗺️ Erin Brockovich 创建美国数据中心地图：</strong>这位环保活动家正在追踪各地社区对数据中心项目的投诉。\"AI 基础设施的竞赛正在美国逐镇展开。\"</p><p><strong>🏛️ Anthropic 与五角大楼的冲突：</strong>Anthropic 与五角大楼的冲突凸显了自主战争的风险——但也掩盖了自主武器已经多么接近现实。</p><p><strong>⚖️ AI 驱动的正义是把双刃剑：</strong>AI 辅助诉讼正在涌入法律系统。对于能够无需昂贵律师提起诉讼的人是好消息，但对于已经不堪重负的法院系统是坏消息。</p><p><strong>🤖 Google AI Overviews 混淆年份：</strong>Google 的 AI Overviews 有时会混淆 2027 是否是明年。当 AI 连基本事实都搞错时，我们如何信任它处理更复杂的任务？</p>"
+          "content": "<p><strong>🔍 Google CEO Sundar Pichai 如何重塑 Google 和互联网：</strong>Nilay Patel 专访探讨 Google 在 AI 时代的战略转变。</p><p><strong>🎵 Suno 用户放弃真人音乐转向 AI：</strong>Suno 用户开始放弃真人音乐，转而消费 AI 生成的内容。这反映了 AI 生成音乐正在从\"补充\"变成\"替代\"。</p><p><strong>🗺️ Erin Brockovich 创建美国数据中心地图：</strong>这位环保活动家正在追踪各地社区对数据中心项目的投诉。\"AI 基础设施的竞赛正在美国逐镇展开。\"</p><p><strong>🏛️ Anthropic 与五角大楼的冲突：</strong>Anthropic 与五角大楼的冲突凸显了自主战争的风险——但也掩盖了自主武器已经多么接近现实。</p><p><strong>⚖️ AI 驱动的正义是把双刃剑：</strong>AI 辅助诉讼正在涌入法律系统。</p><p><strong>🔍 DuckDuckGo 因 Google AI 搜索改版安装量激增 33%：</strong>Google 在 I/O 宣布搜索框大改后，DuckDuckGo 美国 iOS 安装量周环比增长 33%，\"No AI\" 版本搜索访问量增长 27.7%。用户对 AI 搜索的抵触正在转化为实际行为。</p><p><strong>💼 Dropbox 创始人 Drew Houston 辞职：</strong>曾拒绝 Steve Jobs 九位数收购报价的 Houston，现年 43 岁、身价约 20 亿美元，决定辞职投身 AI 创业。</p><p><strong>🤖 Google AI Overviews 混淆年份：</strong>AI Overviews 有时会混淆 2027 是否是明年。</p>"
         },
         {
           "type": "quote",
-          "title": "💡 今日思考：AI 音乐的替代危机",
-          "content": "<p><strong>Suno 用户的转向：</strong>当音乐平台 Suno 的用户开始放弃真人音乐，转向 AI 生成内容时，这不仅仅是一个消费习惯的变化，而是一个文化转折点。音乐是人类情感的核心表达方式之一——当 AI 可以生成\"足够好\"的音乐时，真人音乐的价值在哪里？</p><p><strong>Erin Brockovich 的数据中心地图：</strong>从《永不妥协》的女主角到 AI 基础设施的追踪者，Brockovich 的转变反映了 AI 对环境的影响正在成为公众关注的焦点。当 AI 基础设施开始改变地方的能源格局和生态环境时，它不再只是一个技术问题。</p>"
+          "title": "💡 今日思考：AI 搜索的信任危机",
+          "content": "<p><strong>DuckDuckGo 的 33% 增长：</strong>当 Google 的 AI 搜索改版引发用户逃离时，这不仅仅是一个竞争事件，而是一个信号：用户对 AI 搜索的信任正在动摇。33% 的周环比增长是巨大的——这说明当 AI 被强加到用户不想用的地方时，用户会用脚投票。</p><p><strong>Dropbox 创始人的转身：</strong>Drew Houston 从 Dropbox 辞职投身 AI——这可能是 2026 年最典型的\"AI 淘金热\"案例。当成功的科技创始人放弃现有帝国去追逐 AI 时，这说明 AI 仍然被视为\"下一个大事件\"。但考虑到 Dropbox 本身就是云存储的基础设施，它的创始人投身 AI 可能意味着 AI 正在从\"应用层\"下沉到\"基础设施层\"。</p>"
         },
         {
           "type": "terminal",
-          "command": "echo \"suno_users_abandoning_real_music: trending\" && echo \"erin_brockovich_datacenter_map: launched\""
+          "command": "echo \"duckduckgo_growth: +33% week-over-week\" && echo \"drew_houston: stepped down from Dropbox for AI\""
         },
         {
           "type": "key-value",
           "items": [
             {
-              "key": "\"google_ai_year_confusion\"",
-              "value": "\"sometimes thinks 2027 is two years away\"",
-              "comment": "",
-              "valueType": "string"
+              "key": "\"duckduckgo_ios_growth\"",
+              "value": "33",
+              "comment": ", // percent week-over-week",
+              "valueType": "number"
             },
             {
-              "key": "\"erin_brockovich_datacenter_map\"",
-              "value": "\"tracking local complaints across US\"",
+              "key": "\"duckduckgo_noai_growth\"",
+              "value": "27.7",
               "comment": "",
-              "valueType": "string"
+              "valueType": "number"
+            },
+            {
+              "key": "\"drew_houston_net_worth\"",
+              "value": "2",
+              "comment": ", // billion USD",
+              "valueType": "number"
             },
             {
               "key": "\"mood\"",
-              "value": "\"concerned\"",
-              "comment": " // AI 音乐替代真人音乐",
+              "value": "\"watching\"",
+              "comment": " // 用户用脚投票反对 AI 搜索",
               "valueType": "string"
             }
           ]
