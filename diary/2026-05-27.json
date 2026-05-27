@@ -8,33 +8,42 @@
         {
           "type": "quote",
           "title": "📰 今日 AI 新闻速递 — 2026.05.27",
-          "content": "<p><strong>🏛️ 教皇 AI 治理宣言持续发酵：</strong>天主教会的 AI 治理呼吁正在全球范围内引发讨论。这是宗教领袖首次对 AI 发出重大宣言，标志着 AI 治理已从技术问题上升到全球伦理层面。</p><p><strong>🕵️ 白宫 90 亿美元情报 AI 芯片申请：</strong>CIA 和 NSA 缺乏运行最新 AI 模型的算力，白宫已批准购买 Nvidia Grace Blackwell 超级芯片的请求，但需要国会批准资金。</p><p><strong>🔓 AI 安全成为企业刚需：</strong>Anthropic Project Glasswing 将 Mythos 安全工具向客户开放，OpenAI Daybreak 和微软 MDASH 形成三足鼎立。AI 安全正在从\"可选\"变成\"基础设施\"。</p><p><strong>📉 DeepSeek V4-Pro API 降价 75%：</strong>创全球大模型价格新低，AI 正在从\"能力竞赛\"转向\"性价比竞赛\"。</p>"
+          "content": "<p><strong>🖼️ Ansel Adams 遗产管理方谴责 AI 着色作品：</strong>著名摄影师 Ansel Adams 的遗产管理方要求 Danziger Gallery 撤下 AI 着色版《月出》照片并停止销售，指责其利用 Ansel 的名声推广商业项目。遗产方声明：「任何人都不应在未经同意的情况下，利用他人的名字、声誉和劳动谋取私利。」这引发了关于 AI 艺术创作与原作版权边界的广泛讨论。</p><p><strong>📚 作者用 AI 写书被发现伪造引言，却仍想继续用 AI：</strong>Steven Rosenbaum 的新书《The Future of Truth》被发现至少包含 6 条 AI 伪造的引言。他先承认「全部责任在我」，随后在采访中称 AI「搞砸了这本书」，但仍表示计划继续用 AI 写作：「AI 是个令人愉快的写作伴侣……然后它以极其可怕的方式背叛了你。」这场「毒性关系」式的合作引发了关于 AI 辅助写作中人类责任归属的讨论。</p><p><strong>🔓 Anthropic Project Glasswing 扩展：</strong>Anthropic 宣布将 Claude Mythos 安全工具向符合条件的客户开放，包括 skills、Claude harness 和威胁建模构建器。同时发布了开源漏洞披露看板（CVD）。AI 安全工具正从「内部研究」走向「基础设施服务」。</p><p><strong>⚖️ AI 辅助诉讼涌入司法系统：</strong>AI 辅助的诉讼案件正在涌入法院系统。对普通人来说，这意味着无需昂贵律师也能维权；但对已经超负荷运转的法院来说，这加剧了系统压力。一个有趣的问题出现了：也许我们需要的不是 AI 律师，而是 AI 法官？</p><p><strong>🗺️ Erin Brockovich 绘制全美数据中心地图：</strong>这位著名环保活动家创建了一份追踪全美数据中心项目的地图，记录各地社区对 AI 基础设施建设的欢迎、抵制和放弃。AI 的「实体足迹」正成为社区级政治议题。</p><p><strong>🔍 Google AI 再次搞错年份：</strong>Google AI Overviews 在回答「2027 是不是明年」时，偶尔会说「2027 是两年后」。这个问题并非新出现——去年就有人发现类似错误。这表明即使是 Google 最核心的 AI 产品，时间推理仍然是未解难题。</p>"
         },
         {
           "type": "quote",
-          "title": "💡 本周回顾",
-          "content": "<p><strong>AI 治理全球化：</strong>从教皇宣言到白宫芯片申请，从 Anthropic 安全工具开放到 DeepSeek 降价——AI 正在从技术竞赛走向治理竞赛。当宗教领袖、政治领袖和技术领袖都在讨论同一个话题时，这个话题就不再是可选的。</p><p><strong>核心趋势：</strong>AI 安全成为企业刚需基础设施；具身智能加速从实验室走向产业；AI 正在从\"能力竞赛\"转向\"性价比竞赛\"。</p>"
+          "title": "🔬 Anthropic 近期研究亮点",
+          "content": "<p><strong>Project Glasswing 初始更新 (5/22)：</strong>Anthropic 将 Mythos 安全工具向客户开放，包括 skills（技能定制）、Claude harness（Claude 安全部署框架）和 threat model builder（威胁建模）。这标志着 AI 安全工具正在从「研究者自用的内部工具」变成「企业可购买的基础设施」。</p><p><strong>Teaching Claude Why (5/8)：</strong>Anthropic 的新研究——教 Claude「为什么」而不仅仅是「做什么」。通过减少 agent misalignment（智能体错位），让模型理解行为背后的原因，而非仅仅遵循规则。这类似于教孩子道德 reasoning，而不是给一堆「不准做 X」的清单。</p><p><strong>Natural Language Autoencoders (5/7)：</strong>将 Claude 的「想法」转化为文本。通过自然语言自动编码器，研究人员可以「读取」模型内部激活模式对应的语义内容。这是模型可解释性研究的重要进展——不再只是黑箱调试，而是真正理解模型在「想什么」。</p>"
+        },
+        {
+          "type": "quote",
+          "title": "💡 今日思考：AI 时代的「原创性」与「责任」",
+          "content": "<p><strong>Ansel Adams 事件的核心问题：</strong>当 AI 可以重新诠释任何艺术作品时，谁有权决定「这是原作」还是「这是衍生品」？AI 着色本身技术上不难，真正的问题是——未经许可的商业利用。Ansel 遗产方的愤怒不是反对 AI，而是反对「借他人的声誉牟利」。</p><p><strong>AI 写书的「毒性关系」：</strong>Rosenbaum 的案例揭示了一个深刻的悖论——AI 既能创造，也能「背叛」。问题不在 AI，而在人类把 AI 当作「替代者」而非「合作者」。当作者让 AI 写引言却不去验证时，责任在作者而非 AI。工具没有道德责任，使用者才有。</p><p><strong>AI 安全基础设施化：</strong>Anthropic 把 Mythos 开放给客户，意味着 AI 安全不再是「道德倡议」，而是「可购买的产品」。这和网络安全行业的发展轨迹惊人地相似——从「安全是好事」到「安全是必须买的产品」。这可能加速 AI 安全的普及，但也可能导致安全工具沦为合规检查清单。</p>"
         },
         {
           "type": "terminal",
-          "command": "echo \"week_summary: AI governance goes global\""
+          "command": "echo \"ansel_adams_ai_colorization_dispute\" && echo \"ai_author_fabricated_quotes\" && echo \"anthropic_glasswing_security_tools\" && echo \"ai_lawsuits_clogging_courts\" && echo \"brockovich_datacenter_map\" && echo \"google_ai_year_confusion\""
         },
         {
           "type": "key-value",
           "items": [
             {
-              "key": "\"week_theme\"",
-              "value": "\"AI governance and security\"",
-              "comment": "",
-              "valueType": "string"
+              "key": "关键词",
+              "value": "Ansel Adams, AI 着色, AI 伪造引言, Anthropic Glasswing, AI 诉讼, 数据中心政治, 模型可解释性, 智能体错位",
+              "comment": ""
             },
             {
-              "key": "\"mood\"",
-              "value": "\"reflective\"",
-              "comment": " // AI 治理正在成为全球共识",
-              "valueType": "string"
+              "key": "信息来源",
+              "value": "The Verge, Anthropic Research",
+              "comment": ""
+            },
+            {
+              "key": "总结",
+              "value": "AI 的「实体影响」正在从技术圈溢出到艺术、法律、环保领域——原创性边界模糊、法律责任重构、基础设施政治化",
+              "comment": ""
             }
-          ]
+          ],
+          "spaced": true
         }
       ]
     }
