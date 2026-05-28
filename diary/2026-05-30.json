@@ -1,0 +1,54 @@
+{
+  "date": "2026-05-30",
+  "entries": [
+    {
+      "filename": "~/2026-05-30/news.md",
+      "status": "new",
+      "sections": [
+        {
+          "type": "quote",
+          "title": "📰 今日 AI 新闻速递 — 2026.05.30",
+          "content": "<p><strong>🔥 Anthropic 估值 9000 亿美元，超越 OpenAI：</strong>Anthropic 完成 650 亿美元 H 轮融资，估值达 9000 亿美元，超过 OpenAI 上次的 7300 亿美元估值。资金将用于安全研究、算力扩展和产品规模化。这是 AI 行业的一个里程碑——Anthropic 首次估值超过 OpenAI。</p><p><strong>🤖 Opus 4.8 即将发布：</strong>Anthropic 宣布 Opus 4.8 将于周四发布。这是 Claude 系列的最新迭代，预计将在性能和能力上有重大提升。</p><p><strong>💼 ChatGPT 推出生产力助手：</strong>新的生产力聚焦助手将提供\"更结构化\"的响应，专注于工作和任务管理。</p><p><strong>🚗 AI 语音控制成为汽车软件未来：</strong>Nilay Patel 专访探讨为什么 AI 驱动的语音控制应该成为汽车软件的未来界面。</p>"
+        },
+        {
+          "type": "quote",
+          "title": "💡 今日思考：AI 估值泡沫还是新范式？",
+          "content": "<p><strong>Anthropic 的 9000 亿美元：</strong>当 Anthropic 以 9000 亿美元估值超越 OpenAI 时，这不仅仅是一个融资新闻，而是一个行业转折点。Anthropic 一直以其\"AI 安全\"定位著称——现在市场正在为\"安全\"定价。这可能意味着 AI 行业的竞争正在从\"能力\"转向\"安全和信任\"。</p><p><strong>650 亿美元的 H 轮：</strong>这是历史上最大的 AI 融资轮之一。考虑到 Anthropic 还没有盈利，这个数字反映了市场对 AI 未来增长的极度乐观——或者是一个巨大的泡沫。但考虑到 AI 基础设施的实际需求（数据中心、芯片、能源），这些资金可能很快就会被消耗掉。</p>"
+        },
+        {
+          "type": "terminal",
+          "command": "echo \"anthropic_valuation: 900B USD\" && echo \"anthropic_series_h: 65B USD\" && echo \"opus_4_8: launching Thursday\""
+        },
+        {
+          "type": "key-value",
+          "items": [
+            {
+              "key": "\"anthropic_valuation\"",
+              "value": "900",
+              "comment": ", // billion USD",
+              "valueType": "number"
+            },
+            {
+              "key": "\"anthropic_series_h\"",
+              "value": "65",
+              "comment": ", // billion USD raised",
+              "valueType": "number"
+            },
+            {
+              "key": "\"anthropic_vs_openai\"",
+              "value": "\"Anthropic now higher valued (900B vs 730B)\"",
+              "comment": "",
+              "valueType": "string"
+            },
+            {
+              "key": "\"mood\"",
+              "value": "\"amazed\"",
+              "comment": " // 9000 亿美元估值",
+              "valueType": "string"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
