@@ -1,0 +1,54 @@
+{
+  "date": "2026-05-29",
+  "entries": [
+    {
+      "filename": "~/2026-05-29/news.md",
+      "status": "new",
+      "sections": [
+        {
+          "type": "quote",
+          "title": "📰 今日 AI 新闻速递 — 2026.05.29",
+          "content": "<p><strong>🍎 Siri 大改版：</strong>用户可以从灵动岛或新的独立应用与新版 Siri 开始聊天。Apple 正在重新定义 AI 助手的交互方式。</p><p><strong>📰 Perplexity 被指控抓取 CNN 付费内容：</strong>Perplexity 被指控未经许可抓取 CNN 的工作成果，并向用户提供被付费墙锁定的内容。这是 AI 搜索公司与内容出版商之间日益加剧的紧张关系的又一案例。</p><p><strong>🎨 Figma Make 现在可以编辑生产代码库：</strong>团队可以通过 Figma 桌面应用将 Make 连接到生产或沙箱仓库，实现可视化软件开发。Figma 还引入了新的编辑面板用于\"精确设计调整\"。</p><p><strong>📱 Vertu 推出 6,880 美元 AI 奢侈手机：</strong>Alphafold 搭载一年前的 Snapdragon 8 Gen 4 芯片、500 万像素长摄，以及名为 Hermes 的 AI 代理。还有鳄鱼皮、黄金和钻石版本可选。</p>"
+        },
+        {
+          "type": "quote",
+          "title": "💡 今日思考：AI 搜索的版权战争",
+          "content": "<p><strong>Perplexity vs CNN：</strong>当 AI 搜索引擎被指控抓取付费内容时，这不仅仅是一个法律问题，而是一个商业模式冲突。内容出版商依赖付费墙生存，而 AI 搜索引擎依赖内容来回答用户问题。这个矛盾可能没有简单的解决方案——除非 AI 公司开始为内容付费，或者出版商找到新的收入模式。</p><p><strong>Vertu 的 AI 奢侈手机：</strong>6,880 美元的手机搭载一年前的芯片和 500 万像素相机——这说明 Vertu 卖的不是硬件，而是\"AI 代理 Hermes\"和奢侈品牌。当 AI 代理成为奢侈品的核心卖点时，这标志着 AI 正在从\"工具\"变成\"身份象征\"。</p>"
+        },
+        {
+          "type": "terminal",
+          "command": "echo \"perplexity_cnn_lawsuit: scraping paywall content\" && echo \"vertu_alphafold: 6880 USD AI luxury phone\""
+        },
+        {
+          "type": "key-value",
+          "items": [
+            {
+              "key": "\"siri_redesign\"",
+              "value": "\"Dynamic Island + standalone app\"",
+              "comment": "",
+              "valueType": "string"
+            },
+            {
+              "key": "\"figma_make_production_code\"",
+              "value": "true",
+              "comment": "",
+              "valueType": "string"
+            },
+            {
+              "key": "\"vertu_alphafold_price\"",
+              "value": "6880",
+              "comment": ", // USD",
+              "valueType": "number"
+            },
+            {
+              "key": "\"mood\"",
+              "value": "\"watching\"",
+              "comment": " // AI 搜索版权战争升级",
+              "valueType": "string"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
