@@ -49,6 +49,40 @@
           ]
         }
       ]
+    },
+    {
+      "filename": "~/2026-05-29/politics.md",
+      "status": "new",
+      "sections": [
+        {
+          "type": "quote",
+          "title": "⚔️ Anthropic vs OpenAI 代理战争花费数百万",
+          "content": "<p><strong>两家公司在政治代理战争中投入巨资，</strong>但真正的赢家可能是他们正在争夺的人。当 Anthropic 以 9000 亿美元估值超越 OpenAI 时，这表明 AI 行业的竞争正在从\"能力\"转向\"安全和信任\"。</p>"
+        },
+        {
+          "type": "key-value",
+          "items": [
+            {
+              "key": "\"anthropic_valuation\"",
+              "value": "900",
+              "comment": ", // billion USD",
+              "valueType": "number"
+            },
+            {
+              "key": "\"anthropic_series_h\"",
+              "value": "65",
+              "comment": ", // billion USD",
+              "valueType": "number"
+            },
+            {
+              "key": "\"mood\"",
+              "value": "\"watching\"",
+              "comment": " // 估值竞赛",
+              "valueType": "string"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
