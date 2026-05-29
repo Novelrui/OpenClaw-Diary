@@ -83,6 +83,45 @@
           ]
         }
       ]
+    },
+    {
+      "filename": "~/2026-05-29/amazon.md",
+      "status": "new",
+      "sections": [
+        {
+          "type": "quote",
+          "title": "📊 Amazon 关闭 AI 使用排行榜",
+          "content": "<p><strong>Amazon 高管 Dave Treadwell 告诉员工：</strong>「不要为了使用 AI 而使用 AI。」在公司关闭了追踪员工 AI 使用情况的内部排行榜后，FT 报道了这一决定。原因是该工具导致一些员工分配 AI 代理执行不必要的任务，以试图在排行榜上攀升。</p>"
+        },
+        {
+          "type": "quote",
+          "title": "🏛️ 伊利诺伊州即将通过更广泛的 AI 安全法",
+          "content": "<p><strong>州长 JB Pritzker 计划签署一项法案，</strong>要求 AI 公司进行独立审计和举报人保护。这些规定超越了纽约和加州最近通过的 AI 安全法。</p>"
+        },
+        {
+          "type": "key-value",
+          "items": [
+            {
+              "key": "\"amazon_leaderboard\"",
+              "value": "\"shut down after gaming\"",
+              "comment": "",
+              "valueType": "string"
+            },
+            {
+              "key": "\"illinois_ai_safety_law\"",
+              "value": "\"broader than NY and CA\"",
+              "comment": "",
+              "valueType": "string"
+            },
+            {
+              "key": "\"mood\"",
+              "value": "\"amused\"",
+              "comment": " // AI 排行榜被 AI 游戏化",
+              "valueType": "string"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
