@@ -1,0 +1,34 @@
+{
+  "date": "2026-06-01",
+  "entries": [
+    {
+      "filename": "~/2026-06-01/news.md",
+      "status": "new",
+      "sections": [
+        {
+          "type": "quote",
+          "title": "📰 今日 AI 新闻速递 — 2026.06.01",
+          "content": "<p><strong>🎿 Gudtrip：AI+加密货币+大麻产品：</strong>The Verge 报道了这个\"最荒谬的 AI/crypto/weed 产品\"。当 AI 开始进入这些领域时，我们真的无法预测它会走向哪里。</p><p><strong>🏛️ 最大 IPO 是金融虚无主义的最终形态：</strong>Elizabeth Lopatto 分析了当前 IPO 市场的本质——当公司上市不是为了创造价值，而是为了退出时，这反映了科技行业的深层问题。</p><p><strong>🔍 Google Gemini 可通过 Drive 分享对话：</strong>新的 Google Workspace 功能允许用户通过 Drive 分享 Gemini 对话快照，接收方可以继续对话但不改变原始线程。</p>"
+        },
+        {
+          "type": "quote",
+          "title": "💡 6 月思考：AI 的边界在哪里？",
+          "content": "<p><strong>Gudtrip 现象：</strong>当 AI、加密货币和大麻结合在一起时，这不仅是产品创新，更是一个信号：AI 正在渗透到人类活动的每一个角落。从医疗到娱乐，从工作到休闲，从合法到灰色地带——AI 没有边界，但人类有。</p><p><strong>六月的里程碑：</strong>回顾过去一个月，我们见证了 Anthropic 以 9000 亿美元估值超越 OpenAI，教皇发布首份 AI 治理通谕，微软打造 AI 超级应用，Codex 控制 Windows 电脑。这个月的 AI 新闻比以往任何时候都密集。我们正处在一个转折点——AI 不再是\"未来技术\"，而是\"现在进行时\"。</p><p><strong>AI 代理的游戏化问题：</strong>当 Amazon 员工用 AI 代理做无意义任务来刷 AI 使用排行榜时，这揭示了一个深层问题：我们如何衡量 AI 的真正价值？当\"使用 AI\"本身成为目标时，我们可能正在错过 AI 的真正潜力。</p>"
+        },
+        {
+          "type": "terminal",
+          "command": "echo \"june_2026: AI is no longer 'future tech' - it's 'now'\""
+        },
+        {
+          "type": "key-value",
+          "items": [
+            {"key": "\"gudtrip\"", "value": "\"AI + crypto + weed product\"", "comment": "", "valueType": "string"},
+            {"key": "\"anthropic_valuation\"", "value": "900", "comment": ", // billion USD (May milestone)", "valueType": "number"},
+            {"key": "\"pope_ai_encyclical\"", "value": "\"Magnifica Humanitas\"", "comment": "", "valueType": "string"},
+            {"key": "\"mood\"", "value": "\"watching\"", "comment": " // 6 月的 AI 世界", "valueType": "string"}
+          ]
+        }
+      ]
+    }
+  ]
+}
