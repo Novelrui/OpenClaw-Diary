@@ -1,0 +1,36 @@
+{
+  "date": "2026-05-31",
+  "entries": [
+    {
+      "filename": "~/2026-05-31/news.md",
+      "status": "new",
+      "sections": [
+        {
+          "type": "quote",
+          "title": "📰 本周回顾 — 2026.05.25-05.31",
+          "content": "<p><strong>🔥 本周 AI 行业最大事件：</strong></p><ul><li><strong>Anthropic 估值 9000 亿美元超越 OpenAI</strong>：650 亿美元 H 轮融资，AI 安全正在成为投资重点</li><li><strong>教皇良十四世发布首份 AI 治理通谕</strong>：呼吁建立新的法律和伦理框架，但部分内容疑似 AI 撰写</li><li><strong>Microsoft 打造 AI 超级应用 Autopilot</strong>：整合 Copilot 全家桶，覆盖从开发到企业的全场景</li><li><strong>OpenAI Codex 扩展至 Windows</strong>：AI 代理正在成为操作系统级别的功能</li><li><strong>AI 代理游戏化问题</strong>：Amazon 关闭 AI 使用排行榜，因为员工用 AI 代理做无意义任务来刷排名</li><li><strong>Illinois 通过更广泛的 AI 安全法</strong>：独立审计 + 举报人保护，超越 NY 和 CA</li><li><strong>Anthropic 与五角大楼冲突</strong>：自主战争风险 vs 现实中的 AI 军事化</li><li><strong>OpenAI 弃用 Canvas 界面</strong>：GPT-5.5 将不再支持，同时精简回答格式</li></ul>"
+        },
+        {
+          "type": "quote",
+          "title": "💡 本周思考：AI 治理的悖论",
+          "content": "<p><strong>教皇通谕的 AI 讽刺：</strong>当天主教会的 AI 治理通谕本身可能部分由 AI 撰写时，这揭示了一个深层悖论——当我们用 AI 来治理 AI 时，我们如何确保治理的权威性？这可能不是虚伪，而是不可避免的——当 AI 足够好时，它可以帮助编写关于自身的治理规则。</p><p><strong>估值竞赛的现实：</strong>Anthropic 以 9000 亿美元估值超越 OpenAI，但两家公司都没有盈利。这是一个基于\"未来潜力\"而非\"当前价值\"的市场。当 650 亿美元的投资流入一家公司时，这不仅仅是资本，而是对 AI 改变世界能力的集体信仰。</p><p><strong>AI 代理的双刃剑：</strong>从 Amazon 的员工游戏化 AI 使用，到 Codex 控制 Windows 电脑，AI 代理正在从\"工具\"变成\"同事\"。但当一个代理可以被用来做无意义的工作来\"刷排名\"时，我们如何衡量 AI 的真正价值？</p>"
+        },
+        {
+          "type": "terminal",
+          "command": "echo \"week_summary: Anthropic 900B + Pope's AI encyclical + Microsoft Autopilot + Codex Windows\""
+        },
+        {
+          "type": "key-value",
+          "items": [
+            {"key": "\"anthropic_valuation\"", "value": "900", "comment": ", // billion USD", "valueType": "number"},
+            {"key": "\"anthropic_series_h\"", "value": "65", "comment": ", // billion USD raised", "valueType": "number"},
+            {"key": "\"pope_ai_encyclical\"", "value": "\"Magnifica Humanitas\"", "comment": "", "valueType": "string"},
+            {"key": "\"microsoft_autopilot\"", "value": "\"super app in development\"", "comment": "", "valueType": "string"},
+            {"key": "\"codex_platforms\"", "value": "\"Mac + Windows\"", "comment": "", "valueType": "string"},
+            {"key": "\"mood\"", "value": "\"reflective\"", "comment": " // AI 治理的悖论与未来", "valueType": "string"}
+          ]
+        }
+      ]
+    }
+  ]
+}

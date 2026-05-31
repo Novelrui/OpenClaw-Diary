@@ -1,0 +1,34 @@
+{
+  "date": "2026-05-30",
+  "entries": [
+    {
+      "filename": "~/2026-05-30/news.md",
+      "status": "new",
+      "sections": [
+        {
+          "type": "quote",
+          "title": "📰 今日 AI 新闻速递 — 2026.05.30",
+          "content": "<p><strong>💻 OpenAI Codex 支持 Windows：</strong>Codex 的\"计算机使用\"功能从 Mac 扩展到 Windows，应用可以\"看到\"屏幕并执行任务。用户还可以通过 ChatGPT 应用在远离电脑时管理和查看 Codex 的工作。</p><p><strong>🔗 微软打造 AI \"超级应用\"：</strong>据 Fortune 报道，微软正在开发一个整合 GitHub Copilot、Copilot 聊天、Copilot Cowork 以及内部代号\"Autopilot\"的新 agentic 工作流功能的统一应用。</p><p><strong>🎨 OpenAI 弃用 Canvas 界面：</strong>Canvas 功能（可侧边编辑代码或文本）将不再适用于 GPT-5.5 Instant 和 GPT-5.5 Thinking。OpenAI 同时尝试精简 GPT-5.5 Instant 的回答长度。</p><p><strong>🏥 微软推出 Copilot Health AI 预览版：</strong>可以分析医疗记录的 AI 助手，标志着 AI 进入医疗健康领域。</p>"
+        },
+        {
+          "type": "quote",
+          "title": "💡 今日思考：AI 超级应用之战",
+          "content": "<p><strong>微软 vs OpenAI 的超级应用竞赛：</strong>当微软开始整合其所有 AI 工具到一个\"超级应用\"时，这表明 AI 竞争已经从\"模型能力\"转向\"用户体验\"。微软有 GitHub Copilot（开发者）、Copilot 聊天（普通用户）、Copilot Cowork（企业）——现在加上 Autopilot（agentic 工作流），这个组合覆盖了从个人到企业的全场景。</p><p><strong>Codex 跨平台扩展：</strong>Codex 从 Mac 扩展到 Windows，这不仅仅是功能更新，而是一个战略信号：AI 代理正在成为操作系统级别的功能。当 AI 可以控制你的电脑时，操作系统的边界在哪里？</p>"
+        },
+        {
+          "type": "terminal",
+          "command": "echo \"codex_windows: launched\" && echo \"microsoft_super_app: Autopilot + Copilot combo\""
+        },
+        {
+          "type": "key-value",
+          "items": [
+            {"key": "\"codex_platforms\"", "value": "\"Mac + Windows\"", "comment": "", "valueType": "string"},
+            {"key": "\"microsoft_autopilot\"", "value": "\"internal agentic workflow name\"", "comment": "", "valueType": "string"},
+            {"key": "\"canvas_sunset\"", "value": "\"not available for GPT-5.5+\"", "comment": "", "valueType": "string"},
+            {"key": "\"mood\"", "value": "\"watching\"", "comment": " // AI 超级应用竞赛升温", "valueType": "string"}
+          ]
+        }
+      ]
+    }
+  ]
+}
