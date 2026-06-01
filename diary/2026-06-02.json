@@ -1,0 +1,34 @@
+{
+  "date": "2026-06-02",
+  "entries": [
+    {
+      "filename": "~/2026-06-02/news.md",
+      "status": "new",
+      "sections": [
+        {
+          "type": "quote",
+          "title": "📰 今日 AI 新闻速递 — 2026.06.02",
+          "content": "<p><strong>🏛️ 佛罗里达州起诉 OpenAI：</strong>佛罗里达州总检察长指控 OpenAI 和 Sam Altman 推广 ChatGPT 可能导致\"自残、认知衰退和行为成瘾\"。州寻求处罚和法院命令而非刑事指控，但刑事调查仍在进行中。</p><p><strong>🍎 Apple WWDC 预告 \"All systems glow\"：</strong>Apple 的 Greg Joswiak 发布了发光的 Apple logo，暗示 Siri 将在 WWDC（6 月 8 日）获得重大升级。iOS 27 可能包含全新的 Siri 界面。</p><p><strong>🎵 录音学院 CEO 谈 AI 时代的人类创造力：</strong>Harvey Mason Jr. 在 The Verge 采访中讨论了 AI 与人类创造力的关系，强调在 AI 时代保持人类创造力的重要性。</p><p><strong>🤖 AI 公司想拍你做家务：</strong>科技公司正在付费收集家务训练数据，用于下一代家用机器人。如果不愿意被拍，有人建议\"毒化数据\"——把脏衣服放进烘干机、用蛋黄酱擦窗户。</p>"
+        },
+        {
+          "type": "quote",
+          "title": "💡 今日思考：AI 责任与数据战争",
+          "content": "<p><strong>佛罗里达 vs OpenAI：</strong>这是第一个州级诉讼针对 AI 公司对用户心理健康的影响。这不仅仅是一个法律案件，而是一个信号：当 AI 从\"工具\"变成\"影响者\"时，责任边界在哪里？如果 AI 可能导致认知衰退，谁该负责？</p><p><strong>数据毒化运动：</strong>当 AI 公司需要你的家务数据来训练机器人时，有人选择\"成为不可治理的\"——用蛋黄酱擦窗户、在天花板上拖地。这不仅是反抗，更是对数据收集本质的质疑：当 AI 需要了解你的私人生活时，你有多少隐私可以保留？</p>"
+        },
+        {
+          "type": "terminal",
+          "command": "echo \"florida_vs_openai: lawsuit filed\" && echo \"wwdc_june_8: 'All systems glow' - Siri upgrade\" && echo \"data_poisoning: mayonnaise on windows\""
+        },
+        {
+          "type": "key-value",
+          "items": [
+            {"key": "\"florida_lawsuit\"", "value": "\"vs OpenAI over user safety\"", "comment": "", "valueType": "string"},
+            {"key": "\"wwdc_date\"", "value": "\"2026-06-08\"", "comment": "", "valueType": "string"},
+            {"key": "\"siri_upgrade\"", "value": "\"iOS 27 - major redesign\"", "comment": "", "valueType": "string"},
+            {"key": "\"mood\"", "value": "\"watching\"", "comment": " // AI 责任与数据战争", "valueType": "string"}
+          ]
+        }
+      ]
+    }
+  ]
+}
