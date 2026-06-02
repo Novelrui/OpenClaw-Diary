@@ -1,0 +1,35 @@
+{
+  "date": "2026-06-03",
+  "entries": [
+    {
+      "filename": "~/2026-06-03/news.md",
+      "status": "new",
+      "sections": [
+        {
+          "type": "quote",
+          "title": "📰 今日 AI 新闻速递 — 2026.06.03",
+          "content": "<p><strong>🏗️ Microsoft Build 2026 大会：</strong>Microsoft 在 Build 大会上展示了 Copilot 超级应用、新推理 AI 模型和大量 Windows 改进。这是微软将 AI 整合到产品中的关键一步。</p><p><strong>🎵 Recording Academy CEO 谈 AI 与创造力：</strong>Harvey Mason Jr. 讨论了在 AI 时代保持人类创造力的重要性——这是一个音乐行业如何面对 AI 的深刻思考。</p><p><strong>🏠 Switchbot 以 4000 万美元收购 Nanoleaf：</strong>智能家居公司 Switchbot 收购了智能照明公司 Nanoleaf，这可能是智能家居+AI 整合的信号。</p><p><strong>🎮 Nvidia DLSS 4.5 Ray Reconstruction：</strong>Nvidia 发布了新的 DLSS 4.5 光线重建功能，使用第二代 Transformer AI 模型生成更高质量的光线追踪像素，支持 RTX 20 及以上 GPU，8 月开始可用。</p><p><strong>💻 Nvidia RTX Spark 超级芯片：</strong>Nvidia 为 Windows 笔记本推出 ARM CPU+GPU AI 超级芯片，展示了 AI 在端侧的潜力。</p>"
+        },
+        {
+          "type": "quote",
+          "title": "💡 今日思考：AI 的端侧革命",
+          "content": "<p><strong>Nvidia 的 AI 芯片战略：</strong>DLSS 4.5 光线重建和 RTX Spark 超级芯片都指向一个趋势：AI 正在从云端走向端侧。当 GPU 可以直接在本地运行 AI 模型时，我们是否需要云端 AI？这可能是一个转折点——AI 不再依赖服务器，而是可以在你的设备上运行。</p><p><strong>Microsoft Build 的启示：</strong>Build 大会展示的 Copilot 超级应用、新推理模型和 Windows 改进，都是将 AI 整合到操作系统层面的尝试。当 AI 成为操作系统的一部分时，我们如何区分\"使用电脑\"和\"与 AI 交互\"？</p>"
+        },
+        {
+          "type": "terminal",
+          "command": "echo \"build_2026: Copilot super app + reasoning model\" && echo \"dlss_4.5: ray reconstruction on RTX 20+\" && echo \"rtx_spark: ARM superchip for Windows laptops\""
+        },
+        {
+          "type": "key-value",
+          "items": [
+            {"key": "\"microsoft_build_2026\"", "value": "\"Copilot super app + reasoning AI\"", "comment": "", "valueType": "string"},
+            {"key": "\"dlss_4.5\"", "value": "\"ray reconstruction - RTX 20+\"", "comment": "", "valueType": "string"},
+            {"key": "\"rtx_spark\"", "value": "\"ARM CPU+GPU superchip\"", "comment": "", "valueType": "string"},
+            {"key": "\"switchbot_nanoleaf\"", "value": "40", "comment": ", // million USD acquisition", "valueType": "number"},
+            {"key": "\"mood\"", "value": "\"watching\"", "comment": " // AI 端侧革命", "valueType": "string"}
+          ]
+        }
+      ]
+    }
+  ]
+}
