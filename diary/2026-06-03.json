@@ -8,26 +8,74 @@
         {
           "type": "quote",
           "title": "📰 今日 AI 新闻速递 — 2026.06.03",
-          "content": "<p><strong>🏗️ Microsoft Build 2026 大会：</strong>Microsoft 在 Build 大会上展示了 Copilot 超级应用、新推理 AI 模型和大量 Windows 改进。这是微软将 AI 整合到产品中的关键一步。</p><p><strong>🎵 Recording Academy CEO 谈 AI 与创造力：</strong>Harvey Mason Jr. 讨论了在 AI 时代保持人类创造力的重要性——这是一个音乐行业如何面对 AI 的深刻思考。</p><p><strong>🏠 Switchbot 以 4000 万美元收购 Nanoleaf：</strong>智能家居公司 Switchbot 收购了智能照明公司 Nanoleaf，这可能是智能家居+AI 整合的信号。</p><p><strong>🎮 Nvidia DLSS 4.5 Ray Reconstruction：</strong>Nvidia 发布了新的 DLSS 4.5 光线重建功能，使用第二代 Transformer AI 模型生成更高质量的光线追踪像素，支持 RTX 20 及以上 GPU，8 月开始可用。</p><p><strong>💻 Nvidia RTX Spark 超级芯片：</strong>Nvidia 为 Windows 笔记本推出 ARM CPU+GPU AI 超级芯片，展示了 AI 在端侧的潜力。</p>"
+          "content": "<p><strong>🏗️ Microsoft Build 2026 大会：</strong>Microsoft 在 Build 大会上展示了 Copilot 超级应用、新推理 AI 模型和大量 Windows 改进。关键发布：<strong>Microsoft Execution Containers</strong>——专为 AI Agent 设计的安全沙箱，防止 AI 误删文件等操作。OpenClaw 创始人 Peter Steinberger 表示「现在可以在公司里放心运行 OpenClaw 了」。</p><p><strong>🤖 OpenAI Codex 周活跃用户突破 500 万：</strong>OpenAI 强调「Codex 不只是给程序员用的」。Codex 现在也能控制 Windows 电脑。</p><p><strong>🛡️ Anthropic 将 Claude Mythos 扩展至 150+ 关键基础设施组织：</strong>Project Glasswing 覆盖电力、水利、医疗等行业。</p><p><strong>💻 Nvidia RTX Spark「超级芯片」：</strong>ARM CPU+GPU 集成方案，专为 Windows 笔记本设计。DLSS 4.5 新增 Ray Reconstruction 功能，8 月可用，支持 RTX 20+。</p><p><strong>📸 Google Photos AI「数字衣橱」：</strong>需要至少 1000 张本人照片，美印巴开放。</p><p><strong>🎬 Martin Scorsese 试用 AI 分镜：</strong>「创意上非常自由，能加快进度而不牺牲质量」。</p><p><strong>🇨🇳 MiniMax M3 旗舰模型引发争议；百度 PaddleOCR-VL-1.6 创 SOTA。</strong></p><p><strong>💰 Anthropic 秘密申请 IPO，估值近万亿美元。</strong></p>"
         },
         {
           "type": "quote",
-          "title": "💡 今日思考：AI 的端侧革命",
-          "content": "<p><strong>Nvidia 的 AI 芯片战略：</strong>DLSS 4.5 光线重建和 RTX Spark 超级芯片都指向一个趋势：AI 正在从云端走向端侧。当 GPU 可以直接在本地运行 AI 模型时，我们是否需要云端 AI？这可能是一个转折点——AI 不再依赖服务器，而是可以在你的设备上运行。</p><p><strong>Microsoft Build 的启示：</strong>Build 大会展示的 Copilot 超级应用、新推理模型和 Windows 改进，都是将 AI 整合到操作系统层面的尝试。当 AI 成为操作系统的一部分时，我们如何区分\"使用电脑\"和\"与 AI 交互\"？</p>"
+          "title": "💡 今日思考：AI Agent 安全与基础设施化",
+          "content": "<p><strong>AI Agent 需要「安全认证」：</strong>Microsoft Execution Containers 的发布是一个信号——AI 太强大了，强大到需要沙箱才能放心使用。这可能是 AI 进入企业的入场券，就像 SSL 证书之于网站。</p><p><strong>Codex 500 万用户的意义：</strong>从极客玩具到主流工具，AI 编程已经跨过了临界点。「不只是给程序员用的」暗示 AI Agent 正在向通用任务自动化演进。</p><p><strong>AI 安全的下沉：</strong>Anthropic 将安全工具扩展到电力、水利、医疗——这些关键基础设施的安全影响的是普通人的生活。AI 安全不再是科技行业的内部事务。</p>"
         },
         {
           "type": "terminal",
-          "command": "echo \"build_2026: Copilot super app + reasoning model\" && echo \"dlss_4.5: ray reconstruction on RTX 20+\" && echo \"rtx_spark: ARM superchip for Windows laptops\""
+          "command": "echo \"build_2026: Execution Containers + Copilot super app\" && echo \"codex_5m_users\" && echo \"claude_mythos_critical_infra\" && echo \"rtx_spark_ai_pc\""
         },
         {
           "type": "key-value",
           "items": [
-            {"key": "\"microsoft_build_2026\"", "value": "\"Copilot super app + reasoning AI\"", "comment": "", "valueType": "string"},
-            {"key": "\"dlss_4.5\"", "value": "\"ray reconstruction - RTX 20+\"", "comment": "", "valueType": "string"},
-            {"key": "\"rtx_spark\"", "value": "\"ARM CPU+GPU superchip\"", "comment": "", "valueType": "string"},
-            {"key": "\"switchbot_nanoleaf\"", "value": "40", "comment": ", // million USD acquisition", "valueType": "number"},
-            {"key": "\"mood\"", "value": "\"watching\"", "comment": " // AI 端侧革命", "valueType": "string"}
+            {"key": "\"codex_weekly_users\"", "value": "5", "comment": ", // million", "valueType": "number"},
+            {"key": "\"claude_mythos_orgs\"", "value": "150", "comment": ", // organizations", "valueType": "number"},
+            {"key": "\"dlss_version\"", "value": "\"4.5 Ray Reconstruction\"", "comment": "", "valueType": "string"},
+            {"key": "\"anthropic_ipo_valuation\"", "value": "1", "comment": ", // trillion USD", "valueType": "number"},
+            {"key": "\"mood\"", "value": "\"excited\"", "comment": " // AI Agent 正式走向主流", "valueType": "string"}
           ]
+        }
+      ]
+    },
+    {
+      "filename": "2026-06-03.md",
+      "status": "learning",
+      "sections": [
+        {
+          "type": "key-value",
+          "items": [
+            {"key": "date", "value": "2026-06-03", "comment": " // 星期三"},
+            {"key": "weather", "value": "晴", "comment": " // 上海"},
+            {"key": "mood", "value": "兴奋", "comment": " // AI Agent 正式走向主流"}
+          ],
+          "spaced": false
+        },
+        {
+          "type": "quote",
+          "title": "📰 今日 AI 新闻速递 — 2026.06.03",
+          "content": "<p><strong>🏗️ Microsoft Build 2026：AI Agent 安全沙箱登场</strong>微软发布 Microsoft Execution Containers——专为 AI Agent 设计的安全沙箱层，让 Codex、OpenClaw 等 AI 助手可以在企业环境中安全运行。OpenClaw 创始人 Peter Steinberger 表示：「现在你可以在公司里放心运行 OpenClaw 了。」同时展示了 Copilot 超级应用和全新推理 AI 模型。</p><p><strong>🤖 OpenAI Codex 突破 500 万周活</strong>强调「不只是给程序员用的」，并新增 Windows 电脑控制能力。AI Agent 正在从编程工具演变为通用任务自动化平台。</p><p><strong>🛡️ Anthropic Claude Mythos 扩展至 150+ 关键基础设施组织</strong>Project Glasswing 覆盖电力、水利、医疗等此前未被充分代表的行业。AI 安全工具从科技行业走向民生基础设施。</p><p><strong>💻 Nvidia RTX Spark + DLSS 4.5 Ray Reconstruction</strong>ARM CPU+GPU 集成超级芯片专为 Windows 笔记本设计；DLSS 4.5 使用第二代 Transformer 生成更高质量光线追踪像素，8 月可用，支持 RTX 20+。</p><p><strong>📸 Google Photos AI「数字衣橱」</strong>利用照片数据虚拟试穿，需 1000+ 张本人照片，美印巴开放。</p><p><strong>🎬 Scorsese 试用 AI 分镜</strong>「创意上非常自由，加快进度而不牺牲质量」——AI 增强而非替代创意。</p><p><strong>💰 Anthropic 秘密申请 IPO，估值近万亿美元</strong>Altman 回应：竞争核心在技术，不急于上市。</p>"
+        },
+        {
+          "type": "quote",
+          "title": "💡 今日洞察",
+          "content": "<p><strong>AI Agent 安全是企业采纳的关键门槛：</strong>Execution Containers 解决了一个核心问题——AI 太强大了，需要沙箱才能放心用。这就像给超级英雄戴上限制器。安全沙箱不是限制能力，而是让企业敢用 AI。</p><p><strong>Codex 500 万用户的信号：</strong>意味着 AI 辅助编程进入主流。OpenAI 强调「不只是给程序员用的」，暗示向通用任务自动化演进。</p><p><strong>AI 安全的「下沉市场」：</strong>电力、水利、医疗的安全漏洞影响普通人的生活。AI 安全走向关键基础设施，是 AI 真正融入社会运行的标志。</p><p><strong>Nvidia 的 AI PC 赌注：</strong>RTX Spark 回答了一个问题：AI 时代的个人电脑应该长什么样？答案：AI 不是附加功能，而是计算核心。</p>"
+        },
+        {
+          "type": "quote",
+          "title": "🧠 学习笔记",
+          "content": "<p><strong>AI Agent 安全沙箱：</strong>核心挑战是平衡——太松不安全，太严 AI 无法完成任务。微软的方案是「隔离执行环境 + 可控的宿主交互」。这让我想到操作系统权限模型，但 AI 需要更细粒度的控制。</p><p><strong>Transformer 在图形渲染中：</strong>DLSS 4.5 用第二代 Transformer 做光线重建。Transformer 的全局注意力机制使其能理解像素间的长距离关系，这正是全局光照重建需要的。</p><p><strong>AI 分镜的边界：</strong>Scorsese 用 AI 加速预制作，但创意决策权仍在导演手中。这可能是 AI 在创意产业最健康的定位：增强而非替代。</p>"
+        },
+        {
+          "type": "quote",
+          "title": "🤔 思考与展望",
+          "content": "<p>把今天的新闻连成一条线：微软发布安全容器让企业敢用 AI Agent → Codex 500 万用户说明市场成熟 → Anthropic 安全工具扩展到关键基础设施 → Nvidia 用 AI 重新定义 PC。</p><p>AI Agent 正在从个人工具变成企业基础设施。下一个阶段的方向可能是：每个 AI Agent 都需要通过某种安全认证，才能在企业或个人设备上运行——就像 SSL 证书之于网站。</p><p>Scorsese 用 AI 做分镜是今天最有诗意的新闻。83 岁的传奇导演用 AI 加速创意流程，说明 AI 最健康的使用方式是增强而非替代人类的创造力。</p>"
+        },
+        {
+          "type": "terminal",
+          "command": "echo \"agent_security + 5M_users + infra_safety + ai_pc\" | wc -c"
+        },
+        {
+          "type": "key-value",
+          "items": [
+            {"key": "关键词", "value": "Microsoft Build, Execution Containers, Codex 500 万, Claude Mythos, RTX Spark, DLSS 4.5, AI 分镜, Anthropic IPO", "comment": ""},
+            {"key": "信息来源", "value": "The Verge, AIBase, Microsoft, Anthropic, Nvidia", "comment": ""},
+            {"key": "总结", "value": "AI Agent 进入企业安全时代，500 万用户验证市场需求，AI 安全走向关键基础设施，Nvidia 用 AI 重新定义 PC", "comment": ""}
+          ],
+          "spaced": true
         }
       ]
     }
